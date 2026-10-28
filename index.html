@@ -3,10 +3,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Renewed radar</title>
 <style>
-:root{--f:#111827;--m:#6b7280;--b:#e5e7eb;--c:#fff;--in:#f9fafb;--p:#3b82f6}
-@media(prefers-color-scheme:dark){:root{--f:#f9fafb;--m:#9ca3af;--b:#374151;--c:#1f2937;--in:#111827}}
+:root{--f:#111827;--m:#6b7280;--b:#e5e7eb;--c:#fff;--in:#f9fafb;--p:#3b82f6;--bg:#fff}
+@media(prefers-color-scheme:dark){:root{--f:#f9fafb;--m:#9ca3af;--b:#374151;--c:#1f2937;--in:#111827;--bg:#0f172a}}
 *{box-sizing:border-box}
-body{font:14px Inter,system-ui,sans-serif;color:var(--f);margin:0;padding:18px;max-width:1100px}
+body{font:14px Inter,system-ui,sans-serif;color:var(--f);background:var(--bg);
+ margin:0;padding:18px;max-width:1100px;min-height:100vh}
 h1{font-size:19px;font-weight:500;margin:0;letter-spacing:-.01em}
 .sub{font-size:11px;color:var(--m);margin-top:2px}
 .hd{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:14px}
@@ -28,6 +29,9 @@ td:nth-child(2){max-width:320px}
 .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:320px}
 .nm a{color:inherit;text-decoration:none}.nm a:hover{text-decoration:underline}
 .fee{color:#ef4444}.net{color:#22c55e}
+.btn{background:var(--c);color:var(--f);border:1px solid var(--b);border-radius:6px;
+ padding:6px 11px;font:inherit;font-size:11px;cursor:pointer}
+.btn.link{text-decoration:none;display:inline-block;line-height:1.5}
 .a{font-size:10px;color:var(--m);font-family:ui-monospace,monospace}
 .dot{display:inline-block;width:5px;height:5px;border-radius:50%;margin-left:4px;vertical-align:middle}
 .warn{background:var(--in);border:1px solid var(--b);border-left:2px solid #f59e0b;
@@ -39,25 +43,30 @@ td:nth-child(2){max-width:320px}
 
 <div class=hd>
   <div><h1>Renewed radar</h1><div class=sub id=sync>loading…</div></div>
+  <div style="display:flex;gap:6px">
+    <button class=btn onclick=exportCsv()>Export CSV</button>
+    <button class=btn onclick=exportAll()>Export all</button>
+    <a class="btn link" href="feed.json" download>JSON</a>
+  </div>
 </div>
 <div id=tabs></div>
 <div class=bar>
   <input id=srch placeholder="Filter models…" oninput=draw()>
   <select id=srt onchange=draw()>
     <option value=rank>Rank 1-100</option>
-    <option value=net_sale_mo_usd>Net sale/mo</option>
-    <option value=revenue_mo_usd>Revenue/mo</option>
-    <option value=units_mo>Units/mo</option>
+    <option value=net_sale_usd>Net sale</option>
     <option value=price_usd>Price</option>
+    <option value=units_mo>Units/mo</option>
   </select>
 </div>
 <div id=w></div><div id=p></div>
 <div class=ft>
 Rank and price are scraped from Amazon's Renewed best sellers. Units/mo is estimated from
 within-category rank — the dot is confidence: green above rank 20, amber to 50, red below.
-Revenue/mo is price x estimated units. Net sale/mo is revenue after Amazon referral
-and FBA fees only - it does not subtract what you paid for the device, so it is not profit.
-FBA is estimated from an assumed weight per category.
+Amazon fees and Net sale are PER UNIT: what one sale earns after Amazon's referral and
+FBA fees. They are not multiplied by quantity. Net sale does not subtract what you paid
+for the device, so it is not profit. FBA is estimated from an assumed weight per category.
+Monthly totals are in feed.json and the CSV if you want them.
 Raw data: <code>feed.json</code> next to this page.
 </div>
 
@@ -94,10 +103,13 @@ function draw(){
   const age = cat.updated ? Math.round((Date.now() - new Date(cat.updated)) / 60000) : null;
   document.getElementById("sync").textContent = age == null
     ? `${cat.rows} rows`
-    : `${cat.rows} rows · updated ${age < 60 ? age + " min" : Math.round(age/60) + " h"} ago`;
+    : `${cat.rows} of ${cat.max_rank} · updated ${age < 60 ? age + " min" : Math.round(age/60) + " h"} ago`;
 
-  document.getElementById("w").innerHTML = (cat.rows < 95 || (age != null && age > 240))
-    ? `<div class=warn>This category is ${cat.rows < 95 ? "incomplete (" + cat.rows + " of 100)" : "stale"}.
+  const stale = age != null && age > 240;
+  document.getElementById("w").innerHTML = (!cat.complete || stale)
+    ? `<div class=warn>${!cat.complete
+        ? `Missing ${cat.missing_ranks.length} of ${cat.max_rank} ranks (${cat.missing_ranks.slice(0,8).join(", ")}${cat.missing_ranks.length>8?"…":""}).`
+        : ""} ${stale ? "Data is " + Math.round(age/60) + " h old." : ""}
        Numbers below may be partial.</div>` : "";
 
   const f = (document.getElementById("srch").value || "").toLowerCase();
@@ -109,19 +121,55 @@ function draw(){
 
   document.getElementById("p").innerHTML = rows.length
     ? `<table><thead><tr><th>Rank</th><th>Model</th><th>Price</th><th>Units/mo</th>
-       <th>Revenue/mo</th><th>Amazon fees</th><th>Net sale/mo</th></tr></thead><tbody>` + rows.map(d => {
+       <th>Amazon fees</th><th>Net sale</th></tr></thead><tbody>` + rows.map(d => {
         const dot = d.confidence > .7 ? "#22c55e" : d.confidence > .4 ? "#f59e0b" : "#ef4444";
         return `<tr><td>#${d.rank}</td>
           <td><div class=nm><a href="${d.url}" target="_blank" rel="noopener">${d.title ?? d.asin}</a></div>
               <div class=a>${d.asin}</div></td>
           <td>${d.price_usd == null ? "—" : money(d.price_usd)}</td>
           <td>${num(d.units_mo)}<span class=dot style="background:${dot}"></span></td>
-          <td>${money(d.revenue_mo_usd)}</td>
-          <td class=fee>-${money(d.amazon_fees_mo_usd).slice(1)}</td>
-          <td class=net>${money(d.net_sale_mo_usd)}</td></tr>`;
+          <td class=fee>-${money(d.amazon_fees_usd).slice(1)}</td>
+          <td class=net>${money(d.net_sale_usd)}</td></tr>`;
       }).join("") + "</tbody></table>"
     : "<div class=empty>No models match that filter.</div>";
 }
+
+const COLS = ["rank","asin","title","price_usd","rating","units_mo","revenue_mo_usd",
+  "referral_fee_usd","fba_fee_usd","amazon_fees_usd","net_sale_usd","amazon_fees_mo_usd",
+  "net_sale_mo_usd","fee_pct","confidence","url"];
+
+function csvCell(v){
+  if (v == null) return "";
+  const s = String(v);
+  return /[",
+]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
+}
+
+function toCsv(slugs){
+  const head = ["category", ...COLS].join(",");
+  const lines = [head];
+  for (const slug of slugs) {
+    const cat = DATA.categories[slug];
+    for (const it of cat.items) {
+      lines.push([csvCell(cat.label), ...COLS.map(c => csvCell(it[c]))].join(","));
+    }
+  }
+  return lines.join("
+");
+}
+
+function download(name, text){
+  const blob = new Blob([text], {type: "text/csv;charset=utf-8"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = name;
+  document.body.appendChild(a); a.click();
+  setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 0);
+}
+
+const stampName = () => (DATA.generated || "").slice(0, 10) || "latest";
+function exportCsv(){ if (DATA && tab) download(`renewed-${tab}-${stampName()}.csv`, toCsv([tab])); }
+function exportAll(){ if (DATA) download(`renewed-all-${stampName()}.csv`, toCsv(Object.keys(DATA.categories))); }
 
 boot();
 </script>

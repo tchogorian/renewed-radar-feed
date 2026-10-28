@@ -2,8 +2,16 @@
  "categories": {
   "laptops": {
    "label": "Laptops",
-   "updated": "2026-10-28T15:40:25.793362Z",
+   "updated": "2026-10-28T15:44:36.167924Z",
    "rows": 100,
+   "fee_assumptions": {
+    "amazon_category": "Consumer Electronics",
+    "referral_rate": "8%",
+    "fba_size_tier": "small bulky",
+    "fba_assumed_lb": 4.0,
+    "fuel_surcharge_pct": 3.5,
+    "rate_card_checked": "2026-10-28"
+   },
    "items": [
     {
      "rank": 1,
@@ -14,7 +22,14 @@
      "units_mo": 9000,
      "revenue_mo_usd": 800910.0,
      "confidence": 0.94,
-     "url": "https://www.amazon.com/dp/B08SHN3TZP"
+     "url": "https://www.amazon.com/dp/B08SHN3TZP",
+     "referral_fee_usd": 7.12,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 16.11,
+     "net_sale_usd": 72.88,
+     "amazon_fees_mo_usd": 144990.0,
+     "net_sale_mo_usd": 655920.0,
+     "fee_pct": 18.1
     },
     {
      "rank": 2,
@@ -25,7 +40,14 @@
      "units_mo": 5241,
      "revenue_mo_usd": 1509408.0,
      "confidence": 0.93,
-     "url": "https://www.amazon.com/dp/B0F53SQRH4"
+     "url": "https://www.amazon.com/dp/B0F53SQRH4",
+     "referral_fee_usd": 23.04,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 32.03,
+     "net_sale_usd": 255.97,
+     "amazon_fees_mo_usd": 167869.23,
+     "net_sale_mo_usd": 1341538.77,
+     "fee_pct": 11.1
     },
     {
      "rank": 3,
@@ -36,18 +58,32 @@
      "units_mo": 3820,
      "revenue_mo_usd": 267361.8,
      "confidence": 0.92,
-     "url": "https://www.amazon.com/dp/B07RJZMC49"
+     "url": "https://www.amazon.com/dp/B07RJZMC49",
+     "referral_fee_usd": 5.6,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 14.59,
+     "net_sale_usd": 55.4,
+     "amazon_fees_mo_usd": 55733.8,
+     "net_sale_mo_usd": 211628.0,
+     "fee_pct": 20.8
     },
     {
      "rank": 4,
      "asin": "B09WQ36NF1",
      "title": "Late 2020 Apple MacBook Air with Apple M1 Chip (13.3 inch, 8GB RAM, 128GB SSD) Space Gray (Renewed)",
-     "price_usd": 438.0,
+     "price_usd": 381.7,
      "rating": 4.1,
      "units_mo": 3052,
-     "revenue_mo_usd": 1336776.0,
+     "revenue_mo_usd": 1164948.4,
      "confidence": 0.91,
-     "url": "https://www.amazon.com/dp/B09WQ36NF1"
+     "url": "https://www.amazon.com/dp/B09WQ36NF1",
+     "referral_fee_usd": 30.54,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 39.53,
+     "net_sale_usd": 342.17,
+     "amazon_fees_mo_usd": 120645.56,
+     "net_sale_mo_usd": 1044302.84,
+     "fee_pct": 10.4
     },
     {
      "rank": 5,
@@ -58,7 +94,14 @@
      "units_mo": 2565,
      "revenue_mo_usd": 843885.0,
      "confidence": 0.9,
-     "url": "https://www.amazon.com/dp/B08CCKVS59"
+     "url": "https://www.amazon.com/dp/B08CCKVS59",
+     "referral_fee_usd": 26.32,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 35.31,
+     "net_sale_usd": 293.69,
+     "amazon_fees_mo_usd": 90570.15,
+     "net_sale_mo_usd": 753314.85,
+     "fee_pct": 10.7
     },
     {
      "rank": 6,
@@ -69,18 +112,32 @@
      "units_mo": 2225,
      "revenue_mo_usd": 1510775.0,
      "confidence": 0.88,
-     "url": "https://www.amazon.com/dp/B0BHC15G32"
+     "url": "https://www.amazon.com/dp/B0BHC15G32",
+     "referral_fee_usd": 54.32,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 63.31,
+     "net_sale_usd": 615.69,
+     "amazon_fees_mo_usd": 140864.75,
+     "net_sale_mo_usd": 1369910.25,
+     "fee_pct": 9.3
     },
     {
      "rank": 7,
      "asin": "B08PNQTYV2",
      "title": "Apple MacBook Air Late 2020 with Apple M1 Chip (13.3 inch, 8GB RAM, 256GB SSD) Space Gray (Renewed)",
-     "price_usd": 449.0,
+     "price_usd": 479.0,
      "rating": 4.2,
      "units_mo": 1973,
-     "revenue_mo_usd": 885877.0,
+     "revenue_mo_usd": 945067.0,
      "confidence": 0.87,
-     "url": "https://www.amazon.com/dp/B08PNQTYV2"
+     "url": "https://www.amazon.com/dp/B08PNQTYV2",
+     "referral_fee_usd": 38.32,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 47.31,
+     "net_sale_usd": 431.69,
+     "amazon_fees_mo_usd": 93342.63,
+     "net_sale_mo_usd": 851724.37,
+     "fee_pct": 9.9
     },
     {
      "rank": 8,
@@ -91,7 +148,14 @@
      "units_mo": 1778,
      "revenue_mo_usd": 709422.0,
      "confidence": 0.86,
-     "url": "https://www.amazon.com/dp/B08376JQLJ"
+     "url": "https://www.amazon.com/dp/B08376JQLJ",
+     "referral_fee_usd": 31.92,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 40.91,
+     "net_sale_usd": 358.09,
+     "amazon_fees_mo_usd": 72737.98,
+     "net_sale_mo_usd": 636684.02,
+     "fee_pct": 10.3
     },
     {
      "rank": 9,
@@ -102,7 +166,14 @@
      "units_mo": 1622,
      "revenue_mo_usd": 170310.0,
      "confidence": 0.85,
-     "url": "https://www.amazon.com/dp/B07HRYDNLZ"
+     "url": "https://www.amazon.com/dp/B07HRYDNLZ",
+     "referral_fee_usd": 8.4,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 17.39,
+     "net_sale_usd": 87.61,
+     "amazon_fees_mo_usd": 28206.58,
+     "net_sale_mo_usd": 142103.42,
+     "fee_pct": 16.6
     },
     {
      "rank": 10,
@@ -113,7 +184,14 @@
      "units_mo": 1494,
      "revenue_mo_usd": 700686.0,
      "confidence": 0.84,
-     "url": "https://www.amazon.com/dp/B082P8N4KJ"
+     "url": "https://www.amazon.com/dp/B082P8N4KJ",
+     "referral_fee_usd": 37.52,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 46.51,
+     "net_sale_usd": 422.49,
+     "amazon_fees_mo_usd": 69485.94,
+     "net_sale_mo_usd": 631200.06,
+     "fee_pct": 9.9
     },
     {
      "rank": 11,
@@ -124,7 +202,14 @@
      "units_mo": 1387,
      "revenue_mo_usd": 525673.0,
      "confidence": 0.83,
-     "url": "https://www.amazon.com/dp/B07NPTXDK7"
+     "url": "https://www.amazon.com/dp/B07NPTXDK7",
+     "referral_fee_usd": 30.32,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 39.31,
+     "net_sale_usd": 339.69,
+     "amazon_fees_mo_usd": 54522.97,
+     "net_sale_mo_usd": 471150.03,
+     "fee_pct": 10.4
     },
     {
      "rank": 12,
@@ -135,7 +220,14 @@
      "units_mo": 1296,
      "revenue_mo_usd": 207347.04,
      "confidence": 0.82,
-     "url": "https://www.amazon.com/dp/B0FZF1HQF3"
+     "url": "https://www.amazon.com/dp/B0FZF1HQF3",
+     "referral_fee_usd": 12.8,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 21.79,
+     "net_sale_usd": 138.2,
+     "amazon_fees_mo_usd": 28239.84,
+     "net_sale_mo_usd": 179107.2,
+     "fee_pct": 13.6
     },
     {
      "rank": 13,
@@ -146,7 +238,14 @@
      "units_mo": 1217,
      "revenue_mo_usd": 271391.0,
      "confidence": 0.81,
-     "url": "https://www.amazon.com/dp/B0D58RNGKY"
+     "url": "https://www.amazon.com/dp/B0D58RNGKY",
+     "referral_fee_usd": 17.84,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 26.83,
+     "net_sale_usd": 196.17,
+     "amazon_fees_mo_usd": 32652.11,
+     "net_sale_mo_usd": 238738.89,
+     "fee_pct": 12.0
     },
     {
      "rank": 14,
@@ -157,7 +256,14 @@
      "units_mo": 1149,
      "revenue_mo_usd": 998481.0,
      "confidence": 0.8,
-     "url": "https://www.amazon.com/dp/B09P43P66P"
+     "url": "https://www.amazon.com/dp/B09P43P66P",
+     "referral_fee_usd": 69.52,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 78.51,
+     "net_sale_usd": 790.49,
+     "amazon_fees_mo_usd": 90207.99,
+     "net_sale_mo_usd": 908273.01,
+     "fee_pct": 9.0
     },
     {
      "rank": 15,
@@ -168,7 +274,14 @@
      "units_mo": 1089,
      "revenue_mo_usd": 756855.0,
      "confidence": 0.78,
-     "url": "https://www.amazon.com/dp/B09TN8R5Y5"
+     "url": "https://www.amazon.com/dp/B09TN8R5Y5",
+     "referral_fee_usd": 55.6,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 64.59,
+     "net_sale_usd": 630.41,
+     "amazon_fees_mo_usd": 70338.51,
+     "net_sale_mo_usd": 686516.49,
+     "fee_pct": 9.3
     },
     {
      "rank": 16,
@@ -179,7 +292,14 @@
      "units_mo": 1035,
      "revenue_mo_usd": 139725.0,
      "confidence": 0.77,
-     "url": "https://www.amazon.com/dp/B0BK2Z5QGC"
+     "url": "https://www.amazon.com/dp/B0BK2Z5QGC",
+     "referral_fee_usd": 10.8,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 19.79,
+     "net_sale_usd": 115.21,
+     "amazon_fees_mo_usd": 20482.65,
+     "net_sale_mo_usd": 119242.35,
+     "fee_pct": 14.7
     },
     {
      "rank": 17,
@@ -190,7 +310,14 @@
      "units_mo": 987,
      "revenue_mo_usd": 488565.0,
      "confidence": 0.76,
-     "url": "https://www.amazon.com/dp/B0DPGPBW8S"
+     "url": "https://www.amazon.com/dp/B0DPGPBW8S",
+     "referral_fee_usd": 39.6,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 48.59,
+     "net_sale_usd": 446.41,
+     "amazon_fees_mo_usd": 47958.33,
+     "net_sale_mo_usd": 440606.67,
+     "fee_pct": 9.8
     },
     {
      "rank": 18,
@@ -201,7 +328,14 @@
      "units_mo": 944,
      "revenue_mo_usd": 235990.56,
      "confidence": 0.75,
-     "url": "https://www.amazon.com/dp/B0G2WT12HL"
+     "url": "https://www.amazon.com/dp/B0G2WT12HL",
+     "referral_fee_usd": 20.0,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 28.99,
+     "net_sale_usd": 221.0,
+     "amazon_fees_mo_usd": 27366.56,
+     "net_sale_mo_usd": 208624.0,
+     "fee_pct": 11.6
     },
     {
      "rank": 19,
@@ -212,7 +346,14 @@
      "units_mo": 905,
      "revenue_mo_usd": 79640.0,
      "confidence": 0.74,
-     "url": "https://www.amazon.com/dp/B08NHSPCR6"
+     "url": "https://www.amazon.com/dp/B08NHSPCR6",
+     "referral_fee_usd": 7.04,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 16.03,
+     "net_sale_usd": 71.97,
+     "amazon_fees_mo_usd": 14507.15,
+     "net_sale_mo_usd": 65132.85,
+     "fee_pct": 18.2
     },
     {
      "rank": 20,
@@ -223,7 +364,14 @@
      "units_mo": 870,
      "revenue_mo_usd": 328164.0,
      "confidence": 0.73,
-     "url": "https://www.amazon.com/dp/B0GL4397ZF"
+     "url": "https://www.amazon.com/dp/B0GL4397ZF",
+     "referral_fee_usd": 30.18,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 39.17,
+     "net_sale_usd": 338.03,
+     "amazon_fees_mo_usd": 34077.9,
+     "net_sale_mo_usd": 294086.1,
+     "fee_pct": 10.4
     },
     {
      "rank": 21,
@@ -234,7 +382,14 @@
      "units_mo": 837,
      "revenue_mo_usd": 668763.0,
      "confidence": 0.72,
-     "url": "https://www.amazon.com/dp/B0CC4QCS9T"
+     "url": "https://www.amazon.com/dp/B0CC4QCS9T",
+     "referral_fee_usd": 63.92,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 72.91,
+     "net_sale_usd": 726.09,
+     "amazon_fees_mo_usd": 61025.67,
+     "net_sale_mo_usd": 607737.33,
+     "fee_pct": 9.1
     },
     {
      "rank": 22,
@@ -245,7 +400,14 @@
      "units_mo": 808,
      "revenue_mo_usd": 273912.0,
      "confidence": 0.71,
-     "url": "https://www.amazon.com/dp/B08156M1LH"
+     "url": "https://www.amazon.com/dp/B08156M1LH",
+     "referral_fee_usd": 27.12,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 36.11,
+     "net_sale_usd": 302.89,
+     "amazon_fees_mo_usd": 29176.88,
+     "net_sale_mo_usd": 244735.12,
+     "fee_pct": 10.7
     },
     {
      "rank": 23,
@@ -256,7 +418,14 @@
      "units_mo": 780,
      "revenue_mo_usd": 351624.0,
      "confidence": 0.7,
-     "url": "https://www.amazon.com/dp/B08HHNXW8Y"
+     "url": "https://www.amazon.com/dp/B08HHNXW8Y",
+     "referral_fee_usd": 36.06,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 45.05,
+     "net_sale_usd": 405.75,
+     "amazon_fees_mo_usd": 35139.0,
+     "net_sale_mo_usd": 316485.0,
+     "fee_pct": 10.0
     },
     {
      "rank": 24,
@@ -267,7 +436,14 @@
      "units_mo": 755,
      "revenue_mo_usd": 678745.0,
      "confidence": 0.69,
-     "url": "https://www.amazon.com/dp/B0BZTJDK3V"
+     "url": "https://www.amazon.com/dp/B0BZTJDK3V",
+     "referral_fee_usd": 71.92,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 80.91,
+     "net_sale_usd": 818.09,
+     "amazon_fees_mo_usd": 61087.05,
+     "net_sale_mo_usd": 617657.95,
+     "fee_pct": 9.0
     },
     {
      "rank": 25,
@@ -278,7 +454,14 @@
      "units_mo": 731,
      "revenue_mo_usd": 97873.59,
      "confidence": 0.68,
-     "url": "https://www.amazon.com/dp/B0HL21C9P8"
+     "url": "https://www.amazon.com/dp/B0HL21C9P8",
+     "referral_fee_usd": 10.71,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 19.7,
+     "net_sale_usd": 114.19,
+     "amazon_fees_mo_usd": 14400.7,
+     "net_sale_mo_usd": 83472.89,
+     "fee_pct": 14.7
     },
     {
      "rank": 26,
@@ -289,7 +472,14 @@
      "units_mo": 709,
      "revenue_mo_usd": 584925.0,
      "confidence": 0.66,
-     "url": "https://www.amazon.com/dp/B09PGSZDHH"
+     "url": "https://www.amazon.com/dp/B09PGSZDHH",
+     "referral_fee_usd": 66.0,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 74.99,
+     "net_sale_usd": 750.01,
+     "amazon_fees_mo_usd": 53167.91,
+     "net_sale_mo_usd": 531757.09,
+     "fee_pct": 9.1
     },
     {
      "rank": 27,
@@ -300,7 +490,14 @@
      "units_mo": 688,
      "revenue_mo_usd": 154800.0,
      "confidence": 0.65,
-     "url": "https://www.amazon.com/dp/B07HMD52QD"
+     "url": "https://www.amazon.com/dp/B07HMD52QD",
+     "referral_fee_usd": 18.0,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 26.99,
+     "net_sale_usd": 198.01,
+     "amazon_fees_mo_usd": 18569.12,
+     "net_sale_mo_usd": 136230.88,
+     "fee_pct": 12.0
     },
     {
      "rank": 28,
@@ -311,7 +508,14 @@
      "units_mo": 669,
      "revenue_mo_usd": 66866.55,
      "confidence": 0.64,
-     "url": "https://www.amazon.com/dp/B0888FPFGK"
+     "url": "https://www.amazon.com/dp/B0888FPFGK",
+     "referral_fee_usd": 8.0,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 16.99,
+     "net_sale_usd": 82.96,
+     "amazon_fees_mo_usd": 11366.31,
+     "net_sale_mo_usd": 55500.24,
+     "fee_pct": 17.0
     },
     {
      "rank": 29,
@@ -322,7 +526,14 @@
      "units_mo": 651,
      "revenue_mo_usd": 208313.49,
      "confidence": 0.63,
-     "url": "https://www.amazon.com/dp/B0F8WTHZNQ"
+     "url": "https://www.amazon.com/dp/B0F8WTHZNQ",
+     "referral_fee_usd": 25.6,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 34.59,
+     "net_sale_usd": 285.4,
+     "amazon_fees_mo_usd": 22518.09,
+     "net_sale_mo_usd": 185795.4,
+     "fee_pct": 10.8
     },
     {
      "rank": 30,
@@ -333,7 +544,14 @@
      "units_mo": 634,
      "revenue_mo_usd": 354406.0,
      "confidence": 0.62,
-     "url": "https://www.amazon.com/dp/B0B1JQTF5K"
+     "url": "https://www.amazon.com/dp/B0B1JQTF5K",
+     "referral_fee_usd": 44.72,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 53.71,
+     "net_sale_usd": 505.29,
+     "amazon_fees_mo_usd": 34052.14,
+     "net_sale_mo_usd": 320353.86,
+     "fee_pct": 9.6
     },
     {
      "rank": 31,
@@ -355,7 +573,14 @@
      "units_mo": 603,
      "revenue_mo_usd": 136874.97,
      "confidence": 0.6,
-     "url": "https://www.amazon.com/dp/B0GJ7C5JFW"
+     "url": "https://www.amazon.com/dp/B0GJ7C5JFW",
+     "referral_fee_usd": 18.16,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 27.15,
+     "net_sale_usd": 199.84,
+     "amazon_fees_mo_usd": 16371.45,
+     "net_sale_mo_usd": 120503.52,
+     "fee_pct": 12.0
     },
     {
      "rank": 33,
@@ -366,7 +591,14 @@
      "units_mo": 589,
      "revenue_mo_usd": 116916.5,
      "confidence": 0.59,
-     "url": "https://www.amazon.com/dp/B0FG8NTXTY"
+     "url": "https://www.amazon.com/dp/B0FG8NTXTY",
+     "referral_fee_usd": 15.88,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 24.87,
+     "net_sale_usd": 173.63,
+     "amazon_fees_mo_usd": 14648.43,
+     "net_sale_mo_usd": 102268.07,
+     "fee_pct": 12.5
     },
     {
      "rank": 34,
@@ -377,7 +609,14 @@
      "units_mo": 575,
      "revenue_mo_usd": 42550.0,
      "confidence": 0.58,
-     "url": "https://www.amazon.com/dp/B0835RM1L2"
+     "url": "https://www.amazon.com/dp/B0835RM1L2",
+     "referral_fee_usd": 5.92,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 14.91,
+     "net_sale_usd": 59.09,
+     "amazon_fees_mo_usd": 8573.25,
+     "net_sale_mo_usd": 33976.75,
+     "fee_pct": 20.1
     },
     {
      "rank": 35,
@@ -388,7 +627,14 @@
      "units_mo": 562,
      "revenue_mo_usd": 212998.0,
      "confidence": 0.56,
-     "url": "https://www.amazon.com/dp/B09WXZV2T2"
+     "url": "https://www.amazon.com/dp/B09WXZV2T2",
+     "referral_fee_usd": 30.32,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 39.31,
+     "net_sale_usd": 339.69,
+     "amazon_fees_mo_usd": 22092.22,
+     "net_sale_mo_usd": 190905.78,
+     "fee_pct": 10.4
     },
     {
      "rank": 36,
@@ -399,7 +645,14 @@
      "units_mo": 550,
      "revenue_mo_usd": 175450.0,
      "confidence": 0.55,
-     "url": "https://www.amazon.com/dp/B08G55B586"
+     "url": "https://www.amazon.com/dp/B08G55B586",
+     "referral_fee_usd": 25.52,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 34.51,
+     "net_sale_usd": 284.49,
+     "amazon_fees_mo_usd": 18980.5,
+     "net_sale_mo_usd": 156469.5,
+     "fee_pct": 10.8
     },
     {
      "rank": 37,
@@ -410,7 +663,14 @@
      "units_mo": 538,
      "revenue_mo_usd": 311502.0,
      "confidence": 0.54,
-     "url": "https://www.amazon.com/dp/B0CLKX9B89"
+     "url": "https://www.amazon.com/dp/B0CLKX9B89",
+     "referral_fee_usd": 46.32,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 55.31,
+     "net_sale_usd": 523.69,
+     "amazon_fees_mo_usd": 29756.78,
+     "net_sale_mo_usd": 281745.22,
+     "fee_pct": 9.6
     },
     {
      "rank": 38,
@@ -421,7 +681,14 @@
      "units_mo": 527,
      "revenue_mo_usd": 52700.0,
      "confidence": 0.53,
-     "url": "https://www.amazon.com/dp/B07Z36FP7L"
+     "url": "https://www.amazon.com/dp/B07Z36FP7L",
+     "referral_fee_usd": 8.0,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 16.99,
+     "net_sale_usd": 83.01,
+     "amazon_fees_mo_usd": 8953.73,
+     "net_sale_mo_usd": 43746.27,
+     "fee_pct": 17.0
     },
     {
      "rank": 39,
@@ -432,7 +699,14 @@
      "units_mo": 517,
      "revenue_mo_usd": 160228.64,
      "confidence": 0.52,
-     "url": "https://www.amazon.com/dp/B0B6Q345MZ"
+     "url": "https://www.amazon.com/dp/B0B6Q345MZ",
+     "referral_fee_usd": 24.79,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 33.78,
+     "net_sale_usd": 276.14,
+     "amazon_fees_mo_usd": 17464.26,
+     "net_sale_mo_usd": 142764.38,
+     "fee_pct": 10.9
     },
     {
      "rank": 40,
@@ -443,7 +717,14 @@
      "units_mo": 507,
      "revenue_mo_usd": 139425.0,
      "confidence": 0.51,
-     "url": "https://www.amazon.com/dp/B07HQW17DK"
+     "url": "https://www.amazon.com/dp/B07HQW17DK",
+     "referral_fee_usd": 22.0,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 30.99,
+     "net_sale_usd": 244.01,
+     "amazon_fees_mo_usd": 15711.93,
+     "net_sale_mo_usd": 123713.07,
+     "fee_pct": 11.3
     },
     {
      "rank": 41,
@@ -454,7 +735,14 @@
      "units_mo": 497,
      "revenue_mo_usd": 39755.03,
      "confidence": 0.5,
-     "url": "https://www.amazon.com/dp/B08374PJD2"
+     "url": "https://www.amazon.com/dp/B08374PJD2",
+     "referral_fee_usd": 6.4,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 15.39,
+     "net_sale_usd": 64.6,
+     "amazon_fees_mo_usd": 7648.83,
+     "net_sale_mo_usd": 32106.2,
+     "fee_pct": 19.2
     },
     {
      "rank": 42,
@@ -465,7 +753,14 @@
      "units_mo": 488,
      "revenue_mo_usd": 691008.0,
      "confidence": 0.49,
-     "url": "https://www.amazon.com/dp/B0CVFC6NQX"
+     "url": "https://www.amazon.com/dp/B0CVFC6NQX",
+     "referral_fee_usd": 113.28,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 122.27,
+     "net_sale_usd": 1293.73,
+     "amazon_fees_mo_usd": 59667.76,
+     "net_sale_mo_usd": 631340.24,
+     "fee_pct": 8.6
     },
     {
      "rank": 43,
@@ -476,7 +771,14 @@
      "units_mo": 479,
      "revenue_mo_usd": 57001.0,
      "confidence": 0.48,
-     "url": "https://www.amazon.com/dp/B0CLRT1X23"
+     "url": "https://www.amazon.com/dp/B0CLRT1X23",
+     "referral_fee_usd": 9.52,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 18.51,
+     "net_sale_usd": 100.49,
+     "amazon_fees_mo_usd": 8866.29,
+     "net_sale_mo_usd": 48134.71,
+     "fee_pct": 15.6
     },
     {
      "rank": 44,
@@ -487,7 +789,14 @@
      "units_mo": 470,
      "revenue_mo_usd": 154630.0,
      "confidence": 0.47,
-     "url": "https://www.amazon.com/dp/B0F9FWF7Z1"
+     "url": "https://www.amazon.com/dp/B0F9FWF7Z1",
+     "referral_fee_usd": 26.32,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 35.31,
+     "net_sale_usd": 293.69,
+     "amazon_fees_mo_usd": 16595.7,
+     "net_sale_mo_usd": 138034.3,
+     "fee_pct": 10.7
     },
     {
      "rank": 45,
@@ -498,7 +807,14 @@
      "units_mo": 462,
      "revenue_mo_usd": 119782.74,
      "confidence": 0.45,
-     "url": "https://www.amazon.com/dp/B0FPYVS8VM"
+     "url": "https://www.amazon.com/dp/B0FPYVS8VM",
+     "referral_fee_usd": 20.74,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 29.73,
+     "net_sale_usd": 229.54,
+     "amazon_fees_mo_usd": 13735.26,
+     "net_sale_mo_usd": 106047.48,
+     "fee_pct": 11.5
     },
     {
      "rank": 46,
@@ -509,7 +825,14 @@
      "units_mo": 454,
      "revenue_mo_usd": 211504.98,
      "confidence": 0.44,
-     "url": "https://www.amazon.com/dp/B0FLKH5X2Q"
+     "url": "https://www.amazon.com/dp/B0FLKH5X2Q",
+     "referral_fee_usd": 37.27,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 46.26,
+     "net_sale_usd": 419.61,
+     "amazon_fees_mo_usd": 21002.04,
+     "net_sale_mo_usd": 190502.94,
+     "fee_pct": 9.9
     },
     {
      "rank": 47,
@@ -520,7 +843,14 @@
      "units_mo": 447,
      "revenue_mo_usd": 236016.0,
      "confidence": 0.43,
-     "url": "https://www.amazon.com/dp/B0CB6T253K"
+     "url": "https://www.amazon.com/dp/B0CB6T253K",
+     "referral_fee_usd": 42.24,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 51.23,
+     "net_sale_usd": 476.77,
+     "amazon_fees_mo_usd": 22899.81,
+     "net_sale_mo_usd": 213116.19,
+     "fee_pct": 9.7
     },
     {
      "rank": 48,
@@ -531,7 +861,14 @@
      "units_mo": 439,
      "revenue_mo_usd": 148821.0,
      "confidence": 0.42,
-     "url": "https://www.amazon.com/dp/B0BDGB49KW"
+     "url": "https://www.amazon.com/dp/B0BDGB49KW",
+     "referral_fee_usd": 27.12,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 36.11,
+     "net_sale_usd": 302.89,
+     "amazon_fees_mo_usd": 15852.29,
+     "net_sale_mo_usd": 132968.71,
+     "fee_pct": 10.7
     },
     {
      "rank": 49,
@@ -542,7 +879,14 @@
      "units_mo": 432,
      "revenue_mo_usd": 147536.64,
      "confidence": 0.41,
-     "url": "https://www.amazon.com/dp/B0DLBVZ4TR"
+     "url": "https://www.amazon.com/dp/B0DLBVZ4TR",
+     "referral_fee_usd": 27.32,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 36.31,
+     "net_sale_usd": 305.21,
+     "amazon_fees_mo_usd": 15685.92,
+     "net_sale_mo_usd": 131850.72,
+     "fee_pct": 10.6
     },
     {
      "rank": 50,
@@ -553,7 +897,14 @@
      "units_mo": 426,
      "revenue_mo_usd": 136315.74,
      "confidence": 0.4,
-     "url": "https://www.amazon.com/dp/B0CX8SMDWT"
+     "url": "https://www.amazon.com/dp/B0CX8SMDWT",
+     "referral_fee_usd": 25.6,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 34.59,
+     "net_sale_usd": 285.4,
+     "amazon_fees_mo_usd": 14735.34,
+     "net_sale_mo_usd": 121580.4,
+     "fee_pct": 10.8
     },
     {
      "rank": 51,
@@ -564,7 +915,14 @@
      "units_mo": 419,
      "revenue_mo_usd": 649031.0,
      "confidence": 0.39,
-     "url": "https://www.amazon.com/dp/B0CWSPTB1L"
+     "url": "https://www.amazon.com/dp/B0CWSPTB1L",
+     "referral_fee_usd": 123.92,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 132.91,
+     "net_sale_usd": 1416.09,
+     "amazon_fees_mo_usd": 55689.29,
+     "net_sale_mo_usd": 593341.71,
+     "fee_pct": 8.6
     },
     {
      "rank": 52,
@@ -575,7 +933,14 @@
      "units_mo": 413,
      "revenue_mo_usd": 75236.21,
      "confidence": 0.38,
-     "url": "https://www.amazon.com/dp/B0FPM28HCX"
+     "url": "https://www.amazon.com/dp/B0FPM28HCX",
+     "referral_fee_usd": 14.57,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 23.56,
+     "net_sale_usd": 158.61,
+     "amazon_fees_mo_usd": 9730.28,
+     "net_sale_mo_usd": 65505.93,
+     "fee_pct": 12.9
     },
     {
      "rank": 53,
@@ -586,7 +951,14 @@
      "units_mo": 407,
      "revenue_mo_usd": 129828.93,
      "confidence": 0.37,
-     "url": "https://www.amazon.com/dp/B0FRMPY84D"
+     "url": "https://www.amazon.com/dp/B0FRMPY84D",
+     "referral_fee_usd": 25.52,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 34.51,
+     "net_sale_usd": 284.48,
+     "amazon_fees_mo_usd": 14045.57,
+     "net_sale_mo_usd": 115783.36,
+     "fee_pct": 10.8
     },
     {
      "rank": 54,
@@ -597,7 +969,14 @@
      "units_mo": 401,
      "revenue_mo_usd": 64155.99,
      "confidence": 0.36,
-     "url": "https://www.amazon.com/dp/B0HLHBCXLT"
+     "url": "https://www.amazon.com/dp/B0HLHBCXLT",
+     "referral_fee_usd": 12.8,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 21.79,
+     "net_sale_usd": 138.2,
+     "amazon_fees_mo_usd": 8737.79,
+     "net_sale_mo_usd": 55418.2,
+     "fee_pct": 13.6
     },
     {
      "rank": 55,
@@ -608,7 +987,14 @@
      "units_mo": 395,
      "revenue_mo_usd": 27650.0,
      "confidence": 0.34,
-     "url": "https://www.amazon.com/dp/B09BWR8TMP"
+     "url": "https://www.amazon.com/dp/B09BWR8TMP",
+     "referral_fee_usd": 5.6,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 14.59,
+     "net_sale_usd": 55.41,
+     "amazon_fees_mo_usd": 5763.05,
+     "net_sale_mo_usd": 21886.95,
+     "fee_pct": 20.8
     },
     {
      "rank": 56,
@@ -619,7 +1005,14 @@
      "units_mo": 390,
      "revenue_mo_usd": 168655.5,
      "confidence": 0.33,
-     "url": "https://www.amazon.com/dp/B09WJKB97B"
+     "url": "https://www.amazon.com/dp/B09WJKB97B",
+     "referral_fee_usd": 34.6,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 43.59,
+     "net_sale_usd": 388.86,
+     "amazon_fees_mo_usd": 17000.1,
+     "net_sale_mo_usd": 151655.4,
+     "fee_pct": 10.1
     },
     {
      "rank": 57,
@@ -630,7 +1023,14 @@
      "units_mo": 384,
      "revenue_mo_usd": 134392.32,
      "confidence": 0.32,
-     "url": "https://www.amazon.com/dp/B0FLKHRCB2"
+     "url": "https://www.amazon.com/dp/B0FLKHRCB2",
+     "referral_fee_usd": 28.0,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 36.99,
+     "net_sale_usd": 312.99,
+     "amazon_fees_mo_usd": 14204.16,
+     "net_sale_mo_usd": 120188.16,
+     "fee_pct": 10.6
     },
     {
      "rank": 58,
@@ -641,7 +1041,14 @@
      "units_mo": 379,
      "revenue_mo_usd": 208161.96,
      "confidence": 0.31,
-     "url": "https://www.amazon.com/dp/B0F4YYQJS1"
+     "url": "https://www.amazon.com/dp/B0F4YYQJS1",
+     "referral_fee_usd": 43.94,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 52.93,
+     "net_sale_usd": 496.31,
+     "amazon_fees_mo_usd": 20060.47,
+     "net_sale_mo_usd": 188101.49,
+     "fee_pct": 9.6
     },
     {
      "rank": 59,
@@ -652,7 +1059,14 @@
      "units_mo": 374,
      "revenue_mo_usd": 81906.0,
      "confidence": 0.3,
-     "url": "https://www.amazon.com/dp/B09Z111KTW"
+     "url": "https://www.amazon.com/dp/B09Z111KTW",
+     "referral_fee_usd": 17.52,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 26.51,
+     "net_sale_usd": 192.49,
+     "amazon_fees_mo_usd": 9914.74,
+     "net_sale_mo_usd": 71991.26,
+     "fee_pct": 12.1
     },
     {
      "rank": 60,
@@ -663,7 +1077,14 @@
      "units_mo": 369,
      "revenue_mo_usd": 51660.0,
      "confidence": 0.29,
-     "url": "https://www.amazon.com/dp/B0H5M6P8RR"
+     "url": "https://www.amazon.com/dp/B0H5M6P8RR",
+     "referral_fee_usd": 11.2,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 20.19,
+     "net_sale_usd": 119.81,
+     "amazon_fees_mo_usd": 7450.11,
+     "net_sale_mo_usd": 44209.89,
+     "fee_pct": 14.4
     },
     {
      "rank": 61,
@@ -674,18 +1095,32 @@
      "units_mo": 364,
      "revenue_mo_usd": 39308.36,
      "confidence": 0.28,
-     "url": "https://www.amazon.com/dp/B0B3NH3BGM"
+     "url": "https://www.amazon.com/dp/B0B3NH3BGM",
+     "referral_fee_usd": 8.64,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 17.63,
+     "net_sale_usd": 90.36,
+     "amazon_fees_mo_usd": 6417.32,
+     "net_sale_mo_usd": 32891.04,
+     "fee_pct": 16.3
     },
     {
      "rank": 62,
      "asin": "B0B7PPQVS9",
      "title": "DELL LATITUDE 7420 i5 2.60GHz 16GB RAM 256GB SSD 14\" Grade A (Renewed) | Business laptop,14\" Notebook, 256G SSD,Thunderbolt 4,HDMI,Webcam",
-     "price_usd": 279.99,
+     "price_usd": 298.99,
      "rating": 3.9,
      "units_mo": 360,
-     "revenue_mo_usd": 100796.4,
+     "revenue_mo_usd": 107636.4,
      "confidence": 0.27,
-     "url": "https://www.amazon.com/dp/B0B7PPQVS9"
+     "url": "https://www.amazon.com/dp/B0B7PPQVS9",
+     "referral_fee_usd": 23.92,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 32.91,
+     "net_sale_usd": 266.08,
+     "amazon_fees_mo_usd": 11847.6,
+     "net_sale_mo_usd": 95788.8,
+     "fee_pct": 11.0
     },
     {
      "rank": 63,
@@ -696,7 +1131,14 @@
      "units_mo": 355,
      "revenue_mo_usd": 81646.45,
      "confidence": 0.26,
-     "url": "https://www.amazon.com/dp/B09VRX9YVW"
+     "url": "https://www.amazon.com/dp/B09VRX9YVW",
+     "referral_fee_usd": 18.4,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 27.39,
+     "net_sale_usd": 202.6,
+     "amazon_fees_mo_usd": 9723.45,
+     "net_sale_mo_usd": 71923.0,
+     "fee_pct": 11.9
     },
     {
      "rank": 64,
@@ -707,7 +1149,14 @@
      "units_mo": 351,
      "revenue_mo_usd": 99153.99,
      "confidence": 0.25,
-     "url": "https://www.amazon.com/dp/B0FVPQ4FQ8"
+     "url": "https://www.amazon.com/dp/B0FVPQ4FQ8",
+     "referral_fee_usd": 22.6,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 31.59,
+     "net_sale_usd": 250.9,
+     "amazon_fees_mo_usd": 11088.09,
+     "net_sale_mo_usd": 88065.9,
+     "fee_pct": 11.2
     },
     {
      "rank": 65,
@@ -718,7 +1167,14 @@
      "units_mo": 347,
      "revenue_mo_usd": 30189.0,
      "confidence": 0.23,
-     "url": "https://www.amazon.com/dp/B08H5TB2K1"
+     "url": "https://www.amazon.com/dp/B08H5TB2K1",
+     "referral_fee_usd": 6.96,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 15.95,
+     "net_sale_usd": 71.05,
+     "amazon_fees_mo_usd": 5534.65,
+     "net_sale_mo_usd": 24654.35,
+     "fee_pct": 18.3
     },
     {
      "rank": 66,
@@ -729,7 +1185,14 @@
      "units_mo": 343,
      "revenue_mo_usd": 150251.15,
      "confidence": 0.22,
-     "url": "https://www.amazon.com/dp/B0G168QZD1"
+     "url": "https://www.amazon.com/dp/B0G168QZD1",
+     "referral_fee_usd": 35.04,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 44.03,
+     "net_sale_usd": 394.02,
+     "amazon_fees_mo_usd": 15102.29,
+     "net_sale_mo_usd": 135148.86,
+     "fee_pct": 10.1
     },
     {
      "rank": 67,
@@ -751,7 +1214,14 @@
      "units_mo": 335,
      "revenue_mo_usd": 100496.65,
      "confidence": 0.2,
-     "url": "https://www.amazon.com/dp/B0GVVNGJC7"
+     "url": "https://www.amazon.com/dp/B0GVVNGJC7",
+     "referral_fee_usd": 24.0,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 32.99,
+     "net_sale_usd": 267.0,
+     "amazon_fees_mo_usd": 11051.65,
+     "net_sale_mo_usd": 89445.0,
+     "fee_pct": 11.0
     },
     {
      "rank": 69,
@@ -762,7 +1232,14 @@
      "units_mo": 331,
      "revenue_mo_usd": 446519.0,
      "confidence": 0.19,
-     "url": "https://www.amazon.com/dp/B09V5RWQXY"
+     "url": "https://www.amazon.com/dp/B09V5RWQXY",
+     "referral_fee_usd": 107.92,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 116.91,
+     "net_sale_usd": 1232.09,
+     "amazon_fees_mo_usd": 38697.21,
+     "net_sale_mo_usd": 407821.79,
+     "fee_pct": 8.7
     },
     {
      "rank": 70,
@@ -773,7 +1250,14 @@
      "units_mo": 327,
      "revenue_mo_usd": 280893.0,
      "confidence": 0.18,
-     "url": "https://www.amazon.com/dp/B0D68TBMS5"
+     "url": "https://www.amazon.com/dp/B0D68TBMS5",
+     "referral_fee_usd": 68.72,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 77.71,
+     "net_sale_usd": 781.29,
+     "amazon_fees_mo_usd": 25411.17,
+     "net_sale_mo_usd": 255481.83,
+     "fee_pct": 9.0
     },
     {
      "rank": 71,
@@ -784,7 +1268,14 @@
      "units_mo": 324,
      "revenue_mo_usd": 119556.0,
      "confidence": 0.17,
-     "url": "https://www.amazon.com/dp/B078BSQDPK"
+     "url": "https://www.amazon.com/dp/B078BSQDPK",
+     "referral_fee_usd": 29.52,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 38.51,
+     "net_sale_usd": 330.49,
+     "amazon_fees_mo_usd": 12477.24,
+     "net_sale_mo_usd": 107078.76,
+     "fee_pct": 10.4
     },
     {
      "rank": 72,
@@ -795,7 +1286,14 @@
      "units_mo": 320,
      "revenue_mo_usd": 118272.0,
      "confidence": 0.16,
-     "url": "https://www.amazon.com/dp/B0FKMX8L6M"
+     "url": "https://www.amazon.com/dp/B0FKMX8L6M",
+     "referral_fee_usd": 29.57,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 38.56,
+     "net_sale_usd": 331.04,
+     "amazon_fees_mo_usd": 12339.2,
+     "net_sale_mo_usd": 105932.8,
+     "fee_pct": 10.4
     },
     {
      "rank": 73,
@@ -806,7 +1304,14 @@
      "units_mo": 317,
      "revenue_mo_usd": 60226.83,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0DH2ZJPZB"
+     "url": "https://www.amazon.com/dp/B0DH2ZJPZB",
+     "referral_fee_usd": 15.2,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 24.19,
+     "net_sale_usd": 165.8,
+     "amazon_fees_mo_usd": 7668.23,
+     "net_sale_mo_usd": 52558.6,
+     "fee_pct": 12.7
     },
     {
      "rank": 74,
@@ -817,7 +1322,14 @@
      "units_mo": 314,
      "revenue_mo_usd": 82547.46,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0D8CJ82D8"
+     "url": "https://www.amazon.com/dp/B0D8CJ82D8",
+     "referral_fee_usd": 21.03,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 30.02,
+     "net_sale_usd": 232.87,
+     "amazon_fees_mo_usd": 9426.28,
+     "net_sale_mo_usd": 73121.18,
+     "fee_pct": 11.4
     },
     {
      "rank": 75,
@@ -828,7 +1340,14 @@
      "units_mo": 310,
      "revenue_mo_usd": 85529.0,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0FLQ49PB6"
+     "url": "https://www.amazon.com/dp/B0FLQ49PB6",
+     "referral_fee_usd": 22.07,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 31.06,
+     "net_sale_usd": 244.84,
+     "amazon_fees_mo_usd": 9628.6,
+     "net_sale_mo_usd": 75900.4,
+     "fee_pct": 11.3
     },
     {
      "rank": 76,
@@ -839,7 +1358,14 @@
      "units_mo": 307,
      "revenue_mo_usd": 41445.0,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B09CP1QSR6"
+     "url": "https://www.amazon.com/dp/B09CP1QSR6",
+     "referral_fee_usd": 10.8,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 19.79,
+     "net_sale_usd": 115.21,
+     "amazon_fees_mo_usd": 6075.53,
+     "net_sale_mo_usd": 35369.47,
+     "fee_pct": 14.7
     },
     {
      "rank": 77,
@@ -850,7 +1376,14 @@
      "units_mo": 304,
      "revenue_mo_usd": 159596.96,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0BNSLLB78"
+     "url": "https://www.amazon.com/dp/B0BNSLLB78",
+     "referral_fee_usd": 42.0,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 50.99,
+     "net_sale_usd": 474.0,
+     "amazon_fees_mo_usd": 15500.96,
+     "net_sale_mo_usd": 144096.0,
+     "fee_pct": 9.7
     },
     {
      "rank": 78,
@@ -861,7 +1394,14 @@
      "units_mo": 301,
      "revenue_mo_usd": 68311.95,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0DT718JBH"
+     "url": "https://www.amazon.com/dp/B0DT718JBH",
+     "referral_fee_usd": 18.16,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 27.15,
+     "net_sale_usd": 199.8,
+     "amazon_fees_mo_usd": 8172.15,
+     "net_sale_mo_usd": 60139.8,
+     "fee_pct": 12.0
     },
     {
      "rank": 79,
@@ -872,7 +1412,14 @@
      "units_mo": 298,
      "revenue_mo_usd": 26817.02,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B07F9ZT4XH"
+     "url": "https://www.amazon.com/dp/B07F9ZT4XH",
+     "referral_fee_usd": 7.2,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 16.19,
+     "net_sale_usd": 73.8,
+     "amazon_fees_mo_usd": 4824.62,
+     "net_sale_mo_usd": 21992.4,
+     "fee_pct": 18.0
     },
     {
      "rank": 80,
@@ -883,7 +1430,14 @@
      "units_mo": 295,
      "revenue_mo_usd": 94105.0,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0FH25JBKP"
+     "url": "https://www.amazon.com/dp/B0FH25JBKP",
+     "referral_fee_usd": 25.52,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 34.51,
+     "net_sale_usd": 284.49,
+     "amazon_fees_mo_usd": 10180.45,
+     "net_sale_mo_usd": 83924.55,
+     "fee_pct": 10.8
     },
     {
      "rank": 81,
@@ -894,7 +1448,14 @@
      "units_mo": 292,
      "revenue_mo_usd": 73876.0,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0F4X49921"
+     "url": "https://www.amazon.com/dp/B0F4X49921",
+     "referral_fee_usd": 20.24,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 29.23,
+     "net_sale_usd": 223.77,
+     "amazon_fees_mo_usd": 8535.16,
+     "net_sale_mo_usd": 65340.84,
+     "fee_pct": 11.6
     },
     {
      "rank": 82,
@@ -905,7 +1466,14 @@
      "units_mo": 289,
      "revenue_mo_usd": 74562.0,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B07BGFTQ4Z"
+     "url": "https://www.amazon.com/dp/B07BGFTQ4Z",
+     "referral_fee_usd": 20.64,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 29.63,
+     "net_sale_usd": 228.37,
+     "amazon_fees_mo_usd": 8563.07,
+     "net_sale_mo_usd": 65998.93,
+     "fee_pct": 11.5
     },
     {
      "rank": 83,
@@ -927,7 +1495,14 @@
      "units_mo": 284,
      "revenue_mo_usd": 90851.6,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0B8L1WJXJ"
+     "url": "https://www.amazon.com/dp/B0B8L1WJXJ",
+     "referral_fee_usd": 25.59,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 34.58,
+     "net_sale_usd": 285.32,
+     "amazon_fees_mo_usd": 9820.72,
+     "net_sale_mo_usd": 81030.88,
+     "fee_pct": 10.8
     },
     {
      "rank": 85,
@@ -938,7 +1513,14 @@
      "units_mo": 281,
      "revenue_mo_usd": 128903.13,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0GTWDPFNQ"
+     "url": "https://www.amazon.com/dp/B0GTWDPFNQ",
+     "referral_fee_usd": 36.7,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 45.69,
+     "net_sale_usd": 413.04,
+     "amazon_fees_mo_usd": 12838.89,
+     "net_sale_mo_usd": 116064.24,
+     "fee_pct": 10.0
     },
     {
      "rank": 86,
@@ -949,7 +1531,14 @@
      "units_mo": 279,
      "revenue_mo_usd": 25107.21,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B099FM5CMR"
+     "url": "https://www.amazon.com/dp/B099FM5CMR",
+     "referral_fee_usd": 7.2,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 16.19,
+     "net_sale_usd": 73.8,
+     "amazon_fees_mo_usd": 4517.01,
+     "net_sale_mo_usd": 20590.2,
+     "fee_pct": 18.0
     },
     {
      "rank": 87,
@@ -960,7 +1549,14 @@
      "units_mo": 276,
      "revenue_mo_usd": 38637.24,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0HCR9RWGF"
+     "url": "https://www.amazon.com/dp/B0HCR9RWGF",
+     "referral_fee_usd": 11.2,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 20.19,
+     "net_sale_usd": 119.8,
+     "amazon_fees_mo_usd": 5572.44,
+     "net_sale_mo_usd": 33064.8,
+     "fee_pct": 14.4
     },
     {
      "rank": 88,
@@ -971,7 +1567,14 @@
      "units_mo": 274,
      "revenue_mo_usd": 164397.26,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0HHYLVWDT"
+     "url": "https://www.amazon.com/dp/B0HHYLVWDT",
+     "referral_fee_usd": 48.0,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 56.99,
+     "net_sale_usd": 543.0,
+     "amazon_fees_mo_usd": 15615.26,
+     "net_sale_mo_usd": 148782.0,
+     "fee_pct": 9.5
     },
     {
      "rank": 89,
@@ -982,7 +1585,14 @@
      "units_mo": 271,
      "revenue_mo_usd": 216691.6,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0G2Q2K3LF"
+     "url": "https://www.amazon.com/dp/B0G2Q2K3LF",
+     "referral_fee_usd": 63.97,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 72.96,
+     "net_sale_usd": 726.64,
+     "amazon_fees_mo_usd": 19772.16,
+     "net_sale_mo_usd": 196919.44,
+     "fee_pct": 9.1
     },
     {
      "rank": 90,
@@ -993,7 +1603,14 @@
      "units_mo": 269,
      "revenue_mo_usd": 476127.31,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0DRSWVTMN"
+     "url": "https://www.amazon.com/dp/B0DRSWVTMN",
+     "referral_fee_usd": 141.6,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 150.59,
+     "net_sale_usd": 1619.4,
+     "amazon_fees_mo_usd": 40508.71,
+     "net_sale_mo_usd": 435618.6,
+     "fee_pct": 8.5
     },
     {
      "rank": 91,
@@ -1004,7 +1621,14 @@
      "units_mo": 267,
      "revenue_mo_usd": 25362.33,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0F1T8YGX2"
+     "url": "https://www.amazon.com/dp/B0F1T8YGX2",
+     "referral_fee_usd": 7.6,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 16.59,
+     "net_sale_usd": 78.4,
+     "amazon_fees_mo_usd": 4429.53,
+     "net_sale_mo_usd": 20932.8,
+     "fee_pct": 17.5
     },
     {
      "rank": 92,
@@ -1015,7 +1639,14 @@
      "units_mo": 265,
      "revenue_mo_usd": 83710.85,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0CP8HS8D5"
+     "url": "https://www.amazon.com/dp/B0CP8HS8D5",
+     "referral_fee_usd": 25.27,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 34.26,
+     "net_sale_usd": 281.63,
+     "amazon_fees_mo_usd": 9078.9,
+     "net_sale_mo_usd": 74631.95,
+     "fee_pct": 10.8
     },
     {
      "rank": 93,
@@ -1026,7 +1657,14 @@
      "units_mo": 262,
      "revenue_mo_usd": 97851.76,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0CL6S7MB4"
+     "url": "https://www.amazon.com/dp/B0CL6S7MB4",
+     "referral_fee_usd": 29.88,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 38.87,
+     "net_sale_usd": 334.61,
+     "amazon_fees_mo_usd": 10183.94,
+     "net_sale_mo_usd": 87667.82,
+     "fee_pct": 10.4
     },
     {
      "rank": 94,
@@ -1037,7 +1675,14 @@
      "units_mo": 260,
      "revenue_mo_usd": 75397.4,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0CW19H49T"
+     "url": "https://www.amazon.com/dp/B0CW19H49T",
+     "referral_fee_usd": 23.2,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 32.19,
+     "net_sale_usd": 257.8,
+     "amazon_fees_mo_usd": 8369.4,
+     "net_sale_mo_usd": 67028.0,
+     "fee_pct": 11.1
     },
     {
      "rank": 95,
@@ -1048,7 +1693,14 @@
      "units_mo": 258,
      "revenue_mo_usd": 108618.0,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0CKNWZ19Z"
+     "url": "https://www.amazon.com/dp/B0CKNWZ19Z",
+     "referral_fee_usd": 33.68,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 42.67,
+     "net_sale_usd": 378.33,
+     "amazon_fees_mo_usd": 11008.86,
+     "net_sale_mo_usd": 97609.14,
+     "fee_pct": 10.1
     },
     {
      "rank": 96,
@@ -1059,7 +1711,14 @@
      "units_mo": 256,
      "revenue_mo_usd": 82688.0,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0D12P8S94"
+     "url": "https://www.amazon.com/dp/B0D12P8S94",
+     "referral_fee_usd": 25.84,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 34.83,
+     "net_sale_usd": 288.17,
+     "amazon_fees_mo_usd": 8916.48,
+     "net_sale_mo_usd": 73771.52,
+     "fee_pct": 10.8
     },
     {
      "rank": 97,
@@ -1070,7 +1729,14 @@
      "units_mo": 254,
      "revenue_mo_usd": 52824.38,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B07TDPMRXD"
+     "url": "https://www.amazon.com/dp/B07TDPMRXD",
+     "referral_fee_usd": 16.64,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 25.63,
+     "net_sale_usd": 182.34,
+     "amazon_fees_mo_usd": 6510.02,
+     "net_sale_mo_usd": 46314.36,
+     "fee_pct": 12.3
     },
     {
      "rank": 98,
@@ -1081,7 +1747,14 @@
      "units_mo": 252,
      "revenue_mo_usd": 68954.76,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B07X4JXD24"
+     "url": "https://www.amazon.com/dp/B07X4JXD24",
+     "referral_fee_usd": 21.89,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 30.88,
+     "net_sale_usd": 242.75,
+     "amazon_fees_mo_usd": 7781.76,
+     "net_sale_mo_usd": 61173.0,
+     "fee_pct": 11.3
     },
     {
      "rank": 99,
@@ -1092,7 +1765,14 @@
      "units_mo": 250,
      "revenue_mo_usd": 102250.0,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0BXZ8F49G"
+     "url": "https://www.amazon.com/dp/B0BXZ8F49G",
+     "referral_fee_usd": 32.72,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 41.71,
+     "net_sale_usd": 367.29,
+     "amazon_fees_mo_usd": 10427.5,
+     "net_sale_mo_usd": 91822.5,
+     "fee_pct": 10.2
     },
     {
      "rank": 100,
@@ -1103,23 +1783,38 @@
      "units_mo": 248,
      "revenue_mo_usd": 508397.52,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0DMXNPT66"
+     "url": "https://www.amazon.com/dp/B0DMXNPT66",
+     "referral_fee_usd": 164.0,
+     "fba_fee_usd": 8.99,
+     "amazon_fees_usd": 172.99,
+     "net_sale_usd": 1877.0,
+     "amazon_fees_mo_usd": 42901.52,
+     "net_sale_mo_usd": 465496.0,
+     "fee_pct": 8.4
     }
    ]
   },
   "tablets": {
    "label": "Tablets",
-   "updated": "2026-10-28T15:41:09.700172Z",
+   "updated": "2026-10-28T15:45:39.845409Z",
    "rows": 47,
+   "fee_assumptions": {
+    "amazon_category": "Consumer Electronics",
+    "referral_rate": "8%",
+    "fba_size_tier": "large standard",
+    "fba_assumed_lb": 1.5,
+    "fuel_surcharge_pct": 3.5,
+    "rate_card_checked": "2026-10-28"
+   },
    "items": [
     {
      "rank": 1,
      "asin": "B08264XHCZ",
      "title": "Apple iPad, 10.2-Inch, Wi-Fi, 32GB, Space Gray (Renewed)",
-     "price_usd": 89.99,
+     "price_usd": null,
      "rating": 4.1,
      "units_mo": 9000,
-     "revenue_mo_usd": 809910.0,
+     "revenue_mo_usd": 0.0,
      "confidence": 0.94,
      "url": "https://www.amazon.com/dp/B08264XHCZ"
     },
@@ -1132,7 +1827,14 @@
      "units_mo": 5241,
      "revenue_mo_usd": 537936.24,
      "confidence": 0.93,
-     "url": "https://www.amazon.com/dp/B08KZ8GXK8"
+     "url": "https://www.amazon.com/dp/B08KZ8GXK8",
+     "referral_fee_usd": 8.21,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 12.34,
+     "net_sale_usd": 90.3,
+     "amazon_fees_mo_usd": 64673.94,
+     "net_sale_mo_usd": 473262.3,
+     "fee_pct": 12.0
     },
     {
      "rank": 3,
@@ -1143,7 +1845,14 @@
      "units_mo": 3820,
      "revenue_mo_usd": 685766.4,
      "confidence": 0.92,
-     "url": "https://www.amazon.com/dp/B09HK12K5M"
+     "url": "https://www.amazon.com/dp/B09HK12K5M",
+     "referral_fee_usd": 14.36,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 18.49,
+     "net_sale_usd": 161.03,
+     "amazon_fees_mo_usd": 70631.8,
+     "net_sale_mo_usd": 615134.6,
+     "fee_pct": 10.3
     },
     {
      "rank": 4,
@@ -1154,7 +1863,14 @@
      "units_mo": 3052,
      "revenue_mo_usd": 250264.0,
      "confidence": 0.91,
-     "url": "https://www.amazon.com/dp/B07G9QNT6P"
+     "url": "https://www.amazon.com/dp/B07G9QNT6P",
+     "referral_fee_usd": 6.56,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 10.69,
+     "net_sale_usd": 71.31,
+     "amazon_fees_mo_usd": 32625.88,
+     "net_sale_mo_usd": 217638.12,
+     "fee_pct": 13.0
     },
     {
      "rank": 5,
@@ -1165,7 +1881,14 @@
      "units_mo": 2565,
      "revenue_mo_usd": 772193.25,
      "confidence": 0.9,
-     "url": "https://www.amazon.com/dp/B0B493Q7P5"
+     "url": "https://www.amazon.com/dp/B0B493Q7P5",
+     "referral_fee_usd": 24.08,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 28.21,
+     "net_sale_usd": 272.84,
+     "amazon_fees_mo_usd": 72358.65,
+     "net_sale_mo_usd": 699834.6,
+     "fee_pct": 9.4
     },
     {
      "rank": 6,
@@ -1176,7 +1899,14 @@
      "units_mo": 2225,
      "revenue_mo_usd": 821025.0,
      "confidence": 0.88,
-     "url": "https://www.amazon.com/dp/B09MJH5VQ4"
+     "url": "https://www.amazon.com/dp/B09MJH5VQ4",
+     "referral_fee_usd": 29.52,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 33.65,
+     "net_sale_usd": 335.35,
+     "amazon_fees_mo_usd": 74871.25,
+     "net_sale_mo_usd": 746153.75,
+     "fee_pct": 9.1
     },
     {
      "rank": 7,
@@ -1187,7 +1917,14 @@
      "units_mo": 1973,
      "revenue_mo_usd": 390654.0,
      "confidence": 0.87,
-     "url": "https://www.amazon.com/dp/B0C21T1P58"
+     "url": "https://www.amazon.com/dp/B0C21T1P58",
+     "referral_fee_usd": 15.84,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 19.97,
+     "net_sale_usd": 178.03,
+     "amazon_fees_mo_usd": 39400.81,
+     "net_sale_mo_usd": 351253.19,
+     "fee_pct": 10.1
     },
     {
      "rank": 8,
@@ -1198,7 +1935,14 @@
      "units_mo": 1778,
      "revenue_mo_usd": 293192.2,
      "confidence": 0.86,
-     "url": "https://www.amazon.com/dp/B07XZJW2Z6"
+     "url": "https://www.amazon.com/dp/B07XZJW2Z6",
+     "referral_fee_usd": 13.19,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 17.32,
+     "net_sale_usd": 147.58,
+     "amazon_fees_mo_usd": 30794.96,
+     "net_sale_mo_usd": 262397.24,
+     "fee_pct": 10.5
     },
     {
      "rank": 9,
@@ -1209,7 +1953,14 @@
      "units_mo": 1622,
      "revenue_mo_usd": 161032.16,
      "confidence": 0.85,
-     "url": "https://www.amazon.com/dp/B0BFC1JQX9"
+     "url": "https://www.amazon.com/dp/B0BFC1JQX9",
+     "referral_fee_usd": 7.94,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 12.07,
+     "net_sale_usd": 87.21,
+     "amazon_fees_mo_usd": 19577.54,
+     "net_sale_mo_usd": 141454.62,
+     "fee_pct": 12.2
     },
     {
      "rank": 10,
@@ -1220,7 +1971,14 @@
      "units_mo": 1494,
      "revenue_mo_usd": 431766.0,
      "confidence": 0.84,
-     "url": "https://www.amazon.com/dp/B0BTR8W14K"
+     "url": "https://www.amazon.com/dp/B0BTR8W14K",
+     "referral_fee_usd": 23.12,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 27.25,
+     "net_sale_usd": 261.75,
+     "amazon_fees_mo_usd": 40711.5,
+     "net_sale_mo_usd": 391054.5,
+     "fee_pct": 9.4
     },
     {
      "rank": 11,
@@ -1231,7 +1989,14 @@
      "units_mo": 1387,
      "revenue_mo_usd": 399456.0,
      "confidence": 0.83,
-     "url": "https://www.amazon.com/dp/B08NPH29YG"
+     "url": "https://www.amazon.com/dp/B08NPH29YG",
+     "referral_fee_usd": 23.04,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 27.17,
+     "net_sale_usd": 260.83,
+     "amazon_fees_mo_usd": 37684.79,
+     "net_sale_mo_usd": 361771.21,
+     "fee_pct": 9.4
     },
     {
      "rank": 12,
@@ -1242,7 +2007,14 @@
      "units_mo": 1296,
      "revenue_mo_usd": 165888.0,
      "confidence": 0.82,
-     "url": "https://www.amazon.com/dp/B0BFC5BF8H"
+     "url": "https://www.amazon.com/dp/B0BFC5BF8H",
+     "referral_fee_usd": 10.24,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 14.37,
+     "net_sale_usd": 113.63,
+     "amazon_fees_mo_usd": 18623.52,
+     "net_sale_mo_usd": 147264.48,
+     "fee_pct": 11.2
     },
     {
      "rank": 13,
@@ -1253,7 +2025,14 @@
      "units_mo": 1217,
      "revenue_mo_usd": 607283.0,
      "confidence": 0.81,
-     "url": "https://www.amazon.com/dp/B096SNB4RG"
+     "url": "https://www.amazon.com/dp/B096SNB4RG",
+     "referral_fee_usd": 39.92,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 44.05,
+     "net_sale_usd": 454.95,
+     "amazon_fees_mo_usd": 53608.85,
+     "net_sale_mo_usd": 553674.15,
+     "fee_pct": 8.8
     },
     {
      "rank": 14,
@@ -1264,7 +2043,14 @@
      "units_mo": 1149,
      "revenue_mo_usd": 402150.0,
      "confidence": 0.8,
-     "url": "https://www.amazon.com/dp/B0F4ZST2QT"
+     "url": "https://www.amazon.com/dp/B0F4ZST2QT",
+     "referral_fee_usd": 28.0,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 32.13,
+     "net_sale_usd": 317.87,
+     "amazon_fees_mo_usd": 36917.37,
+     "net_sale_mo_usd": 365232.63,
+     "fee_pct": 9.2
     },
     {
      "rank": 15,
@@ -1275,7 +2061,14 @@
      "units_mo": 1089,
      "revenue_mo_usd": 214533.0,
      "confidence": 0.78,
-     "url": "https://www.amazon.com/dp/B0D51NC57R"
+     "url": "https://www.amazon.com/dp/B0D51NC57R",
+     "referral_fee_usd": 15.76,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 19.89,
+     "net_sale_usd": 177.11,
+     "amazon_fees_mo_usd": 21660.21,
+     "net_sale_mo_usd": 192872.79,
+     "fee_pct": 10.1
     },
     {
      "rank": 16,
@@ -1286,7 +2079,14 @@
      "units_mo": 1035,
      "revenue_mo_usd": 144372.15,
      "confidence": 0.77,
-     "url": "https://www.amazon.com/dp/B07VMB5L3C"
+     "url": "https://www.amazon.com/dp/B07VMB5L3C",
+     "referral_fee_usd": 11.16,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 15.29,
+     "net_sale_usd": 124.2,
+     "amazon_fees_mo_usd": 15825.15,
+     "net_sale_mo_usd": 128547.0,
+     "fee_pct": 11.0
     },
     {
      "rank": 17,
@@ -1308,7 +2108,14 @@
      "units_mo": 944,
      "revenue_mo_usd": 612656.0,
      "confidence": 0.75,
-     "url": "https://www.amazon.com/dp/B0BNCKSJVY"
+     "url": "https://www.amazon.com/dp/B0BNCKSJVY",
+     "referral_fee_usd": 51.92,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 56.05,
+     "net_sale_usd": 592.95,
+     "amazon_fees_mo_usd": 52911.2,
+     "net_sale_mo_usd": 559744.8,
+     "fee_pct": 8.6
     },
     {
      "rank": 19,
@@ -1319,7 +2126,14 @@
      "units_mo": 905,
      "revenue_mo_usd": 171940.95,
      "confidence": 0.74,
-     "url": "https://www.amazon.com/dp/B0CV5TY4WK"
+     "url": "https://www.amazon.com/dp/B0CV5TY4WK",
+     "referral_fee_usd": 15.2,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 19.33,
+     "net_sale_usd": 170.66,
+     "amazon_fees_mo_usd": 17493.65,
+     "net_sale_mo_usd": 154447.3,
+     "fee_pct": 10.2
     },
     {
      "rank": 20,
@@ -1330,7 +2144,14 @@
      "units_mo": 870,
      "revenue_mo_usd": 256650.0,
      "confidence": 0.73,
-     "url": "https://www.amazon.com/dp/B07QZ5MWTC"
+     "url": "https://www.amazon.com/dp/B07QZ5MWTC",
+     "referral_fee_usd": 23.6,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 27.73,
+     "net_sale_usd": 267.27,
+     "amazon_fees_mo_usd": 24125.1,
+     "net_sale_mo_usd": 232524.9,
+     "fee_pct": 9.4
     },
     {
      "rank": 21,
@@ -1341,7 +2162,14 @@
      "units_mo": 837,
      "revenue_mo_usd": 301278.15,
      "confidence": 0.72,
-     "url": "https://www.amazon.com/dp/B07Q8RX57R"
+     "url": "https://www.amazon.com/dp/B07Q8RX57R",
+     "referral_fee_usd": 28.8,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 32.93,
+     "net_sale_usd": 327.02,
+     "amazon_fees_mo_usd": 27562.41,
+     "net_sale_mo_usd": 273715.74,
+     "fee_pct": 9.1
     },
     {
      "rank": 22,
@@ -1352,7 +2180,14 @@
      "units_mo": 808,
      "revenue_mo_usd": 335279.6,
      "confidence": 0.71,
-     "url": "https://www.amazon.com/dp/B08CVV1PND"
+     "url": "https://www.amazon.com/dp/B08CVV1PND",
+     "referral_fee_usd": 33.2,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 37.33,
+     "net_sale_usd": 377.62,
+     "amazon_fees_mo_usd": 30162.64,
+     "net_sale_mo_usd": 305116.96,
+     "fee_pct": 9.0
     },
     {
      "rank": 23,
@@ -1363,7 +2198,14 @@
      "units_mo": 780,
      "revenue_mo_usd": 358761.0,
      "confidence": 0.7,
-     "url": "https://www.amazon.com/dp/B0D4XHSXGM"
+     "url": "https://www.amazon.com/dp/B0D4XHSXGM",
+     "referral_fee_usd": 36.8,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 40.93,
+     "net_sale_usd": 419.02,
+     "amazon_fees_mo_usd": 31925.4,
+     "net_sale_mo_usd": 326835.6,
+     "fee_pct": 8.9
     },
     {
      "rank": 24,
@@ -1374,7 +2216,14 @@
      "units_mo": 755,
      "revenue_mo_usd": 64930.0,
      "confidence": 0.69,
-     "url": "https://www.amazon.com/dp/B074PWW6NS"
+     "url": "https://www.amazon.com/dp/B074PWW6NS",
+     "referral_fee_usd": 6.88,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 11.01,
+     "net_sale_usd": 74.99,
+     "amazon_fees_mo_usd": 8312.55,
+     "net_sale_mo_usd": 56617.45,
+     "fee_pct": 12.8
     },
     {
      "rank": 25,
@@ -1385,7 +2234,14 @@
      "units_mo": 731,
      "revenue_mo_usd": 335529.0,
      "confidence": 0.68,
-     "url": "https://www.amazon.com/dp/B0BFC5JT2C"
+     "url": "https://www.amazon.com/dp/B0BFC5JT2C",
+     "referral_fee_usd": 36.72,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 40.85,
+     "net_sale_usd": 418.15,
+     "amazon_fees_mo_usd": 29861.35,
+     "net_sale_mo_usd": 305667.65,
+     "fee_pct": 8.9
     },
     {
      "rank": 26,
@@ -1396,7 +2252,14 @@
      "units_mo": 709,
      "revenue_mo_usd": 392048.64,
      "confidence": 0.66,
-     "url": "https://www.amazon.com/dp/B0F63F5XL3"
+     "url": "https://www.amazon.com/dp/B0F63F5XL3",
+     "referral_fee_usd": 44.24,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 48.37,
+     "net_sale_usd": 504.59,
+     "amazon_fees_mo_usd": 34294.33,
+     "net_sale_mo_usd": 357754.31,
+     "fee_pct": 8.7
     },
     {
      "rank": 27,
@@ -1407,7 +2270,14 @@
      "units_mo": 688,
      "revenue_mo_usd": 137600.0,
      "confidence": 0.65,
-     "url": "https://www.amazon.com/dp/B0CWLV1MB8"
+     "url": "https://www.amazon.com/dp/B0CWLV1MB8",
+     "referral_fee_usd": 16.0,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 20.13,
+     "net_sale_usd": 179.87,
+     "amazon_fees_mo_usd": 13849.44,
+     "net_sale_mo_usd": 123750.56,
+     "fee_pct": 10.1
     },
     {
      "rank": 28,
@@ -1418,7 +2288,14 @@
      "units_mo": 669,
      "revenue_mo_usd": 300381.0,
      "confidence": 0.64,
-     "url": "https://www.amazon.com/dp/B0965WLMZ2"
+     "url": "https://www.amazon.com/dp/B0965WLMZ2",
+     "referral_fee_usd": 35.92,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 40.05,
+     "net_sale_usd": 408.95,
+     "amazon_fees_mo_usd": 26793.45,
+     "net_sale_mo_usd": 273587.55,
+     "fee_pct": 8.9
     },
     {
      "rank": 29,
@@ -1429,7 +2306,14 @@
      "units_mo": 651,
      "revenue_mo_usd": 234360.0,
      "confidence": 0.63,
-     "url": "https://www.amazon.com/dp/B08B2T2178"
+     "url": "https://www.amazon.com/dp/B08B2T2178",
+     "referral_fee_usd": 28.8,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 32.93,
+     "net_sale_usd": 327.07,
+     "amazon_fees_mo_usd": 21437.43,
+     "net_sale_mo_usd": 212922.57,
+     "fee_pct": 9.1
     },
     {
      "rank": 30,
@@ -1440,7 +2324,14 @@
      "units_mo": 634,
      "revenue_mo_usd": 114113.66,
      "confidence": 0.62,
-     "url": "https://www.amazon.com/dp/B0GR21NP1W"
+     "url": "https://www.amazon.com/dp/B0GR21NP1W",
+     "referral_fee_usd": 14.4,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 18.53,
+     "net_sale_usd": 161.46,
+     "amazon_fees_mo_usd": 11748.02,
+     "net_sale_mo_usd": 102365.64,
+     "fee_pct": 10.3
     },
     {
      "rank": 31,
@@ -1451,7 +2342,14 @@
      "units_mo": 618,
      "revenue_mo_usd": 45664.02,
      "confidence": 0.61,
-     "url": "https://www.amazon.com/dp/B075WXP4BN"
+     "url": "https://www.amazon.com/dp/B075WXP4BN",
+     "referral_fee_usd": 5.91,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 10.04,
+     "net_sale_usd": 63.85,
+     "amazon_fees_mo_usd": 6204.72,
+     "net_sale_mo_usd": 39459.3,
+     "fee_pct": 13.6
     },
     {
      "rank": 32,
@@ -1462,7 +2360,14 @@
      "units_mo": 603,
      "revenue_mo_usd": 627813.45,
      "confidence": 0.6,
-     "url": "https://www.amazon.com/dp/B0D4XCLZ87"
+     "url": "https://www.amazon.com/dp/B0D4XCLZ87",
+     "referral_fee_usd": 83.29,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 87.42,
+     "net_sale_usd": 953.73,
+     "amazon_fees_mo_usd": 52714.26,
+     "net_sale_mo_usd": 575099.19,
+     "fee_pct": 8.4
     },
     {
      "rank": 33,
@@ -1473,7 +2378,14 @@
      "units_mo": 589,
      "revenue_mo_usd": 256185.55,
      "confidence": 0.59,
-     "url": "https://www.amazon.com/dp/B08C1C6S5K"
+     "url": "https://www.amazon.com/dp/B08C1C6S5K",
+     "referral_fee_usd": 34.8,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 38.93,
+     "net_sale_usd": 396.02,
+     "amazon_fees_mo_usd": 22929.77,
+     "net_sale_mo_usd": 233255.78,
+     "fee_pct": 9.0
     },
     {
      "rank": 34,
@@ -1484,7 +2396,14 @@
      "units_mo": 575,
      "revenue_mo_usd": 46000.0,
      "confidence": 0.58,
-     "url": "https://www.amazon.com/dp/B07F93611L"
+     "url": "https://www.amazon.com/dp/B07F93611L",
+     "referral_fee_usd": 6.4,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 10.53,
+     "net_sale_usd": 69.47,
+     "amazon_fees_mo_usd": 6054.75,
+     "net_sale_mo_usd": 39945.25,
+     "fee_pct": 13.2
     },
     {
      "rank": 35,
@@ -1495,7 +2414,14 @@
      "units_mo": 562,
      "revenue_mo_usd": 407450.0,
      "confidence": 0.56,
-     "url": "https://www.amazon.com/dp/B0F6376MD8"
+     "url": "https://www.amazon.com/dp/B0F6376MD8",
+     "referral_fee_usd": 58.0,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 62.13,
+     "net_sale_usd": 662.87,
+     "amazon_fees_mo_usd": 34917.06,
+     "net_sale_mo_usd": 372532.94,
+     "fee_pct": 8.6
     },
     {
      "rank": 36,
@@ -1506,7 +2432,14 @@
      "units_mo": 550,
      "revenue_mo_usd": 252450.0,
      "confidence": 0.55,
-     "url": "https://www.amazon.com/dp/B0DS2XBYJH"
+     "url": "https://www.amazon.com/dp/B0DS2XBYJH",
+     "referral_fee_usd": 36.72,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 40.85,
+     "net_sale_usd": 418.15,
+     "amazon_fees_mo_usd": 22467.5,
+     "net_sale_mo_usd": 229982.5,
+     "fee_pct": 8.9
     },
     {
      "rank": 37,
@@ -1517,7 +2450,14 @@
      "units_mo": 538,
      "revenue_mo_usd": 352390.0,
      "confidence": 0.54,
-     "url": "https://www.amazon.com/dp/B0D4XRPST5"
+     "url": "https://www.amazon.com/dp/B0D4XRPST5",
+     "referral_fee_usd": 52.4,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 56.53,
+     "net_sale_usd": 598.47,
+     "amazon_fees_mo_usd": 30413.14,
+     "net_sale_mo_usd": 321976.86,
+     "fee_pct": 8.6
     },
     {
      "rank": 38,
@@ -1528,7 +2468,14 @@
      "units_mo": 527,
      "revenue_mo_usd": 625554.27,
      "confidence": 0.53,
-     "url": "https://www.amazon.com/dp/B0G4XYLL72"
+     "url": "https://www.amazon.com/dp/B0G4XYLL72",
+     "referral_fee_usd": 94.96,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 99.09,
+     "net_sale_usd": 1087.92,
+     "amazon_fees_mo_usd": 52220.43,
+     "net_sale_mo_usd": 573333.84,
+     "fee_pct": 8.3
     },
     {
      "rank": 39,
@@ -1539,7 +2486,14 @@
      "units_mo": 517,
      "revenue_mo_usd": 82714.83,
      "confidence": 0.52,
-     "url": "https://www.amazon.com/dp/B07K2HGL9C"
+     "url": "https://www.amazon.com/dp/B07K2HGL9C",
+     "referral_fee_usd": 12.8,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 16.93,
+     "net_sale_usd": 143.06,
+     "amazon_fees_mo_usd": 8752.81,
+     "net_sale_mo_usd": 73962.02,
+     "fee_pct": 10.6
     },
     {
      "rank": 40,
@@ -1550,18 +2504,32 @@
      "units_mo": 507,
      "revenue_mo_usd": 207864.93,
      "confidence": 0.51,
-     "url": "https://www.amazon.com/dp/B0F7J5XGR6"
+     "url": "https://www.amazon.com/dp/B0F7J5XGR6",
+     "referral_fee_usd": 32.8,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 36.93,
+     "net_sale_usd": 373.06,
+     "amazon_fees_mo_usd": 18723.51,
+     "net_sale_mo_usd": 189141.42,
+     "fee_pct": 9.0
     },
     {
      "rank": 41,
      "asin": "B0CR1WHH4W",
      "title": "SAMSUNG Galaxy Tab S9 FE (10.9-inch, 128GB, WiFi + Cellular) - Gray (Renewed)",
-     "price_usd": 240.12,
+     "price_usd": 239.67,
      "rating": 3.8,
      "units_mo": 497,
-     "revenue_mo_usd": 119339.64,
+     "revenue_mo_usd": 119115.99,
      "confidence": 0.5,
-     "url": "https://www.amazon.com/dp/B0CR1WHH4W"
+     "url": "https://www.amazon.com/dp/B0CR1WHH4W",
+     "referral_fee_usd": 19.17,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 23.3,
+     "net_sale_usd": 216.37,
+     "amazon_fees_mo_usd": 11580.1,
+     "net_sale_mo_usd": 107535.89,
+     "fee_pct": 9.7
     },
     {
      "rank": 42,
@@ -1572,7 +2540,14 @@
      "units_mo": 488,
      "revenue_mo_usd": 117115.12,
      "confidence": 0.49,
-     "url": "https://www.amazon.com/dp/B0GR73T8BZ"
+     "url": "https://www.amazon.com/dp/B0GR73T8BZ",
+     "referral_fee_usd": 19.2,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 23.33,
+     "net_sale_usd": 216.66,
+     "amazon_fees_mo_usd": 11385.04,
+     "net_sale_mo_usd": 105730.08,
+     "fee_pct": 9.7
     },
     {
      "rank": 43,
@@ -1583,7 +2558,14 @@
      "units_mo": 479,
      "revenue_mo_usd": 141300.21,
      "confidence": 0.48,
-     "url": "https://www.amazon.com/dp/B081ZK53GG"
+     "url": "https://www.amazon.com/dp/B081ZK53GG",
+     "referral_fee_usd": 23.6,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 27.73,
+     "net_sale_usd": 267.26,
+     "amazon_fees_mo_usd": 13282.67,
+     "net_sale_mo_usd": 128017.54,
+     "fee_pct": 9.4
     },
     {
      "rank": 44,
@@ -1594,7 +2576,14 @@
      "units_mo": 470,
      "revenue_mo_usd": 68107.7,
      "confidence": 0.47,
-     "url": "https://www.amazon.com/dp/B0946BX3FM"
+     "url": "https://www.amazon.com/dp/B0946BX3FM",
+     "referral_fee_usd": 11.59,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 15.72,
+     "net_sale_usd": 129.19,
+     "amazon_fees_mo_usd": 7388.4,
+     "net_sale_mo_usd": 60719.3,
+     "fee_pct": 10.8
     },
     {
      "rank": 45,
@@ -1605,7 +2594,14 @@
      "units_mo": 462,
      "revenue_mo_usd": 48505.38,
      "confidence": 0.45,
-     "url": "https://www.amazon.com/dp/B00WAK82XK"
+     "url": "https://www.amazon.com/dp/B00WAK82XK",
+     "referral_fee_usd": 8.4,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 12.53,
+     "net_sale_usd": 92.46,
+     "amazon_fees_mo_usd": 5788.86,
+     "net_sale_mo_usd": 42716.52,
+     "fee_pct": 11.9
     },
     {
      "rank": 46,
@@ -1616,7 +2612,14 @@
      "units_mo": 454,
      "revenue_mo_usd": 215650.0,
      "confidence": 0.44,
-     "url": "https://www.amazon.com/dp/B0F5CVQPTP"
+     "url": "https://www.amazon.com/dp/B0F5CVQPTP",
+     "referral_fee_usd": 38.0,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 42.13,
+     "net_sale_usd": 432.87,
+     "amazon_fees_mo_usd": 19127.02,
+     "net_sale_mo_usd": 196522.98,
+     "fee_pct": 8.9
     },
     {
      "rank": 47,
@@ -1627,14 +2630,29 @@
      "units_mo": 447,
      "revenue_mo_usd": 76633.68,
      "confidence": 0.43,
-     "url": "https://www.amazon.com/dp/B0GF3GXBQV"
+     "url": "https://www.amazon.com/dp/B0GF3GXBQV",
+     "referral_fee_usd": 13.72,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 17.85,
+     "net_sale_usd": 153.59,
+     "amazon_fees_mo_usd": 7978.95,
+     "net_sale_mo_usd": 68654.73,
+     "fee_pct": 10.4
     }
    ]
   },
   "smartphones": {
    "label": "Smartphones",
-   "updated": "2026-10-28T15:42:01.036417Z",
-   "rows": 50,
+   "updated": "2026-10-28T15:46:41.241373Z",
+   "rows": 100,
+   "fee_assumptions": {
+    "amazon_category": "Cell Phones",
+    "referral_rate": "8%",
+    "fba_size_tier": "large standard",
+    "fba_assumed_lb": 0.8,
+    "fuel_surcharge_pct": 3.5,
+    "rate_card_checked": "2026-10-28"
+   },
    "items": [
     {
      "rank": 1,
@@ -1645,7 +2663,14 @@
      "units_mo": 10382,
      "revenue_mo_usd": 3106086.76,
      "confidence": 0.94,
-     "url": "https://www.amazon.com/dp/B0BN72FYFG"
+     "url": "https://www.amazon.com/dp/B0BN72FYFG",
+     "referral_fee_usd": 23.93,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 28.06,
+     "net_sale_usd": 271.12,
+     "amazon_fees_mo_usd": 291318.92,
+     "net_sale_mo_usd": 2814767.84,
+     "fee_pct": 9.4
     },
     {
      "rank": 2,
@@ -1656,7 +2681,14 @@
      "units_mo": 5615,
      "revenue_mo_usd": 1038775.0,
      "confidence": 0.93,
-     "url": "https://www.amazon.com/dp/B08PP5MSVB"
+     "url": "https://www.amazon.com/dp/B08PP5MSVB",
+     "referral_fee_usd": 14.8,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 18.93,
+     "net_sale_usd": 166.07,
+     "amazon_fees_mo_usd": 106291.95,
+     "net_sale_mo_usd": 932483.05,
+     "fee_pct": 10.2
     },
     {
      "rank": 3,
@@ -1667,7 +2699,14 @@
      "units_mo": 3920,
      "revenue_mo_usd": 1027040.0,
      "confidence": 0.92,
-     "url": "https://www.amazon.com/dp/B09LNW3CY2"
+     "url": "https://www.amazon.com/dp/B09LNW3CY2",
+     "referral_fee_usd": 20.96,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 25.09,
+     "net_sale_usd": 236.91,
+     "amazon_fees_mo_usd": 98352.8,
+     "net_sale_mo_usd": 928687.2,
+     "fee_pct": 9.6
     },
     {
      "rank": 4,
@@ -1678,7 +2717,14 @@
      "units_mo": 3037,
      "revenue_mo_usd": 1202652.0,
      "confidence": 0.91,
-     "url": "https://www.amazon.com/dp/B0CMPMY9ZZ"
+     "url": "https://www.amazon.com/dp/B0CMPMY9ZZ",
+     "referral_fee_usd": 31.68,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 35.81,
+     "net_sale_usd": 360.19,
+     "amazon_fees_mo_usd": 108754.97,
+     "net_sale_mo_usd": 1093897.03,
+     "fee_pct": 9.0
     },
     {
      "rank": 5,
@@ -1689,7 +2735,14 @@
      "units_mo": 2492,
      "revenue_mo_usd": 940680.16,
      "confidence": 0.9,
-     "url": "https://www.amazon.com/dp/B0F4RM7Y2L"
+     "url": "https://www.amazon.com/dp/B0F4RM7Y2L",
+     "referral_fee_usd": 30.2,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 34.33,
+     "net_sale_usd": 343.15,
+     "amazon_fees_mo_usd": 85550.36,
+     "net_sale_mo_usd": 855129.8,
+     "fee_pct": 9.1
     },
     {
      "rank": 6,
@@ -1700,7 +2753,14 @@
      "units_mo": 2120,
      "revenue_mo_usd": 200318.8,
      "confidence": 0.88,
-     "url": "https://www.amazon.com/dp/B088NQXD8T"
+     "url": "https://www.amazon.com/dp/B088NQXD8T",
+     "referral_fee_usd": 7.56,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 11.69,
+     "net_sale_usd": 82.8,
+     "amazon_fees_mo_usd": 24782.8,
+     "net_sale_mo_usd": 175536.0,
+     "fee_pct": 12.4
     },
     {
      "rank": 7,
@@ -1711,7 +2771,14 @@
      "units_mo": 1849,
      "revenue_mo_usd": 1379224.57,
      "confidence": 0.87,
-     "url": "https://www.amazon.com/dp/B0DHJ896RY"
+     "url": "https://www.amazon.com/dp/B0DHJ896RY",
+     "referral_fee_usd": 59.67,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 63.8,
+     "net_sale_usd": 682.13,
+     "amazon_fees_mo_usd": 117966.2,
+     "net_sale_mo_usd": 1261258.37,
+     "fee_pct": 8.6
     },
     {
      "rank": 8,
@@ -1722,7 +2789,14 @@
      "units_mo": 1643,
      "revenue_mo_usd": 1011841.55,
      "confidence": 0.86,
-     "url": "https://www.amazon.com/dp/B0CMZ4FQL4"
+     "url": "https://www.amazon.com/dp/B0CMZ4FQL4",
+     "referral_fee_usd": 49.27,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 53.4,
+     "net_sale_usd": 562.45,
+     "amazon_fees_mo_usd": 87736.2,
+     "net_sale_mo_usd": 924105.35,
+     "fee_pct": 8.7
     },
     {
      "rank": 9,
@@ -1733,7 +2807,14 @@
      "units_mo": 1480,
      "revenue_mo_usd": 177600.0,
      "confidence": 0.85,
-     "url": "https://www.amazon.com/dp/B0BDY71GRG"
+     "url": "https://www.amazon.com/dp/B0BDY71GRG",
+     "referral_fee_usd": 9.6,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 13.73,
+     "net_sale_usd": 106.27,
+     "amazon_fees_mo_usd": 20320.4,
+     "net_sale_mo_usd": 157279.6,
+     "fee_pct": 11.4
     },
     {
      "rank": 10,
@@ -1744,7 +2825,14 @@
      "units_mo": 1348,
      "revenue_mo_usd": 753397.2,
      "confidence": 0.84,
-     "url": "https://www.amazon.com/dp/B0DHJH2GZL"
+     "url": "https://www.amazon.com/dp/B0DHJH2GZL",
+     "referral_fee_usd": 44.71,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 48.84,
+     "net_sale_usd": 510.06,
+     "amazon_fees_mo_usd": 65836.32,
+     "net_sale_mo_usd": 687560.88,
+     "fee_pct": 8.7
     },
     {
      "rank": 11,
@@ -1755,7 +2843,14 @@
      "units_mo": 1239,
      "revenue_mo_usd": 677720.61,
      "confidence": 0.83,
-     "url": "https://www.amazon.com/dp/B0CMZ5LT14"
+     "url": "https://www.amazon.com/dp/B0CMZ5LT14",
+     "referral_fee_usd": 43.76,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 47.89,
+     "net_sale_usd": 499.1,
+     "amazon_fees_mo_usd": 59335.71,
+     "net_sale_mo_usd": 618384.9,
+     "fee_pct": 8.8
     },
     {
      "rank": 12,
@@ -1766,7 +2861,14 @@
      "units_mo": 1147,
      "revenue_mo_usd": 188670.03,
      "confidence": 0.82,
-     "url": "https://www.amazon.com/dp/B08PPDJWC8"
+     "url": "https://www.amazon.com/dp/B08PPDJWC8",
+     "referral_fee_usd": 13.16,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 17.29,
+     "net_sale_usd": 147.2,
+     "amazon_fees_mo_usd": 19831.63,
+     "net_sale_mo_usd": 168838.4,
+     "fee_pct": 10.5
     },
     {
      "rank": 13,
@@ -1777,7 +2879,14 @@
      "units_mo": 1068,
      "revenue_mo_usd": 449019.24,
      "confidence": 0.81,
-     "url": "https://www.amazon.com/dp/B0CMT4XDSC"
+     "url": "https://www.amazon.com/dp/B0CMT4XDSC",
+     "referral_fee_usd": 33.63,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 37.76,
+     "net_sale_usd": 382.67,
+     "amazon_fees_mo_usd": 40327.68,
+     "net_sale_mo_usd": 408691.56,
+     "fee_pct": 9.0
     },
     {
      "rank": 14,
@@ -1788,7 +2897,14 @@
      "units_mo": 1000,
      "revenue_mo_usd": 325280.0,
      "confidence": 0.8,
-     "url": "https://www.amazon.com/dp/B0BN9426PP"
+     "url": "https://www.amazon.com/dp/B0BN9426PP",
+     "referral_fee_usd": 26.02,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 30.15,
+     "net_sale_usd": 295.13,
+     "amazon_fees_mo_usd": 30150.0,
+     "net_sale_mo_usd": 295130.0,
+     "fee_pct": 9.3
     },
     {
      "rank": 15,
@@ -1799,7 +2915,14 @@
      "units_mo": 941,
      "revenue_mo_usd": 230243.88,
      "confidence": 0.78,
-     "url": "https://www.amazon.com/dp/B09LKTXKXQ"
+     "url": "https://www.amazon.com/dp/B09LKTXKXQ",
+     "referral_fee_usd": 19.57,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 23.7,
+     "net_sale_usd": 220.98,
+     "amazon_fees_mo_usd": 22301.7,
+     "net_sale_mo_usd": 207942.18,
+     "fee_pct": 9.7
     },
     {
      "rank": 16,
@@ -1810,7 +2933,14 @@
      "units_mo": 889,
      "revenue_mo_usd": 648970.0,
      "confidence": 0.77,
-     "url": "https://www.amazon.com/dp/B0DHJDPYYR"
+     "url": "https://www.amazon.com/dp/B0DHJDPYYR",
+     "referral_fee_usd": 58.4,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 62.53,
+     "net_sale_usd": 667.47,
+     "amazon_fees_mo_usd": 55589.17,
+     "net_sale_mo_usd": 593380.83,
+     "fee_pct": 8.6
     },
     {
      "rank": 17,
@@ -1821,7 +2951,14 @@
      "units_mo": 842,
      "revenue_mo_usd": 133869.58,
      "confidence": 0.76,
-     "url": "https://www.amazon.com/dp/B07ZPKN6YR"
+     "url": "https://www.amazon.com/dp/B07ZPKN6YR",
+     "referral_fee_usd": 12.72,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 16.85,
+     "net_sale_usd": 142.14,
+     "amazon_fees_mo_usd": 14187.7,
+     "net_sale_mo_usd": 119681.88,
+     "fee_pct": 10.6
     },
     {
      "rank": 18,
@@ -1832,7 +2969,14 @@
      "units_mo": 801,
      "revenue_mo_usd": 230679.99,
      "confidence": 0.75,
-     "url": "https://www.amazon.com/dp/B0C4Q796XC"
+     "url": "https://www.amazon.com/dp/B0C4Q796XC",
+     "referral_fee_usd": 23.04,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 27.17,
+     "net_sale_usd": 260.82,
+     "amazon_fees_mo_usd": 21763.17,
+     "net_sale_mo_usd": 208916.82,
+     "fee_pct": 9.4
     },
     {
      "rank": 19,
@@ -1843,7 +2987,14 @@
      "units_mo": 763,
      "revenue_mo_usd": 362425.0,
      "confidence": 0.74,
-     "url": "https://www.amazon.com/dp/B0BN9P1GXC"
+     "url": "https://www.amazon.com/dp/B0BN9P1GXC",
+     "referral_fee_usd": 38.0,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 42.13,
+     "net_sale_usd": 432.87,
+     "amazon_fees_mo_usd": 32145.19,
+     "net_sale_mo_usd": 330279.81,
+     "fee_pct": 8.9
     },
     {
      "rank": 20,
@@ -1854,7 +3005,14 @@
      "units_mo": 729,
      "revenue_mo_usd": 831490.11,
      "confidence": 0.73,
-     "url": "https://www.amazon.com/dp/B0FTCWXD9K"
+     "url": "https://www.amazon.com/dp/B0FTCWXD9K",
+     "referral_fee_usd": 91.25,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 95.38,
+     "net_sale_usd": 1045.21,
+     "amazon_fees_mo_usd": 69532.02,
+     "net_sale_mo_usd": 761958.09,
+     "fee_pct": 8.4
     },
     {
      "rank": 21,
@@ -1865,7 +3023,14 @@
      "units_mo": 698,
      "revenue_mo_usd": 718242.0,
      "confidence": 0.72,
-     "url": "https://www.amazon.com/dp/B0G45RZX27"
+     "url": "https://www.amazon.com/dp/B0G45RZX27",
+     "referral_fee_usd": 82.32,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 86.45,
+     "net_sale_usd": 942.55,
+     "amazon_fees_mo_usd": 60342.1,
+     "net_sale_mo_usd": 657899.9,
+     "fee_pct": 8.4
     },
     {
      "rank": 22,
@@ -1876,7 +3041,14 @@
      "units_mo": 670,
      "revenue_mo_usd": 298150.0,
      "confidence": 0.71,
-     "url": "https://www.amazon.com/dp/B0BN96CCM6"
+     "url": "https://www.amazon.com/dp/B0BN96CCM6",
+     "referral_fee_usd": 35.6,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 39.73,
+     "net_sale_usd": 405.27,
+     "amazon_fees_mo_usd": 26619.1,
+     "net_sale_mo_usd": 271530.9,
+     "fee_pct": 8.9
     },
     {
      "rank": 23,
@@ -1887,7 +3059,14 @@
      "units_mo": 644,
      "revenue_mo_usd": 369656.0,
      "confidence": 0.7,
-     "url": "https://www.amazon.com/dp/B0DHJCTZ4D"
+     "url": "https://www.amazon.com/dp/B0DHJCTZ4D",
+     "referral_fee_usd": 45.92,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 50.05,
+     "net_sale_usd": 523.95,
+     "amazon_fees_mo_usd": 32232.2,
+     "net_sale_mo_usd": 337423.8,
+     "fee_pct": 8.7
     },
     {
      "rank": 24,
@@ -1898,7 +3077,14 @@
      "units_mo": 620,
      "revenue_mo_usd": 418493.8,
      "confidence": 0.69,
-     "url": "https://www.amazon.com/dp/B0F39CGPQV"
+     "url": "https://www.amazon.com/dp/B0F39CGPQV",
+     "referral_fee_usd": 54.0,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 58.13,
+     "net_sale_usd": 616.86,
+     "amazon_fees_mo_usd": 36040.6,
+     "net_sale_mo_usd": 382453.2,
+     "fee_pct": 8.6
     },
     {
      "rank": 25,
@@ -1909,7 +3095,14 @@
      "units_mo": 598,
      "revenue_mo_usd": 251160.0,
      "confidence": 0.68,
-     "url": "https://www.amazon.com/dp/B0C544TBQM"
+     "url": "https://www.amazon.com/dp/B0C544TBQM",
+     "referral_fee_usd": 33.6,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 37.73,
+     "net_sale_usd": 382.27,
+     "amazon_fees_mo_usd": 22562.54,
+     "net_sale_mo_usd": 228597.46,
+     "fee_pct": 9.0
     },
     {
      "rank": 26,
@@ -1920,18 +3113,32 @@
      "units_mo": 578,
      "revenue_mo_usd": 461983.84,
      "confidence": 0.66,
-     "url": "https://www.amazon.com/dp/B0G4RWJZW6"
+     "url": "https://www.amazon.com/dp/B0G4RWJZW6",
+     "referral_fee_usd": 63.94,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 68.07,
+     "net_sale_usd": 731.21,
+     "amazon_fees_mo_usd": 39344.46,
+     "net_sale_mo_usd": 422639.38,
+     "fee_pct": 8.5
     },
     {
      "rank": 27,
      "asin": "B09VD33WHW",
      "title": "Samsung Galaxy S22 Ultra 5G, US Version, 128GB, Black - Unlocked (Renewed)",
-     "price_usd": 329.95,
+     "price_usd": 339.0,
      "rating": 3.8,
      "units_mo": 559,
-     "revenue_mo_usd": 184442.05,
+     "revenue_mo_usd": 189501.0,
      "confidence": 0.65,
-     "url": "https://www.amazon.com/dp/B09VD33WHW"
+     "url": "https://www.amazon.com/dp/B09VD33WHW",
+     "referral_fee_usd": 27.12,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 31.25,
+     "net_sale_usd": 307.75,
+     "amazon_fees_mo_usd": 17468.75,
+     "net_sale_mo_usd": 172032.25,
+     "fee_pct": 9.2
     },
     {
      "rank": 28,
@@ -1942,7 +3149,14 @@
      "units_mo": 541,
      "revenue_mo_usd": 71412.0,
      "confidence": 0.64,
-     "url": "https://www.amazon.com/dp/B0FCJMPV9X"
+     "url": "https://www.amazon.com/dp/B0FCJMPV9X",
+     "referral_fee_usd": 10.56,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 14.69,
+     "net_sale_usd": 117.31,
+     "amazon_fees_mo_usd": 7947.29,
+     "net_sale_mo_usd": 63464.71,
+     "fee_pct": 11.1
     },
     {
      "rank": 29,
@@ -1953,7 +3167,14 @@
      "units_mo": 524,
      "revenue_mo_usd": 298680.0,
      "confidence": 0.63,
-     "url": "https://www.amazon.com/dp/B0D362HGNP"
+     "url": "https://www.amazon.com/dp/B0D362HGNP",
+     "referral_fee_usd": 45.6,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 49.73,
+     "net_sale_usd": 520.27,
+     "amazon_fees_mo_usd": 26058.52,
+     "net_sale_mo_usd": 272621.48,
+     "fee_pct": 8.7
     },
     {
      "rank": 30,
@@ -1964,7 +3185,14 @@
      "units_mo": 509,
      "revenue_mo_usd": 68715.0,
      "confidence": 0.62,
-     "url": "https://www.amazon.com/dp/B07N9FFY52"
+     "url": "https://www.amazon.com/dp/B07N9FFY52",
+     "referral_fee_usd": 10.8,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 14.93,
+     "net_sale_usd": 120.07,
+     "amazon_fees_mo_usd": 7599.37,
+     "net_sale_mo_usd": 61115.63,
+     "fee_pct": 11.1
     },
     {
      "rank": 31,
@@ -1975,7 +3203,14 @@
      "units_mo": 494,
      "revenue_mo_usd": 92842.36,
      "confidence": 0.61,
-     "url": "https://www.amazon.com/dp/B08VLMQ3KS"
+     "url": "https://www.amazon.com/dp/B08VLMQ3KS",
+     "referral_fee_usd": 15.04,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 19.17,
+     "net_sale_usd": 168.77,
+     "amazon_fees_mo_usd": 9469.98,
+     "net_sale_mo_usd": 83372.38,
+     "fee_pct": 10.2
     },
     {
      "rank": 32,
@@ -1986,7 +3221,14 @@
      "units_mo": 481,
      "revenue_mo_usd": 177008.0,
      "confidence": 0.6,
-     "url": "https://www.amazon.com/dp/B09LP77GDL"
+     "url": "https://www.amazon.com/dp/B09LP77GDL",
+     "referral_fee_usd": 29.44,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 33.57,
+     "net_sale_usd": 334.43,
+     "amazon_fees_mo_usd": 16147.17,
+     "net_sale_mo_usd": 160860.83,
+     "fee_pct": 9.1
     },
     {
      "rank": 33,
@@ -1997,7 +3239,14 @@
      "units_mo": 468,
      "revenue_mo_usd": 266760.0,
      "confidence": 0.59,
-     "url": "https://www.amazon.com/dp/B0GWN52GC4"
+     "url": "https://www.amazon.com/dp/B0GWN52GC4",
+     "referral_fee_usd": 45.6,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 49.73,
+     "net_sale_usd": 520.27,
+     "amazon_fees_mo_usd": 23273.64,
+     "net_sale_mo_usd": 243486.36,
+     "fee_pct": 8.7
     },
     {
      "rank": 34,
@@ -2008,7 +3257,14 @@
      "units_mo": 456,
      "revenue_mo_usd": 211584.0,
      "confidence": 0.58,
-     "url": "https://www.amazon.com/dp/B09LPK77YY"
+     "url": "https://www.amazon.com/dp/B09LPK77YY",
+     "referral_fee_usd": 37.12,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 41.25,
+     "net_sale_usd": 422.75,
+     "amazon_fees_mo_usd": 18810.0,
+     "net_sale_mo_usd": 192774.0,
+     "fee_pct": 8.9
     },
     {
      "rank": 35,
@@ -2019,7 +3275,14 @@
      "units_mo": 444,
      "revenue_mo_usd": 95016.0,
      "confidence": 0.56,
-     "url": "https://www.amazon.com/dp/B09VT8L1B7"
+     "url": "https://www.amazon.com/dp/B09VT8L1B7",
+     "referral_fee_usd": 17.12,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 21.25,
+     "net_sale_usd": 192.75,
+     "amazon_fees_mo_usd": 9435.0,
+     "net_sale_mo_usd": 85581.0,
+     "fee_pct": 9.9
     },
     {
      "rank": 36,
@@ -2030,7 +3293,14 @@
      "units_mo": 433,
      "revenue_mo_usd": 108250.0,
      "confidence": 0.55,
-     "url": "https://www.amazon.com/dp/B0C5B736X3"
+     "url": "https://www.amazon.com/dp/B0C5B736X3",
+     "referral_fee_usd": 20.0,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 24.13,
+     "net_sale_usd": 225.87,
+     "amazon_fees_mo_usd": 10448.29,
+     "net_sale_mo_usd": 97801.71,
+     "fee_pct": 9.7
     },
     {
      "rank": 37,
@@ -2041,7 +3311,14 @@
      "units_mo": 423,
      "revenue_mo_usd": 105728.85,
      "confidence": 0.54,
-     "url": "https://www.amazon.com/dp/B0CVYKL34H"
+     "url": "https://www.amazon.com/dp/B0CVYKL34H",
+     "referral_fee_usd": 20.0,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 24.13,
+     "net_sale_usd": 225.82,
+     "amazon_fees_mo_usd": 10206.99,
+     "net_sale_mo_usd": 95521.86,
+     "fee_pct": 9.7
     },
     {
      "rank": 38,
@@ -2052,7 +3329,14 @@
      "units_mo": 413,
      "revenue_mo_usd": 90818.7,
      "confidence": 0.53,
-     "url": "https://www.amazon.com/dp/B0CRPQ8W8X"
+     "url": "https://www.amazon.com/dp/B0CRPQ8W8X",
+     "referral_fee_usd": 17.59,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 21.72,
+     "net_sale_usd": 198.18,
+     "amazon_fees_mo_usd": 8970.36,
+     "net_sale_mo_usd": 81848.34,
+     "fee_pct": 9.9
     },
     {
      "rank": 39,
@@ -2063,7 +3347,14 @@
      "units_mo": 403,
      "revenue_mo_usd": 111626.97,
      "confidence": 0.52,
-     "url": "https://www.amazon.com/dp/B08PCDP3LM"
+     "url": "https://www.amazon.com/dp/B08PCDP3LM",
+     "referral_fee_usd": 22.16,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 26.29,
+     "net_sale_usd": 250.7,
+     "amazon_fees_mo_usd": 10594.87,
+     "net_sale_mo_usd": 101032.1,
+     "fee_pct": 9.5
     },
     {
      "rank": 40,
@@ -2074,7 +3365,14 @@
      "units_mo": 394,
      "revenue_mo_usd": 57721.0,
      "confidence": 0.51,
-     "url": "https://www.amazon.com/dp/B09SHJGLNN"
+     "url": "https://www.amazon.com/dp/B09SHJGLNN",
+     "referral_fee_usd": 11.72,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 15.85,
+     "net_sale_usd": 130.65,
+     "amazon_fees_mo_usd": 6244.9,
+     "net_sale_mo_usd": 51476.1,
+     "fee_pct": 10.8
     },
     {
      "rank": 41,
@@ -2085,7 +3383,14 @@
      "units_mo": 386,
      "revenue_mo_usd": 115800.0,
      "confidence": 0.5,
-     "url": "https://www.amazon.com/dp/B07ZQSSKY4"
+     "url": "https://www.amazon.com/dp/B07ZQSSKY4",
+     "referral_fee_usd": 24.0,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 28.13,
+     "net_sale_usd": 271.87,
+     "amazon_fees_mo_usd": 10858.18,
+     "net_sale_mo_usd": 104941.82,
+     "fee_pct": 9.4
     },
     {
      "rank": 42,
@@ -2096,7 +3401,14 @@
      "units_mo": 378,
      "revenue_mo_usd": 230523.3,
      "confidence": 0.49,
-     "url": "https://www.amazon.com/dp/B0GZJ6N64Y"
+     "url": "https://www.amazon.com/dp/B0GZJ6N64Y",
+     "referral_fee_usd": 48.79,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 52.92,
+     "net_sale_usd": 556.93,
+     "amazon_fees_mo_usd": 20003.76,
+     "net_sale_mo_usd": 210519.54,
+     "fee_pct": 8.7
     },
     {
      "rank": 43,
@@ -2107,7 +3419,14 @@
      "units_mo": 370,
      "revenue_mo_usd": 47726.3,
      "confidence": 0.48,
-     "url": "https://www.amazon.com/dp/B0F5ZH7CJS"
+     "url": "https://www.amazon.com/dp/B0F5ZH7CJS",
+     "referral_fee_usd": 10.32,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 14.45,
+     "net_sale_usd": 114.54,
+     "amazon_fees_mo_usd": 5346.5,
+     "net_sale_mo_usd": 42379.8,
+     "fee_pct": 11.2
     },
     {
      "rank": 44,
@@ -2118,7 +3437,14 @@
      "units_mo": 362,
      "revenue_mo_usd": 88653.8,
      "confidence": 0.47,
-     "url": "https://www.amazon.com/dp/B0C5PZKN47"
+     "url": "https://www.amazon.com/dp/B0C5PZKN47",
+     "referral_fee_usd": 19.59,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 23.72,
+     "net_sale_usd": 221.18,
+     "amazon_fees_mo_usd": 8586.64,
+     "net_sale_mo_usd": 80067.16,
+     "fee_pct": 9.7
     },
     {
      "rank": 45,
@@ -2129,7 +3455,14 @@
      "units_mo": 355,
      "revenue_mo_usd": 144840.0,
      "confidence": 0.45,
-     "url": "https://www.amazon.com/dp/B0D365XY4M"
+     "url": "https://www.amazon.com/dp/B0D365XY4M",
+     "referral_fee_usd": 32.64,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 36.77,
+     "net_sale_usd": 371.23,
+     "amazon_fees_mo_usd": 13053.35,
+     "net_sale_mo_usd": 131786.65,
+     "fee_pct": 9.0
     },
     {
      "rank": 46,
@@ -2140,7 +3473,14 @@
      "units_mo": 348,
      "revenue_mo_usd": 111363.48,
      "confidence": 0.44,
-     "url": "https://www.amazon.com/dp/B0D364RMMP"
+     "url": "https://www.amazon.com/dp/B0D364RMMP",
+     "referral_fee_usd": 25.6,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 29.73,
+     "net_sale_usd": 290.28,
+     "amazon_fees_mo_usd": 10346.04,
+     "net_sale_mo_usd": 101017.44,
+     "fee_pct": 9.3
     },
     {
      "rank": 47,
@@ -2151,7 +3491,14 @@
      "units_mo": 342,
      "revenue_mo_usd": 28044.0,
      "confidence": 0.43,
-     "url": "https://www.amazon.com/dp/B084KS5WYC"
+     "url": "https://www.amazon.com/dp/B084KS5WYC",
+     "referral_fee_usd": 6.56,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 10.69,
+     "net_sale_usd": 71.31,
+     "amazon_fees_mo_usd": 3655.98,
+     "net_sale_mo_usd": 24388.02,
+     "fee_pct": 13.0
     },
     {
      "rank": 48,
@@ -2162,7 +3509,14 @@
      "units_mo": 336,
      "revenue_mo_usd": 136043.04,
      "confidence": 0.42,
-     "url": "https://www.amazon.com/dp/B0D365SPZN"
+     "url": "https://www.amazon.com/dp/B0D365SPZN",
+     "referral_fee_usd": 32.39,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 36.52,
+     "net_sale_usd": 368.37,
+     "amazon_fees_mo_usd": 12270.72,
+     "net_sale_mo_usd": 123772.32,
+     "fee_pct": 9.0
     },
     {
      "rank": 49,
@@ -2173,7 +3527,14 @@
      "units_mo": 329,
      "revenue_mo_usd": 113287.86,
      "confidence": 0.41,
-     "url": "https://www.amazon.com/dp/B0BYL93774"
+     "url": "https://www.amazon.com/dp/B0BYL93774",
+     "referral_fee_usd": 27.55,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 31.68,
+     "net_sale_usd": 312.66,
+     "amazon_fees_mo_usd": 10422.72,
+     "net_sale_mo_usd": 102865.14,
+     "fee_pct": 9.2
     },
     {
      "rank": 50,
@@ -2184,14 +3545,929 @@
      "units_mo": 324,
      "revenue_mo_usd": 255486.96,
      "confidence": 0.4,
-     "url": "https://www.amazon.com/dp/B0G455LJZ9"
+     "url": "https://www.amazon.com/dp/B0G455LJZ9",
+     "referral_fee_usd": 63.08,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 67.21,
+     "net_sale_usd": 721.33,
+     "amazon_fees_mo_usd": 21776.04,
+     "net_sale_mo_usd": 233710.92,
+     "fee_pct": 8.5
+    },
+    {
+     "rank": 51,
+     "asin": "B09V5LDZQ4",
+     "title": "Samsung Galaxy S22 5G, 128GB, Phantom Black - Unlocked (Renewed)",
+     "price_usd": 209.0,
+     "rating": 3.9,
+     "units_mo": 318,
+     "revenue_mo_usd": 66462.0,
+     "confidence": 0.39,
+     "url": "https://www.amazon.com/dp/B09V5LDZQ4",
+     "referral_fee_usd": 16.72,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 20.85,
+     "net_sale_usd": 188.15,
+     "amazon_fees_mo_usd": 6630.3,
+     "net_sale_mo_usd": 59831.7,
+     "fee_pct": 10.0
+    },
+    {
+     "rank": 52,
+     "asin": "B0D2M2N6RK",
+     "title": "Samsung Galaxy A15 5G, 128GB, Blue Black - Unlocked (International Version) (Renewed)",
+     "price_usd": 117.99,
+     "rating": 3.8,
+     "units_mo": 313,
+     "revenue_mo_usd": 36930.87,
+     "confidence": 0.38,
+     "url": "https://www.amazon.com/dp/B0D2M2N6RK",
+     "referral_fee_usd": 9.44,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 13.57,
+     "net_sale_usd": 104.42,
+     "amazon_fees_mo_usd": 4247.41,
+     "net_sale_mo_usd": 32683.46,
+     "fee_pct": 11.5
+    },
+    {
+     "rank": 53,
+     "asin": "B0FMKLGFL6",
+     "title": "Google Pixel 9a 5G, 128GB + 8GB RAM, Obsidian - Unlocked (Renewed) | 48MP AI Camera",
+     "price_usd": 342.63,
+     "rating": 3.8,
+     "units_mo": 307,
+     "revenue_mo_usd": 105187.41,
+     "confidence": 0.37,
+     "url": "https://www.amazon.com/dp/B0FMKLGFL6",
+     "referral_fee_usd": 27.41,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 31.54,
+     "net_sale_usd": 311.09,
+     "amazon_fees_mo_usd": 9682.78,
+     "net_sale_mo_usd": 95504.63,
+     "fee_pct": 9.2
+    },
+    {
+     "rank": 54,
+     "asin": "B0D3264WQ8",
+     "title": "Samsung Galaxy S24 Ultra 5G, US Version, 512GB, Titanium Black - Unlocked (Renewed)",
+     "price_usd": 604.65,
+     "rating": 4.1,
+     "units_mo": 302,
+     "revenue_mo_usd": 182604.3,
+     "confidence": 0.36,
+     "url": "https://www.amazon.com/dp/B0D3264WQ8",
+     "referral_fee_usd": 48.37,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 52.5,
+     "net_sale_usd": 552.15,
+     "amazon_fees_mo_usd": 15855.0,
+     "net_sale_mo_usd": 166749.3,
+     "fee_pct": 8.7
+    },
+    {
+     "rank": 55,
+     "asin": "B0DCGQQ4Z7",
+     "title": "Google Pixel 8a 5G, 128GB + 8GB RAM, Obsidian - Unlocked (Renewed)",
+     "price_usd": 264.0,
+     "rating": 3.8,
+     "units_mo": 297,
+     "revenue_mo_usd": 78408.0,
+     "confidence": 0.34,
+     "url": "https://www.amazon.com/dp/B0DCGQQ4Z7",
+     "referral_fee_usd": 21.12,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 25.25,
+     "net_sale_usd": 238.75,
+     "amazon_fees_mo_usd": 7499.25,
+     "net_sale_mo_usd": 70908.75,
+     "fee_pct": 9.6
+    },
+    {
+     "rank": 56,
+     "asin": "B0F39Z696P",
+     "title": "Samsung Galaxy S25+, 256GB, Navy - Unlocked (Renewed)",
+     "price_usd": 539.06,
+     "rating": 4.0,
+     "units_mo": 293,
+     "revenue_mo_usd": 157944.58,
+     "confidence": 0.33,
+     "url": "https://www.amazon.com/dp/B0F39Z696P",
+     "referral_fee_usd": 43.12,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 47.25,
+     "net_sale_usd": 491.81,
+     "amazon_fees_mo_usd": 13844.25,
+     "net_sale_mo_usd": 144100.33,
+     "fee_pct": 8.8
+    },
+    {
+     "rank": 57,
+     "asin": "B0F6NXQ2W8",
+     "title": "Samsung Galaxy S25 Ultra 5G, 1TB + 12GB RAM, Jet Black - Unlocked (Renewed)",
+     "price_usd": 809.95,
+     "rating": 4.1,
+     "units_mo": 288,
+     "revenue_mo_usd": 233265.6,
+     "confidence": 0.32,
+     "url": "https://www.amazon.com/dp/B0F6NXQ2W8",
+     "referral_fee_usd": 64.8,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 68.93,
+     "net_sale_usd": 741.02,
+     "amazon_fees_mo_usd": 19851.84,
+     "net_sale_mo_usd": 213413.76,
+     "fee_pct": 8.5
+    },
+    {
+     "rank": 58,
+     "asin": "B0DF6TG7G8",
+     "title": "Samsung Galaxy Z Fold 6 5G US Version, 512GB, Silver Shadow - Unlocked (Renewed)",
+     "price_usd": 674.99,
+     "rating": 4.1,
+     "units_mo": 284,
+     "revenue_mo_usd": 191697.16,
+     "confidence": 0.31,
+     "url": "https://www.amazon.com/dp/B0DF6TG7G8",
+     "referral_fee_usd": 54.0,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 58.13,
+     "net_sale_usd": 616.86,
+     "amazon_fees_mo_usd": 16508.92,
+     "net_sale_mo_usd": 175188.24,
+     "fee_pct": 8.6
+    },
+    {
+     "rank": 59,
+     "asin": "B0F3DHRDGL",
+     "title": "Samsung Galaxy S25 5G, 128GB + 12GB RAM, Silver Shadow - Unlocked (Renewed)",
+     "price_usd": 449.89,
+     "rating": 3.8,
+     "units_mo": 279,
+     "revenue_mo_usd": 125519.31,
+     "confidence": 0.3,
+     "url": "https://www.amazon.com/dp/B0F3DHRDGL",
+     "referral_fee_usd": 35.99,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 40.12,
+     "net_sale_usd": 409.77,
+     "amazon_fees_mo_usd": 11193.48,
+     "net_sale_mo_usd": 114325.83,
+     "fee_pct": 8.9
+    },
+    {
+     "rank": 60,
+     "asin": "B0BL8HPF13",
+     "title": "Google Pixel 7 5G, 128GB, Obsidian - Unlocked (Renewed)",
+     "price_usd": 197.99,
+     "rating": 3.8,
+     "units_mo": 275,
+     "revenue_mo_usd": 54447.25,
+     "confidence": 0.29,
+     "url": "https://www.amazon.com/dp/B0BL8HPF13",
+     "referral_fee_usd": 15.84,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 19.97,
+     "net_sale_usd": 178.02,
+     "amazon_fees_mo_usd": 5491.75,
+     "net_sale_mo_usd": 48955.5,
+     "fee_pct": 10.1
+    },
+    {
+     "rank": 61,
+     "asin": "B08Y7ZQQ81",
+     "title": "Samsung Galaxy S20 FE 5G, 128GB + 6GB RAM, Cloud Navy - Unlocked (Renewed)",
+     "price_usd": 159.0,
+     "rating": 4.0,
+     "units_mo": 271,
+     "revenue_mo_usd": 43089.0,
+     "confidence": 0.28,
+     "url": "https://www.amazon.com/dp/B08Y7ZQQ81",
+     "referral_fee_usd": 12.72,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 16.85,
+     "net_sale_usd": 142.15,
+     "amazon_fees_mo_usd": 4566.35,
+     "net_sale_mo_usd": 38522.65,
+     "fee_pct": 10.6
+    },
+    {
+     "rank": 62,
+     "asin": "B08PMP778K",
+     "title": "Apple iPhone 12 Pro Max, 128GB, Pacific Blue - Fully Unlocked (Renewed)",
+     "price_usd": 367.01,
+     "rating": 4.2,
+     "units_mo": 267,
+     "revenue_mo_usd": 97991.67,
+     "confidence": 0.27,
+     "url": "https://www.amazon.com/dp/B08PMP778K",
+     "referral_fee_usd": 29.36,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 33.49,
+     "net_sale_usd": 333.52,
+     "amazon_fees_mo_usd": 8941.83,
+     "net_sale_mo_usd": 89049.84,
+     "fee_pct": 9.1
+    },
+    {
+     "rank": 63,
+     "asin": "B0B6D53G2V",
+     "title": "Samsung Galaxy S22+ Plus 5G, US Version, 256GB, Phantom Black - Unlocked (Renewed)",
+     "price_usd": 248.0,
+     "rating": 4.2,
+     "units_mo": 264,
+     "revenue_mo_usd": 65472.0,
+     "confidence": 0.26,
+     "url": "https://www.amazon.com/dp/B0B6D53G2V",
+     "referral_fee_usd": 19.84,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 23.97,
+     "net_sale_usd": 224.03,
+     "amazon_fees_mo_usd": 6328.08,
+     "net_sale_mo_usd": 59143.92,
+     "fee_pct": 9.7
+    },
+    {
+     "rank": 64,
+     "asin": "B0C8FR2XHJ",
+     "title": "Samsung Galaxy A14 5G, 64GB + 4GB RAM, Black - Unlocked (GSM Only) (Renewed)",
+     "price_usd": 111.86,
+     "rating": 4.0,
+     "units_mo": 260,
+     "revenue_mo_usd": 29083.6,
+     "confidence": 0.25,
+     "url": "https://www.amazon.com/dp/B0C8FR2XHJ",
+     "referral_fee_usd": 8.95,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 13.08,
+     "net_sale_usd": 98.78,
+     "amazon_fees_mo_usd": 3400.8,
+     "net_sale_mo_usd": 25682.8,
+     "fee_pct": 11.7
+    },
+    {
+     "rank": 65,
+     "asin": "B07ZQRL9XY",
+     "title": "Apple iPhone 11 Pro, 256GB, Space Gray - Unlocked (Renewed)",
+     "price_usd": 239.99,
+     "rating": 4.2,
+     "units_mo": 256,
+     "revenue_mo_usd": 61437.44,
+     "confidence": 0.23,
+     "url": "https://www.amazon.com/dp/B07ZQRL9XY",
+     "referral_fee_usd": 19.2,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 23.33,
+     "net_sale_usd": 216.66,
+     "amazon_fees_mo_usd": 5972.48,
+     "net_sale_mo_usd": 55464.96,
+     "fee_pct": 9.7
+    },
+    {
+     "rank": 66,
+     "asin": "B08L9MY937",
+     "title": "Samsung Galaxy A71 5G, 128GB, Prism Cube Black - Unlocked (Renewed)",
+     "price_usd": 139.2,
+     "rating": 4.0,
+     "units_mo": 253,
+     "revenue_mo_usd": 35217.6,
+     "confidence": 0.22,
+     "url": "https://www.amazon.com/dp/B08L9MY937",
+     "referral_fee_usd": 11.14,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 15.27,
+     "net_sale_usd": 123.93,
+     "amazon_fees_mo_usd": 3863.31,
+     "net_sale_mo_usd": 31354.29,
+     "fee_pct": 11.0
+    },
+    {
+     "rank": 67,
+     "asin": "B0CVY732J8",
+     "title": "Google Pixel 8 Pro, 128GB, Black - Unlocked (Renewed)",
+     "price_usd": 337.14,
+     "rating": 3.9,
+     "units_mo": 250,
+     "revenue_mo_usd": 84285.0,
+     "confidence": 0.21,
+     "url": "https://www.amazon.com/dp/B0CVY732J8",
+     "referral_fee_usd": 26.97,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 31.1,
+     "net_sale_usd": 306.04,
+     "amazon_fees_mo_usd": 7775.0,
+     "net_sale_mo_usd": 76510.0,
+     "fee_pct": 9.2
+    },
+    {
+     "rank": 68,
+     "asin": "B0DQR1HKBR",
+     "title": "Samsung Galaxy S24 FE, 128GB - Unlocked (Renewed) | Renewed",
+     "price_usd": 279.0,
+     "rating": 4.0,
+     "units_mo": 246,
+     "revenue_mo_usd": 68634.0,
+     "confidence": 0.2,
+     "url": "https://www.amazon.com/dp/B0DQR1HKBR",
+     "referral_fee_usd": 22.32,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 26.45,
+     "net_sale_usd": 252.55,
+     "amazon_fees_mo_usd": 6506.7,
+     "net_sale_mo_usd": 62127.3,
+     "fee_pct": 9.5
+    },
+    {
+     "rank": 69,
+     "asin": "B0DKG88KXT",
+     "title": "Google Pixel 9 Pro XL 5G, 256GB + 16GB RAM, Obsidian - Unlocked (Renewed)",
+     "price_usd": 535.0,
+     "rating": 4.2,
+     "units_mo": 243,
+     "revenue_mo_usd": 130005.0,
+     "confidence": 0.19,
+     "url": "https://www.amazon.com/dp/B0DKG88KXT",
+     "referral_fee_usd": 42.8,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 46.93,
+     "net_sale_usd": 488.07,
+     "amazon_fees_mo_usd": 11403.99,
+     "net_sale_mo_usd": 118601.01,
+     "fee_pct": 8.8
+    },
+    {
+     "rank": 70,
+     "asin": "B0C1Q3MVBP",
+     "title": "Samsung Galaxy A14 5G, 64GB, Black - Unlocked (Renewed)",
+     "price_usd": 97.99,
+     "rating": 3.8,
+     "units_mo": 240,
+     "revenue_mo_usd": 23517.6,
+     "confidence": 0.18,
+     "url": "https://www.amazon.com/dp/B0C1Q3MVBP",
+     "referral_fee_usd": 7.84,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 11.97,
+     "net_sale_usd": 86.02,
+     "amazon_fees_mo_usd": 2872.8,
+     "net_sale_mo_usd": 20644.8,
+     "fee_pct": 12.2
+    },
+    {
+     "rank": 71,
+     "asin": "B08HQZC2XK",
+     "title": "Samsung Galaxy Note 20 5G, 128GB, Mystic Gray - Unlocked (Renewed)",
+     "price_usd": 205.0,
+     "rating": 3.9,
+     "units_mo": 237,
+     "revenue_mo_usd": 48585.0,
+     "confidence": 0.17,
+     "url": "https://www.amazon.com/dp/B08HQZC2XK",
+     "referral_fee_usd": 16.4,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 20.53,
+     "net_sale_usd": 184.47,
+     "amazon_fees_mo_usd": 4865.61,
+     "net_sale_mo_usd": 43719.39,
+     "fee_pct": 10.0
+    },
+    {
+     "rank": 72,
+     "asin": "B0DZDRC7H7",
+     "title": "Motorola Moto G Power 2025, 128GB + 8GB RAM, Slate Gray - Unlocked (Renewed)",
+     "price_usd": 168.89,
+     "rating": 3.7,
+     "units_mo": 234,
+     "revenue_mo_usd": 39520.26,
+     "confidence": 0.16,
+     "url": "https://www.amazon.com/dp/B0DZDRC7H7",
+     "referral_fee_usd": 13.51,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 17.64,
+     "net_sale_usd": 151.25,
+     "amazon_fees_mo_usd": 4127.76,
+     "net_sale_mo_usd": 35392.5,
+     "fee_pct": 10.4
+    },
+    {
+     "rank": 73,
+     "asin": "B0FW4LT2G3",
+     "title": "Google Pixel 10 Pro XL 2025 - Unlocked, Triple Rear Camera System, Fast-Charging 24+ Hour Battery, 6.8\" Super Actua Display - Obsidian - 256GB (Renewed)",
+     "price_usd": 669.0,
+     "rating": 4.1,
+     "units_mo": 231,
+     "revenue_mo_usd": 154539.0,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0FW4LT2G3",
+     "referral_fee_usd": 53.52,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 57.65,
+     "net_sale_usd": 611.35,
+     "amazon_fees_mo_usd": 13317.15,
+     "net_sale_mo_usd": 141221.85,
+     "fee_pct": 8.6
+    },
+    {
+     "rank": 74,
+     "asin": "B0D323V72S",
+     "title": "Motorola Moto G Play 2024, 64GB + 4GB RAM, Sapphire Blue - Unlocked (Renewed)",
+     "price_usd": 94.51,
+     "rating": 4.1,
+     "units_mo": 229,
+     "revenue_mo_usd": 21642.79,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0D323V72S",
+     "referral_fee_usd": 7.56,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 11.69,
+     "net_sale_usd": 82.82,
+     "amazon_fees_mo_usd": 2677.01,
+     "net_sale_mo_usd": 18965.78,
+     "fee_pct": 12.4
+    },
+    {
+     "rank": 75,
+     "asin": "B096T6Y623",
+     "title": "Samsung Galaxy S21 Ultra 5G, US Version, 128GB, Phantom Black - Unlocked (Renewed)",
+     "price_usd": 264.98,
+     "rating": 3.9,
+     "units_mo": 226,
+     "revenue_mo_usd": 59885.48,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B096T6Y623",
+     "referral_fee_usd": 21.2,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 25.33,
+     "net_sale_usd": 239.65,
+     "amazon_fees_mo_usd": 5724.58,
+     "net_sale_mo_usd": 54160.9,
+     "fee_pct": 9.6
+    },
+    {
+     "rank": 76,
+     "asin": "B0FPTKMBMQ",
+     "title": "Samsung Galaxy Z Fold7, 512GB, Blue Shadow - Unlocked (Renewed)",
+     "price_usd": 974.0,
+     "rating": 4.0,
+     "units_mo": 223,
+     "revenue_mo_usd": 217202.0,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0FPTKMBMQ",
+     "referral_fee_usd": 77.92,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 82.05,
+     "net_sale_usd": 891.95,
+     "amazon_fees_mo_usd": 18297.15,
+     "net_sale_mo_usd": 198904.85,
+     "fee_pct": 8.4
+    },
+    {
+     "rank": 77,
+     "asin": "B0GR16RD2Z",
+     "title": "Samsung Galaxy A17 5G, 128GB, Black - Unlocked (Renewed)",
+     "price_usd": 154.16,
+     "rating": 3.8,
+     "units_mo": 221,
+     "revenue_mo_usd": 34069.36,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0GR16RD2Z",
+     "referral_fee_usd": 12.33,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 16.46,
+     "net_sale_usd": 137.7,
+     "amazon_fees_mo_usd": 3637.66,
+     "net_sale_mo_usd": 30431.7,
+     "fee_pct": 10.7
+    },
+    {
+     "rank": 78,
+     "asin": "B0DJG1HKSB",
+     "title": "Samsung Galaxy Z Flip 6 5G, US Version, 512GB, Blue - Unlocked (Renewed)",
+     "price_usd": 419.49,
+     "rating": 3.5,
+     "units_mo": 218,
+     "revenue_mo_usd": 91448.82,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0DJG1HKSB",
+     "referral_fee_usd": 33.56,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 37.69,
+     "net_sale_usd": 381.8,
+     "amazon_fees_mo_usd": 8216.42,
+     "net_sale_mo_usd": 83232.4,
+     "fee_pct": 9.0
+    },
+    {
+     "rank": 79,
+     "asin": "B08L34JQ9C",
+     "title": "Samsung Galaxy S20 FE 5G, 128GB, Cloud Navy - Unlocked (Renewed)",
+     "price_usd": 154.99,
+     "rating": 3.9,
+     "units_mo": 216,
+     "revenue_mo_usd": 33477.84,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B08L34JQ9C",
+     "referral_fee_usd": 12.4,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 16.53,
+     "net_sale_usd": 138.46,
+     "amazon_fees_mo_usd": 3570.48,
+     "net_sale_mo_usd": 29907.36,
+     "fee_pct": 10.7
+    },
+    {
+     "rank": 80,
+     "asin": "B0CXJLHG1J",
+     "title": "Samsung Galaxy S23 FE, 128GB, Graphite - Unlocked (Renewed)",
+     "price_usd": 220.0,
+     "rating": 4.0,
+     "units_mo": 213,
+     "revenue_mo_usd": 46860.0,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0CXJLHG1J",
+     "referral_fee_usd": 17.6,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 21.73,
+     "net_sale_usd": 198.27,
+     "amazon_fees_mo_usd": 4628.49,
+     "net_sale_mo_usd": 42231.51,
+     "fee_pct": 9.9
+    },
+    {
+     "rank": 81,
+     "asin": "B0FKPQ5YDG",
+     "title": "Samsung Galaxy A15 5G, 64GB, Blue Black - Unlocked (International Version) (Renewed)",
+     "price_usd": 117.99,
+     "rating": 3.8,
+     "units_mo": 211,
+     "revenue_mo_usd": 24895.89,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0FKPQ5YDG",
+     "referral_fee_usd": 9.44,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 13.57,
+     "net_sale_usd": 104.42,
+     "amazon_fees_mo_usd": 2863.27,
+     "net_sale_mo_usd": 22032.62,
+     "fee_pct": 11.5
+    },
+    {
+     "rank": 82,
+     "asin": "B0BKD96YJT",
+     "title": "Google Pixel 7 Pro 5G, 128GB, Hazel - Unlocked (Renewed)",
+     "price_usd": 253.89,
+     "rating": 4.0,
+     "units_mo": 209,
+     "revenue_mo_usd": 53063.01,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0BKD96YJT",
+     "referral_fee_usd": 20.31,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 24.44,
+     "net_sale_usd": 229.45,
+     "amazon_fees_mo_usd": 5107.96,
+     "net_sale_mo_usd": 47955.05,
+     "fee_pct": 9.6
+    },
+    {
+     "rank": 83,
+     "asin": "B0GYFZ4QGJ",
+     "title": "Samsung Galaxy S26 Ultra, Unlocked Android Smartphone, 256GB, Privacy Display, Galaxy AI, AI Camera, Super Fast Charging 3.0, Durable Battery, 2026, Cobalt Violet (Renewed)",
+     "price_usd": 899.99,
+     "rating": 4.2,
+     "units_mo": 206,
+     "revenue_mo_usd": 185397.94,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0GYFZ4QGJ",
+     "referral_fee_usd": 72.0,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 76.13,
+     "net_sale_usd": 823.86,
+     "amazon_fees_mo_usd": 15682.78,
+     "net_sale_mo_usd": 169715.16,
+     "fee_pct": 8.5
+    },
+    {
+     "rank": 84,
+     "asin": "B097C3TS3Q",
+     "title": "Samsung Galaxy A42 5G, Factory Unlocked, US Version, 128GB, Black (Renewed)",
+     "price_usd": 118.0,
+     "rating": 4.1,
+     "units_mo": 204,
+     "revenue_mo_usd": 24072.0,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B097C3TS3Q",
+     "referral_fee_usd": 9.44,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 13.57,
+     "net_sale_usd": 104.43,
+     "amazon_fees_mo_usd": 2768.28,
+     "net_sale_mo_usd": 21303.72,
+     "fee_pct": 11.5
+    },
+    {
+     "rank": 85,
+     "asin": "B0DKPH5GL9",
+     "title": "Google Pixel 9 Pro, 128GB, Hazel - Unlocked (Renewed)",
+     "price_usd": 459.95,
+     "rating": 4.0,
+     "units_mo": 202,
+     "revenue_mo_usd": 92909.9,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0DKPH5GL9",
+     "referral_fee_usd": 36.8,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 40.93,
+     "net_sale_usd": 419.02,
+     "amazon_fees_mo_usd": 8267.86,
+     "net_sale_mo_usd": 84642.04,
+     "fee_pct": 8.9
+    },
+    {
+     "rank": 86,
+     "asin": "B0GXL71X61",
+     "title": "Samsung Galaxy A17 5G Smart Phone, 128GB, Unlocked, Large AMOLED, High-Res Camera, Durable Design, Super Fast Charging, Expandable Storage, Circle to Search, 2025, Black (Renewed)",
+     "price_usd": 154.16,
+     "rating": 4.1,
+     "units_mo": 200,
+     "revenue_mo_usd": 30832.0,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0GXL71X61",
+     "referral_fee_usd": 12.33,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 16.46,
+     "net_sale_usd": 137.7,
+     "amazon_fees_mo_usd": 3292.0,
+     "net_sale_mo_usd": 27540.0,
+     "fee_pct": 10.7
+    },
+    {
+     "rank": 87,
+     "asin": "B0C51Q5Z9K",
+     "title": "SAMSUNG Galaxy S23 Ultra 5G, US Version, 512GB, Phantom Black - Unlocked (Renewed)",
+     "price_usd": 459.99,
+     "rating": 4.0,
+     "units_mo": 198,
+     "revenue_mo_usd": 91078.02,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0C51Q5Z9K",
+     "referral_fee_usd": 36.8,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 40.93,
+     "net_sale_usd": 419.06,
+     "amazon_fees_mo_usd": 8104.14,
+     "net_sale_mo_usd": 82973.88,
+     "fee_pct": 8.9
+    },
+    {
+     "rank": 88,
+     "asin": "B0B5HPSJQC",
+     "title": "Samsung Galaxy S22+ Plus 5G, US Version, 128GB, Phantom Black - Unlocked (Renewed)",
+     "price_usd": 209.0,
+     "rating": 3.9,
+     "units_mo": 196,
+     "revenue_mo_usd": 40964.0,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0B5HPSJQC",
+     "referral_fee_usd": 16.72,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 20.85,
+     "net_sale_usd": 188.15,
+     "amazon_fees_mo_usd": 4086.6,
+     "net_sale_mo_usd": 36877.4,
+     "fee_pct": 10.0
+    },
+    {
+     "rank": 89,
+     "asin": "B0CK5V7MWK",
+     "title": "Samsung Galaxy Z Fold 5 5G US Version, 512GB, Phantom Black - Unlocked (Renewed)",
+     "price_usd": 549.0,
+     "rating": 4.1,
+     "units_mo": 194,
+     "revenue_mo_usd": 106506.0,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0CK5V7MWK",
+     "referral_fee_usd": 43.92,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 48.05,
+     "net_sale_usd": 500.95,
+     "amazon_fees_mo_usd": 9321.7,
+     "net_sale_mo_usd": 97184.3,
+     "fee_pct": 8.8
+    },
+    {
+     "rank": 90,
+     "asin": "B0DVD7QVNS",
+     "title": "Samsung Galaxy S24 FE, 128GB, Graphite - Locked to T-Mobile (Renewed) | T-Mobile",
+     "price_usd": 242.44,
+     "rating": 4.0,
+     "units_mo": 192,
+     "revenue_mo_usd": 46548.48,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0DVD7QVNS",
+     "referral_fee_usd": 19.4,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 23.53,
+     "net_sale_usd": 218.91,
+     "amazon_fees_mo_usd": 4517.76,
+     "net_sale_mo_usd": 42030.72,
+     "fee_pct": 9.7
+    },
+    {
+     "rank": 91,
+     "asin": "B0C8BW1P3Q",
+     "title": "Google Pixel 7a 5G, 128GB, Charcoal - Unlocked (Renewed)",
+     "price_usd": 195.05,
+     "rating": 3.7,
+     "units_mo": 190,
+     "revenue_mo_usd": 37059.5,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0C8BW1P3Q",
+     "referral_fee_usd": 15.6,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 19.73,
+     "net_sale_usd": 175.32,
+     "amazon_fees_mo_usd": 3748.7,
+     "net_sale_mo_usd": 33310.8,
+     "fee_pct": 10.1
+    },
+    {
+     "rank": 92,
+     "asin": "B0DKG91KYN",
+     "title": "Google Pixel 9, 128GB, Obsidian - Unlocked (Renewed)",
+     "price_usd": 419.95,
+     "rating": 4.0,
+     "units_mo": 188,
+     "revenue_mo_usd": 78950.6,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0DKG91KYN",
+     "referral_fee_usd": 33.6,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 37.73,
+     "net_sale_usd": 382.22,
+     "amazon_fees_mo_usd": 7093.24,
+     "net_sale_mo_usd": 71857.36,
+     "fee_pct": 9.0
+    },
+    {
+     "rank": 93,
+     "asin": "B0G4S7X4X5",
+     "title": "Motorola Moto G 2025, 64GB, Saphire Blue - Unlocked (Renewed)",
+     "price_usd": 113.5,
+     "rating": 4.2,
+     "units_mo": 187,
+     "revenue_mo_usd": 21224.5,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0G4S7X4X5",
+     "referral_fee_usd": 9.08,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 13.21,
+     "net_sale_usd": 100.29,
+     "amazon_fees_mo_usd": 2470.27,
+     "net_sale_mo_usd": 18754.23,
+     "fee_pct": 11.6
+    },
+    {
+     "rank": 94,
+     "asin": "B09B1NY84G",
+     "title": "Samsung Galaxy A32 5G, 64GB, Black - Unlocked (GSM Only) (Renewed)",
+     "price_usd": 99.0,
+     "rating": 3.8,
+     "units_mo": 185,
+     "revenue_mo_usd": 18315.0,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B09B1NY84G",
+     "referral_fee_usd": 7.92,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 12.05,
+     "net_sale_usd": 86.95,
+     "amazon_fees_mo_usd": 2229.25,
+     "net_sale_mo_usd": 16085.75,
+     "fee_pct": 12.2
+    },
+    {
+     "rank": 95,
+     "asin": "B0FPGRLJF7",
+     "title": "Samsung Galaxy Z Flip7, 256GB, Jet Black - Unlocked (Renewed)",
+     "price_usd": 604.99,
+     "rating": 4.1,
+     "units_mo": 183,
+     "revenue_mo_usd": 110713.17,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0FPGRLJF7",
+     "referral_fee_usd": 48.4,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 52.53,
+     "net_sale_usd": 552.46,
+     "amazon_fees_mo_usd": 9612.99,
+     "net_sale_mo_usd": 101100.18,
+     "fee_pct": 8.7
+    },
+    {
+     "rank": 96,
+     "asin": "B0B3P43FSM",
+     "title": "Samsung Galaxy S22 Plus 5G, 128GB + 8GB RAM, Phantom Black - Unlocked (Renewed)",
+     "price_usd": 208.89,
+     "rating": 4.0,
+     "units_mo": 181,
+     "revenue_mo_usd": 37809.09,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0B3P43FSM",
+     "referral_fee_usd": 16.71,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 20.84,
+     "net_sale_usd": 188.05,
+     "amazon_fees_mo_usd": 3772.04,
+     "net_sale_mo_usd": 34037.05,
+     "fee_pct": 10.0
+    },
+    {
+     "rank": 97,
+     "asin": "B09W3PK64J",
+     "title": "Samsung Galaxy S22+ Plus 5G, US Version, 128GB, Green - Unlocked (Renewed)",
+     "price_usd": 235.0,
+     "rating": 4.1,
+     "units_mo": 180,
+     "revenue_mo_usd": 42300.0,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B09W3PK64J",
+     "referral_fee_usd": 18.8,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 22.93,
+     "net_sale_usd": 212.07,
+     "amazon_fees_mo_usd": 4127.4,
+     "net_sale_mo_usd": 38172.6,
+     "fee_pct": 9.8
+    },
+    {
+     "rank": 98,
+     "asin": "B0FFDKFZN1",
+     "title": "Motorola Moto Razr+ 2025, 256GB + 12GB RAM, Pantone Mocha Mousse - Unlocked",
+     "price_usd": 381.55,
+     "rating": 3.7,
+     "units_mo": 178,
+     "revenue_mo_usd": 67915.9,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0FFDKFZN1",
+     "referral_fee_usd": 30.52,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 34.65,
+     "net_sale_usd": 346.9,
+     "amazon_fees_mo_usd": 6167.7,
+     "net_sale_mo_usd": 61748.2,
+     "fee_pct": 9.1
+    },
+    {
+     "rank": 99,
+     "asin": "B0DPY3468G",
+     "title": "TCL ION V |2023| Cell Phone with 6.0\" HD+ Display, 3+32GB Unlocked Phone, 3000mAh Battery, Android 13 Smartphone, Single SIM, US Version, Space Black (Renewed)",
+     "price_usd": 61.99,
+     "rating": 3.6,
+     "units_mo": 177,
+     "revenue_mo_usd": 10972.23,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B0DPY3468G",
+     "referral_fee_usd": 4.96,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 9.09,
+     "net_sale_usd": 52.9,
+     "amazon_fees_mo_usd": 1608.93,
+     "net_sale_mo_usd": 9363.3,
+     "fee_pct": 14.7
+    },
+    {
+     "rank": 100,
+     "asin": "B08HG28N35",
+     "title": "Samsung Galaxy S20 5G, 128GB, Cloud Blue - Unlocked (Renewed)",
+     "price_usd": 182.44,
+     "rating": 4.2,
+     "units_mo": 175,
+     "revenue_mo_usd": 31927.0,
+     "confidence": 0.15,
+     "url": "https://www.amazon.com/dp/B08HG28N35",
+     "referral_fee_usd": 14.6,
+     "fba_fee_usd": 4.13,
+     "amazon_fees_usd": 18.73,
+     "net_sale_usd": 163.71,
+     "amazon_fees_mo_usd": 3277.75,
+     "net_sale_mo_usd": 28649.25,
+     "fee_pct": 10.3
     }
    ]
   },
   "headphones": {
    "label": "Headphones",
-   "updated": "2026-10-28T15:43:16.202127Z",
+   "updated": "2026-10-28T15:47:41.716729Z",
    "rows": 100,
+   "fee_assumptions": {
+    "amazon_category": "Electronics Accessories",
+    "referral_rate": "15% first $100, then 8%",
+    "fba_size_tier": "small standard",
+    "fba_assumed_lb": 0.5,
+    "fuel_surcharge_pct": 3.5,
+    "rate_card_checked": "2026-10-28"
+   },
    "items": [
     {
      "rank": 1,
@@ -2202,7 +4478,14 @@
      "units_mo": 9000,
      "revenue_mo_usd": 784260.0,
      "confidence": 0.94,
-     "url": "https://www.amazon.com/dp/B07SKLLYTW"
+     "url": "https://www.amazon.com/dp/B07SKLLYTW",
+     "referral_fee_usd": 13.07,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 16.78,
+     "net_sale_usd": 70.36,
+     "amazon_fees_mo_usd": 151020.0,
+     "net_sale_mo_usd": 633240.0,
+     "fee_pct": 19.3
     },
     {
      "rank": 2,
@@ -2213,7 +4496,14 @@
      "units_mo": 5241,
      "revenue_mo_usd": 555283.95,
      "confidence": 0.93,
-     "url": "https://www.amazon.com/dp/B0B844T634"
+     "url": "https://www.amazon.com/dp/B0B844T634",
+     "referral_fee_usd": 15.48,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 19.19,
+     "net_sale_usd": 86.76,
+     "amazon_fees_mo_usd": 100574.79,
+     "net_sale_mo_usd": 454709.16,
+     "fee_pct": 18.1
     },
     {
      "rank": 3,
@@ -2224,7 +4514,14 @@
      "units_mo": 3820,
      "revenue_mo_usd": 229161.8,
      "confidence": 0.92,
-     "url": "https://www.amazon.com/dp/B0GP78MH5N"
+     "url": "https://www.amazon.com/dp/B0GP78MH5N",
+     "referral_fee_usd": 9.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 12.71,
+     "net_sale_usd": 47.28,
+     "amazon_fees_mo_usd": 48552.2,
+     "net_sale_mo_usd": 180609.6,
+     "fee_pct": 21.2
     },
     {
      "rank": 4,
@@ -2235,7 +4532,14 @@
      "units_mo": 3052,
      "revenue_mo_usd": 510172.32,
      "confidence": 0.91,
-     "url": "https://www.amazon.com/dp/B0FRB8FXK5"
+     "url": "https://www.amazon.com/dp/B0FRB8FXK5",
+     "referral_fee_usd": 20.37,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 24.08,
+     "net_sale_usd": 143.08,
+     "amazon_fees_mo_usd": 73492.16,
+     "net_sale_mo_usd": 436680.16,
+     "fee_pct": 14.4
     },
     {
      "rank": 5,
@@ -2246,7 +4550,14 @@
      "units_mo": 2565,
      "revenue_mo_usd": 292410.0,
      "confidence": 0.9,
-     "url": "https://www.amazon.com/dp/B0DLY219Q7"
+     "url": "https://www.amazon.com/dp/B0DLY219Q7",
+     "referral_fee_usd": 16.12,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 19.83,
+     "net_sale_usd": 94.17,
+     "amazon_fees_mo_usd": 50863.95,
+     "net_sale_mo_usd": 241546.05,
+     "fee_pct": 17.4
     },
     {
      "rank": 6,
@@ -2257,7 +4568,14 @@
      "units_mo": 2225,
      "revenue_mo_usd": 300909.0,
      "confidence": 0.88,
-     "url": "https://www.amazon.com/dp/B0CGKG9NSY"
+     "url": "https://www.amazon.com/dp/B0CGKG9NSY",
+     "referral_fee_usd": 17.82,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 21.53,
+     "net_sale_usd": 113.71,
+     "amazon_fees_mo_usd": 47904.25,
+     "net_sale_mo_usd": 253004.75,
+     "fee_pct": 15.9
     },
     {
      "rank": 7,
@@ -2268,7 +4586,14 @@
      "units_mo": 1973,
      "revenue_mo_usd": 213439.14,
      "confidence": 0.87,
-     "url": "https://www.amazon.com/dp/B0D3KKP8GL"
+     "url": "https://www.amazon.com/dp/B0D3KKP8GL",
+     "referral_fee_usd": 15.65,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 19.36,
+     "net_sale_usd": 88.82,
+     "amazon_fees_mo_usd": 38197.28,
+     "net_sale_mo_usd": 175241.86,
+     "fee_pct": 17.9
     },
     {
      "rank": 8,
@@ -2279,7 +4604,14 @@
      "units_mo": 1778,
      "revenue_mo_usd": 58656.22,
      "confidence": 0.86,
-     "url": "https://www.amazon.com/dp/B0CF13RMLY"
+     "url": "https://www.amazon.com/dp/B0CF13RMLY",
+     "referral_fee_usd": 4.95,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 8.66,
+     "net_sale_usd": 24.33,
+     "amazon_fees_mo_usd": 15397.48,
+     "net_sale_mo_usd": 43258.74,
+     "fee_pct": 26.3
     },
     {
      "rank": 9,
@@ -2290,7 +4622,14 @@
      "units_mo": 1622,
      "revenue_mo_usd": 124894.0,
      "confidence": 0.85,
-     "url": "https://www.amazon.com/dp/B07H6QCGGZ"
+     "url": "https://www.amazon.com/dp/B07H6QCGGZ",
+     "referral_fee_usd": 11.55,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 15.26,
+     "net_sale_usd": 61.74,
+     "amazon_fees_mo_usd": 24751.72,
+     "net_sale_mo_usd": 100142.28,
+     "fee_pct": 19.8
     },
     {
      "rank": 10,
@@ -2301,7 +4640,14 @@
      "units_mo": 1494,
      "revenue_mo_usd": 89490.6,
      "confidence": 0.84,
-     "url": "https://www.amazon.com/dp/B077R6X439"
+     "url": "https://www.amazon.com/dp/B077R6X439",
+     "referral_fee_usd": 8.98,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 12.69,
+     "net_sale_usd": 47.21,
+     "amazon_fees_mo_usd": 18958.86,
+     "net_sale_mo_usd": 70531.74,
+     "fee_pct": 21.2
     },
     {
      "rank": 11,
@@ -2312,7 +4658,14 @@
      "units_mo": 1387,
      "revenue_mo_usd": 263516.13,
      "confidence": 0.83,
-     "url": "https://www.amazon.com/dp/B0CNC52W25"
+     "url": "https://www.amazon.com/dp/B0CNC52W25",
+     "referral_fee_usd": 22.2,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 25.91,
+     "net_sale_usd": 164.08,
+     "amazon_fees_mo_usd": 35937.17,
+     "net_sale_mo_usd": 227578.96,
+     "fee_pct": 13.6
     },
     {
      "rank": 12,
@@ -2323,7 +4676,14 @@
      "units_mo": 1296,
      "revenue_mo_usd": 139864.32,
      "confidence": 0.82,
-     "url": "https://www.amazon.com/dp/B0828BJGD2"
+     "url": "https://www.amazon.com/dp/B0828BJGD2",
+     "referral_fee_usd": 15.63,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 19.34,
+     "net_sale_usd": 88.58,
+     "amazon_fees_mo_usd": 25064.64,
+     "net_sale_mo_usd": 114799.68,
+     "fee_pct": 17.9
     },
     {
      "rank": 13,
@@ -2334,7 +4694,14 @@
      "units_mo": 1217,
      "revenue_mo_usd": 111964.0,
      "confidence": 0.81,
-     "url": "https://www.amazon.com/dp/B09NYKT6XF"
+     "url": "https://www.amazon.com/dp/B09NYKT6XF",
+     "referral_fee_usd": 13.8,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 17.51,
+     "net_sale_usd": 74.49,
+     "amazon_fees_mo_usd": 21309.67,
+     "net_sale_mo_usd": 90654.33,
+     "fee_pct": 19.0
     },
     {
      "rank": 14,
@@ -2345,7 +4712,14 @@
      "units_mo": 1149,
      "revenue_mo_usd": 205671.0,
      "confidence": 0.8,
-     "url": "https://www.amazon.com/dp/B0B2FCT81R"
+     "url": "https://www.amazon.com/dp/B0B2FCT81R",
+     "referral_fee_usd": 21.32,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 25.03,
+     "net_sale_usd": 153.97,
+     "amazon_fees_mo_usd": 28759.47,
+     "net_sale_mo_usd": 176911.53,
+     "fee_pct": 14.0
     },
     {
      "rank": 15,
@@ -2356,7 +4730,14 @@
      "units_mo": 1089,
      "revenue_mo_usd": 160017.66,
      "confidence": 0.78,
-     "url": "https://www.amazon.com/dp/B0BJQWYLYN"
+     "url": "https://www.amazon.com/dp/B0BJQWYLYN",
+     "referral_fee_usd": 18.76,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 22.47,
+     "net_sale_usd": 124.47,
+     "amazon_fees_mo_usd": 24469.83,
+     "net_sale_mo_usd": 135547.83,
+     "fee_pct": 15.3
     },
     {
      "rank": 16,
@@ -2367,7 +4748,14 @@
      "units_mo": 1035,
      "revenue_mo_usd": 35645.4,
      "confidence": 0.77,
-     "url": "https://www.amazon.com/dp/B0D9KX6Z65"
+     "url": "https://www.amazon.com/dp/B0D9KX6Z65",
+     "referral_fee_usd": 5.17,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 8.88,
+     "net_sale_usd": 25.56,
+     "amazon_fees_mo_usd": 9190.8,
+     "net_sale_mo_usd": 26454.6,
+     "fee_pct": 25.8
     },
     {
      "rank": 17,
@@ -2378,7 +4766,14 @@
      "units_mo": 987,
      "revenue_mo_usd": 127313.13,
      "confidence": 0.76,
-     "url": "https://www.amazon.com/dp/B07T49NLMJ"
+     "url": "https://www.amazon.com/dp/B07T49NLMJ",
+     "referral_fee_usd": 17.32,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 21.03,
+     "net_sale_usd": 107.96,
+     "amazon_fees_mo_usd": 20756.61,
+     "net_sale_mo_usd": 106556.52,
+     "fee_pct": 16.3
     },
     {
      "rank": 18,
@@ -2389,7 +4784,14 @@
      "units_mo": 944,
      "revenue_mo_usd": 90803.36,
      "confidence": 0.75,
-     "url": "https://www.amazon.com/dp/B0BNJNP1P6"
+     "url": "https://www.amazon.com/dp/B0BNJNP1P6",
+     "referral_fee_usd": 14.43,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 18.14,
+     "net_sale_usd": 78.05,
+     "amazon_fees_mo_usd": 17124.16,
+     "net_sale_mo_usd": 73679.2,
+     "fee_pct": 18.9
     },
     {
      "rank": 19,
@@ -2400,7 +4802,14 @@
      "units_mo": 905,
      "revenue_mo_usd": 31629.75,
      "confidence": 0.74,
-     "url": "https://www.amazon.com/dp/B0FKCT3M58"
+     "url": "https://www.amazon.com/dp/B0FKCT3M58",
+     "referral_fee_usd": 5.24,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 8.95,
+     "net_sale_usd": 26.0,
+     "amazon_fees_mo_usd": 8099.75,
+     "net_sale_mo_usd": 23530.0,
+     "fee_pct": 25.6
     },
     {
      "rank": 20,
@@ -2411,7 +4820,14 @@
      "units_mo": 870,
      "revenue_mo_usd": 130491.3,
      "confidence": 0.73,
-     "url": "https://www.amazon.com/dp/B07VRF9H27"
+     "url": "https://www.amazon.com/dp/B07VRF9H27",
+     "referral_fee_usd": 19.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 22.71,
+     "net_sale_usd": 127.28,
+     "amazon_fees_mo_usd": 19757.7,
+     "net_sale_mo_usd": 110733.6,
+     "fee_pct": 15.1
     },
     {
      "rank": 21,
@@ -2422,7 +4838,14 @@
      "units_mo": 837,
      "revenue_mo_usd": 11709.63,
      "confidence": 0.72,
-     "url": "https://www.amazon.com/dp/B0GTTF9KMW"
+     "url": "https://www.amazon.com/dp/B0GTTF9KMW",
+     "referral_fee_usd": 2.1,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 5.81,
+     "net_sale_usd": 8.18,
+     "amazon_fees_mo_usd": 4862.97,
+     "net_sale_mo_usd": 6846.66,
+     "fee_pct": 41.5
     },
     {
      "rank": 22,
@@ -2433,7 +4856,14 @@
      "units_mo": 808,
      "revenue_mo_usd": 71912.0,
      "confidence": 0.71,
-     "url": "https://www.amazon.com/dp/B09M94KXPN"
+     "url": "https://www.amazon.com/dp/B09M94KXPN",
+     "referral_fee_usd": 13.35,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 17.06,
+     "net_sale_usd": 71.94,
+     "amazon_fees_mo_usd": 13784.48,
+     "net_sale_mo_usd": 58127.52,
+     "fee_pct": 19.2
     },
     {
      "rank": 23,
@@ -2444,18 +4874,32 @@
      "units_mo": 780,
      "revenue_mo_usd": 243531.6,
      "confidence": 0.7,
-     "url": "https://www.amazon.com/dp/B08XY48BJD"
+     "url": "https://www.amazon.com/dp/B08XY48BJD",
+     "referral_fee_usd": 31.98,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 35.69,
+     "net_sale_usd": 276.53,
+     "amazon_fees_mo_usd": 27838.2,
+     "net_sale_mo_usd": 215693.4,
+     "fee_pct": 11.4
     },
     {
      "rank": 24,
      "asin": "B0BPYPZ953",
      "title": "SAMSUNG Galaxy Buds 2 Pro True Wireless Bluetooth Earbuds w/ Noise Cancelling, Hi-Fi Sound, 360 Audio, Comfort Ear Fit, HD Voice, Conversation Mode, IPX7 Water Resistant, Graphite (Renewed)",
-     "price_usd": 129.0,
+     "price_usd": 99.99,
      "rating": 3.8,
      "units_mo": 755,
-     "revenue_mo_usd": 97395.0,
+     "revenue_mo_usd": 75492.45,
      "confidence": 0.69,
-     "url": "https://www.amazon.com/dp/B0BPYPZ953"
+     "url": "https://www.amazon.com/dp/B0BPYPZ953",
+     "referral_fee_usd": 15.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 18.71,
+     "net_sale_usd": 81.28,
+     "amazon_fees_mo_usd": 14126.05,
+     "net_sale_mo_usd": 61366.4,
+     "fee_pct": 18.7
     },
     {
      "rank": 25,
@@ -2466,7 +4910,14 @@
      "units_mo": 731,
      "revenue_mo_usd": 73092.69,
      "confidence": 0.68,
-     "url": "https://www.amazon.com/dp/B07BLDWJG3"
+     "url": "https://www.amazon.com/dp/B07BLDWJG3",
+     "referral_fee_usd": 15.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 18.71,
+     "net_sale_usd": 81.28,
+     "amazon_fees_mo_usd": 13677.01,
+     "net_sale_mo_usd": 59415.68,
+     "fee_pct": 18.7
     },
     {
      "rank": 26,
@@ -2477,7 +4928,14 @@
      "units_mo": 709,
      "revenue_mo_usd": 47432.1,
      "confidence": 0.66,
-     "url": "https://www.amazon.com/dp/B0892N2Y5T"
+     "url": "https://www.amazon.com/dp/B0892N2Y5T",
+     "referral_fee_usd": 10.04,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 13.75,
+     "net_sale_usd": 53.15,
+     "amazon_fees_mo_usd": 9748.75,
+     "net_sale_mo_usd": 37683.35,
+     "fee_pct": 20.6
     },
     {
      "rank": 27,
@@ -2488,7 +4946,14 @@
      "units_mo": 688,
      "revenue_mo_usd": 19250.24,
      "confidence": 0.65,
-     "url": "https://www.amazon.com/dp/B0CKZJKVF6"
+     "url": "https://www.amazon.com/dp/B0CKZJKVF6",
+     "referral_fee_usd": 4.2,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 7.91,
+     "net_sale_usd": 20.07,
+     "amazon_fees_mo_usd": 5442.08,
+     "net_sale_mo_usd": 13808.16,
+     "fee_pct": 28.3
     },
     {
      "rank": 28,
@@ -2499,7 +4964,14 @@
      "units_mo": 669,
      "revenue_mo_usd": 40073.1,
      "confidence": 0.64,
-     "url": "https://www.amazon.com/dp/B074JHHYPG"
+     "url": "https://www.amazon.com/dp/B074JHHYPG",
+     "referral_fee_usd": 8.98,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 12.69,
+     "net_sale_usd": 47.21,
+     "amazon_fees_mo_usd": 8489.61,
+     "net_sale_mo_usd": 31583.49,
+     "fee_pct": 21.2
     },
     {
      "rank": 29,
@@ -2510,7 +4982,14 @@
      "units_mo": 651,
      "revenue_mo_usd": 15786.75,
      "confidence": 0.63,
-     "url": "https://www.amazon.com/dp/B07HQRFZP6"
+     "url": "https://www.amazon.com/dp/B07HQRFZP6",
+     "referral_fee_usd": 3.64,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 7.35,
+     "net_sale_usd": 16.9,
+     "amazon_fees_mo_usd": 4784.85,
+     "net_sale_mo_usd": 11001.9,
+     "fee_pct": 30.3
     },
     {
      "rank": 30,
@@ -2521,7 +5000,14 @@
      "units_mo": 634,
      "revenue_mo_usd": 38033.66,
      "confidence": 0.62,
-     "url": "https://www.amazon.com/dp/B0DGH1N6BH"
+     "url": "https://www.amazon.com/dp/B0DGH1N6BH",
+     "referral_fee_usd": 9.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 12.71,
+     "net_sale_usd": 47.28,
+     "amazon_fees_mo_usd": 8058.14,
+     "net_sale_mo_usd": 29975.52,
+     "fee_pct": 21.2
     },
     {
      "rank": 31,
@@ -2532,7 +5018,14 @@
      "units_mo": 618,
      "revenue_mo_usd": 43414.5,
      "confidence": 0.61,
-     "url": "https://www.amazon.com/dp/B0CDJN1DLR"
+     "url": "https://www.amazon.com/dp/B0CDJN1DLR",
+     "referral_fee_usd": 10.54,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 14.25,
+     "net_sale_usd": 56.0,
+     "amazon_fees_mo_usd": 8806.5,
+     "net_sale_mo_usd": 34608.0,
+     "fee_pct": 20.3
     },
     {
      "rank": 32,
@@ -2543,7 +5036,14 @@
      "units_mo": 603,
      "revenue_mo_usd": 61530.12,
      "confidence": 0.6,
-     "url": "https://www.amazon.com/dp/B0948F6ZXT"
+     "url": "https://www.amazon.com/dp/B0948F6ZXT",
+     "referral_fee_usd": 15.16,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 18.87,
+     "net_sale_usd": 83.17,
+     "amazon_fees_mo_usd": 11378.61,
+     "net_sale_mo_usd": 50151.51,
+     "fee_pct": 18.5
     },
     {
      "rank": 33,
@@ -2554,7 +5054,14 @@
      "units_mo": 589,
      "revenue_mo_usd": 48780.98,
      "confidence": 0.59,
-     "url": "https://www.amazon.com/dp/B07731Y1CC"
+     "url": "https://www.amazon.com/dp/B07731Y1CC",
+     "referral_fee_usd": 12.42,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 16.13,
+     "net_sale_usd": 66.69,
+     "amazon_fees_mo_usd": 9500.57,
+     "net_sale_mo_usd": 39280.41,
+     "fee_pct": 19.5
     },
     {
      "rank": 34,
@@ -2565,7 +5072,14 @@
      "units_mo": 575,
      "revenue_mo_usd": 45925.25,
      "confidence": 0.58,
-     "url": "https://www.amazon.com/dp/B098M47N55"
+     "url": "https://www.amazon.com/dp/B098M47N55",
+     "referral_fee_usd": 11.98,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 15.69,
+     "net_sale_usd": 64.18,
+     "amazon_fees_mo_usd": 9021.75,
+     "net_sale_mo_usd": 36903.5,
+     "fee_pct": 19.6
     },
     {
      "rank": 35,
@@ -2576,7 +5090,14 @@
      "units_mo": 562,
      "revenue_mo_usd": 93061.58,
      "confidence": 0.56,
-     "url": "https://www.amazon.com/dp/B0DZYWLVV5"
+     "url": "https://www.amazon.com/dp/B0DZYWLVV5",
+     "referral_fee_usd": 20.25,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 23.96,
+     "net_sale_usd": 141.63,
+     "amazon_fees_mo_usd": 13465.52,
+     "net_sale_mo_usd": 79596.06,
+     "fee_pct": 14.5
     },
     {
      "rank": 36,
@@ -2587,7 +5108,14 @@
      "units_mo": 550,
      "revenue_mo_usd": 32994.5,
      "confidence": 0.55,
-     "url": "https://www.amazon.com/dp/B0CHW75TMN"
+     "url": "https://www.amazon.com/dp/B0CHW75TMN",
+     "referral_fee_usd": 9.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 12.71,
+     "net_sale_usd": 47.28,
+     "amazon_fees_mo_usd": 6990.5,
+     "net_sale_mo_usd": 26004.0,
+     "fee_pct": 21.2
     },
     {
      "rank": 37,
@@ -2598,7 +5126,14 @@
      "units_mo": 538,
      "revenue_mo_usd": 8602.62,
      "confidence": 0.54,
-     "url": "https://www.amazon.com/dp/B0HDBSTVQN"
+     "url": "https://www.amazon.com/dp/B0HDBSTVQN",
+     "referral_fee_usd": 2.4,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 6.11,
+     "net_sale_usd": 9.88,
+     "amazon_fees_mo_usd": 3287.18,
+     "net_sale_mo_usd": 5315.44,
+     "fee_pct": 38.2
     },
     {
      "rank": 38,
@@ -2609,7 +5144,14 @@
      "units_mo": 527,
      "revenue_mo_usd": 166816.58,
      "confidence": 0.53,
-     "url": "https://www.amazon.com/dp/B0DJMD224M"
+     "url": "https://www.amazon.com/dp/B0DJMD224M",
+     "referral_fee_usd": 32.32,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 36.03,
+     "net_sale_usd": 280.51,
+     "amazon_fees_mo_usd": 18987.81,
+     "net_sale_mo_usd": 147828.77,
+     "fee_pct": 11.4
     },
     {
      "rank": 39,
@@ -2620,7 +5162,14 @@
      "units_mo": 517,
      "revenue_mo_usd": 51694.83,
      "confidence": 0.52,
-     "url": "https://www.amazon.com/dp/B0DWP1BCH5"
+     "url": "https://www.amazon.com/dp/B0DWP1BCH5",
+     "referral_fee_usd": 15.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 18.71,
+     "net_sale_usd": 81.28,
+     "amazon_fees_mo_usd": 9673.07,
+     "net_sale_mo_usd": 42021.76,
+     "fee_pct": 18.7
     },
     {
      "rank": 40,
@@ -2631,7 +5180,14 @@
      "units_mo": 507,
      "revenue_mo_usd": 24330.93,
      "confidence": 0.51,
-     "url": "https://www.amazon.com/dp/B08NP4CBBM"
+     "url": "https://www.amazon.com/dp/B08NP4CBBM",
+     "referral_fee_usd": 7.2,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 10.91,
+     "net_sale_usd": 37.08,
+     "amazon_fees_mo_usd": 5531.37,
+     "net_sale_mo_usd": 18799.56,
+     "fee_pct": 22.7
     },
     {
      "rank": 41,
@@ -2642,7 +5198,14 @@
      "units_mo": 497,
      "revenue_mo_usd": 59416.35,
      "confidence": 0.5,
-     "url": "https://www.amazon.com/dp/B0D3PZLZ3N"
+     "url": "https://www.amazon.com/dp/B0D3PZLZ3N",
+     "referral_fee_usd": 16.56,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 20.27,
+     "net_sale_usd": 99.28,
+     "amazon_fees_mo_usd": 10074.19,
+     "net_sale_mo_usd": 49342.16,
+     "fee_pct": 17.0
     },
     {
      "rank": 42,
@@ -2653,7 +5216,14 @@
      "units_mo": 488,
      "revenue_mo_usd": 82935.6,
      "confidence": 0.49,
-     "url": "https://www.amazon.com/dp/B09HL9MQ64"
+     "url": "https://www.amazon.com/dp/B09HL9MQ64",
+     "referral_fee_usd": 20.6,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 24.31,
+     "net_sale_usd": 145.64,
+     "amazon_fees_mo_usd": 11863.28,
+     "net_sale_mo_usd": 71072.32,
+     "fee_pct": 14.3
     },
     {
      "rank": 43,
@@ -2664,7 +5234,14 @@
      "units_mo": 479,
      "revenue_mo_usd": 67998.84,
      "confidence": 0.48,
-     "url": "https://www.amazon.com/dp/B079THM2FY"
+     "url": "https://www.amazon.com/dp/B079THM2FY",
+     "referral_fee_usd": 18.36,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 22.07,
+     "net_sale_usd": 119.89,
+     "amazon_fees_mo_usd": 10571.53,
+     "net_sale_mo_usd": 57427.31,
+     "fee_pct": 15.5
     },
     {
      "rank": 44,
@@ -2675,7 +5252,14 @@
      "units_mo": 470,
      "revenue_mo_usd": 75195.3,
      "confidence": 0.47,
-     "url": "https://www.amazon.com/dp/B0CN53M992"
+     "url": "https://www.amazon.com/dp/B0CN53M992",
+     "referral_fee_usd": 19.8,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 23.51,
+     "net_sale_usd": 136.48,
+     "amazon_fees_mo_usd": 11049.7,
+     "net_sale_mo_usd": 64145.6,
+     "fee_pct": 14.7
     },
     {
      "rank": 45,
@@ -2686,7 +5270,14 @@
      "units_mo": 462,
      "revenue_mo_usd": 20785.38,
      "confidence": 0.45,
-     "url": "https://www.amazon.com/dp/B0CYLW9JKL"
+     "url": "https://www.amazon.com/dp/B0CYLW9JKL",
+     "referral_fee_usd": 6.75,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 10.46,
+     "net_sale_usd": 34.53,
+     "amazon_fees_mo_usd": 4832.52,
+     "net_sale_mo_usd": 15952.86,
+     "fee_pct": 23.2
     },
     {
      "rank": 46,
@@ -2697,7 +5288,14 @@
      "units_mo": 454,
      "revenue_mo_usd": 21787.46,
      "confidence": 0.44,
-     "url": "https://www.amazon.com/dp/B0FJ455BPL"
+     "url": "https://www.amazon.com/dp/B0FJ455BPL",
+     "referral_fee_usd": 7.2,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 10.91,
+     "net_sale_usd": 37.08,
+     "amazon_fees_mo_usd": 4953.14,
+     "net_sale_mo_usd": 16834.32,
+     "fee_pct": 22.7
     },
     {
      "rank": 47,
@@ -2708,7 +5306,14 @@
      "units_mo": 447,
      "revenue_mo_usd": 5806.53,
      "confidence": 0.43,
-     "url": "https://www.amazon.com/dp/B08FY5WBG5"
+     "url": "https://www.amazon.com/dp/B08FY5WBG5",
+     "referral_fee_usd": 1.95,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 5.66,
+     "net_sale_usd": 7.33,
+     "amazon_fees_mo_usd": 2530.02,
+     "net_sale_mo_usd": 3276.51,
+     "fee_pct": 43.6
     },
     {
      "rank": 48,
@@ -2719,7 +5324,14 @@
      "units_mo": 439,
      "revenue_mo_usd": 42802.5,
      "confidence": 0.42,
-     "url": "https://www.amazon.com/dp/B0CX2633X7"
+     "url": "https://www.amazon.com/dp/B0CX2633X7",
+     "referral_fee_usd": 14.62,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 18.33,
+     "net_sale_usd": 79.17,
+     "amazon_fees_mo_usd": 8046.87,
+     "net_sale_mo_usd": 34755.63,
+     "fee_pct": 18.8
     },
     {
      "rank": 49,
@@ -2730,7 +5342,14 @@
      "units_mo": 432,
      "revenue_mo_usd": 16083.36,
      "confidence": 0.41,
-     "url": "https://www.amazon.com/dp/B0D47X532V"
+     "url": "https://www.amazon.com/dp/B0D47X532V",
+     "referral_fee_usd": 5.58,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 9.29,
+     "net_sale_usd": 27.94,
+     "amazon_fees_mo_usd": 4013.28,
+     "net_sale_mo_usd": 12070.08,
+     "fee_pct": 25.0
     },
     {
      "rank": 50,
@@ -2741,7 +5360,14 @@
      "units_mo": 426,
      "revenue_mo_usd": 27604.8,
      "confidence": 0.4,
-     "url": "https://www.amazon.com/dp/B0C1HTT6C4"
+     "url": "https://www.amazon.com/dp/B0C1HTT6C4",
+     "referral_fee_usd": 9.72,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 13.43,
+     "net_sale_usd": 51.37,
+     "amazon_fees_mo_usd": 5721.18,
+     "net_sale_mo_usd": 21883.62,
+     "fee_pct": 20.7
     },
     {
      "rank": 51,
@@ -2752,7 +5378,14 @@
      "units_mo": 419,
      "revenue_mo_usd": 52039.8,
      "confidence": 0.39,
-     "url": "https://www.amazon.com/dp/B0GH8QJPZX"
+     "url": "https://www.amazon.com/dp/B0GH8QJPZX",
+     "referral_fee_usd": 16.94,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 20.65,
+     "net_sale_usd": 103.55,
+     "amazon_fees_mo_usd": 8652.35,
+     "net_sale_mo_usd": 43387.45,
+     "fee_pct": 16.6
     },
     {
      "rank": 52,
@@ -2763,7 +5396,14 @@
      "units_mo": 413,
      "revenue_mo_usd": 26427.87,
      "confidence": 0.38,
-     "url": "https://www.amazon.com/dp/B0CB68F2DK"
+     "url": "https://www.amazon.com/dp/B0CB68F2DK",
+     "referral_fee_usd": 9.6,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 13.31,
+     "net_sale_usd": 50.68,
+     "amazon_fees_mo_usd": 5497.03,
+     "net_sale_mo_usd": 20930.84,
+     "fee_pct": 20.8
     },
     {
      "rank": 53,
@@ -2774,7 +5414,14 @@
      "units_mo": 407,
      "revenue_mo_usd": 50870.93,
      "confidence": 0.37,
-     "url": "https://www.amazon.com/dp/B0DB2YD3LD"
+     "url": "https://www.amazon.com/dp/B0DB2YD3LD",
+     "referral_fee_usd": 17.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 20.71,
+     "net_sale_usd": 104.28,
+     "amazon_fees_mo_usd": 8428.97,
+     "net_sale_mo_usd": 42441.96,
+     "fee_pct": 16.6
     },
     {
      "rank": 54,
@@ -2785,7 +5432,14 @@
      "units_mo": 401,
      "revenue_mo_usd": 87770.88,
      "confidence": 0.36,
-     "url": "https://www.amazon.com/dp/B0CTCVXXQP"
+     "url": "https://www.amazon.com/dp/B0CTCVXXQP",
+     "referral_fee_usd": 24.51,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 28.22,
+     "net_sale_usd": 190.66,
+     "amazon_fees_mo_usd": 11316.22,
+     "net_sale_mo_usd": 76454.66,
+     "fee_pct": 12.9
     },
     {
      "rank": 55,
@@ -2796,7 +5450,14 @@
      "units_mo": 395,
      "revenue_mo_usd": 5905.25,
      "confidence": 0.34,
-     "url": "https://www.amazon.com/dp/B0868X3PPQ"
+     "url": "https://www.amazon.com/dp/B0868X3PPQ",
+     "referral_fee_usd": 2.24,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 5.95,
+     "net_sale_usd": 9.0,
+     "amazon_fees_mo_usd": 2350.25,
+     "net_sale_mo_usd": 3555.0,
+     "fee_pct": 39.8
     },
     {
      "rank": 56,
@@ -2807,7 +5468,14 @@
      "units_mo": 390,
      "revenue_mo_usd": 18700.5,
      "confidence": 0.33,
-     "url": "https://www.amazon.com/dp/B0DGQVFDVD"
+     "url": "https://www.amazon.com/dp/B0DGQVFDVD",
+     "referral_fee_usd": 7.19,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 10.9,
+     "net_sale_usd": 37.05,
+     "amazon_fees_mo_usd": 4251.0,
+     "net_sale_mo_usd": 14449.5,
+     "fee_pct": 22.7
     },
     {
      "rank": 57,
@@ -2818,7 +5486,14 @@
      "units_mo": 384,
      "revenue_mo_usd": 24940.8,
      "confidence": 0.32,
-     "url": "https://www.amazon.com/dp/B0D64PKVD6"
+     "url": "https://www.amazon.com/dp/B0D64PKVD6",
+     "referral_fee_usd": 9.74,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 13.45,
+     "net_sale_usd": 51.5,
+     "amazon_fees_mo_usd": 5164.8,
+     "net_sale_mo_usd": 19776.0,
+     "fee_pct": 20.7
     },
     {
      "rank": 58,
@@ -2829,7 +5504,14 @@
      "units_mo": 379,
      "revenue_mo_usd": 45476.21,
      "confidence": 0.31,
-     "url": "https://www.amazon.com/dp/B0GFPMN5DN"
+     "url": "https://www.amazon.com/dp/B0GFPMN5DN",
+     "referral_fee_usd": 16.6,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 20.31,
+     "net_sale_usd": 99.68,
+     "amazon_fees_mo_usd": 7697.49,
+     "net_sale_mo_usd": 37778.72,
+     "fee_pct": 16.9
     },
     {
      "rank": 59,
@@ -2840,7 +5522,14 @@
      "units_mo": 374,
      "revenue_mo_usd": 35152.26,
      "confidence": 0.3,
-     "url": "https://www.amazon.com/dp/B0859GZH98"
+     "url": "https://www.amazon.com/dp/B0859GZH98",
+     "referral_fee_usd": 14.1,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 17.81,
+     "net_sale_usd": 76.18,
+     "amazon_fees_mo_usd": 6660.94,
+     "net_sale_mo_usd": 28491.32,
+     "fee_pct": 18.9
     },
     {
      "rank": 60,
@@ -2851,7 +5540,14 @@
      "units_mo": 369,
      "revenue_mo_usd": 36896.31,
      "confidence": 0.29,
-     "url": "https://www.amazon.com/dp/B0D86HR44T"
+     "url": "https://www.amazon.com/dp/B0D86HR44T",
+     "referral_fee_usd": 15.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 18.71,
+     "net_sale_usd": 81.28,
+     "amazon_fees_mo_usd": 6903.99,
+     "net_sale_mo_usd": 29992.32,
+     "fee_pct": 18.7
     },
     {
      "rank": 61,
@@ -2862,7 +5558,14 @@
      "units_mo": 364,
      "revenue_mo_usd": 11644.36,
      "confidence": 0.28,
-     "url": "https://www.amazon.com/dp/B0GR9HFRN6"
+     "url": "https://www.amazon.com/dp/B0GR9HFRN6",
+     "referral_fee_usd": 4.8,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 8.51,
+     "net_sale_usd": 23.48,
+     "amazon_fees_mo_usd": 3097.64,
+     "net_sale_mo_usd": 8546.72,
+     "fee_pct": 26.6
     },
     {
      "rank": 62,
@@ -2873,7 +5576,14 @@
      "units_mo": 360,
      "revenue_mo_usd": 54648.0,
      "confidence": 0.27,
-     "url": "https://www.amazon.com/dp/B0FLMDM7FG"
+     "url": "https://www.amazon.com/dp/B0FLMDM7FG",
+     "referral_fee_usd": 19.14,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 22.85,
+     "net_sale_usd": 128.95,
+     "amazon_fees_mo_usd": 8226.0,
+     "net_sale_mo_usd": 46422.0,
+     "fee_pct": 15.1
     },
     {
      "rank": 63,
@@ -2884,7 +5594,14 @@
      "units_mo": 355,
      "revenue_mo_usd": 53068.95,
      "confidence": 0.26,
-     "url": "https://www.amazon.com/dp/B0BV3CXJLR"
+     "url": "https://www.amazon.com/dp/B0BV3CXJLR",
+     "referral_fee_usd": 18.96,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 22.67,
+     "net_sale_usd": 126.82,
+     "amazon_fees_mo_usd": 8047.85,
+     "net_sale_mo_usd": 45021.1,
+     "fee_pct": 15.2
     },
     {
      "rank": 64,
@@ -2895,7 +5612,14 @@
      "units_mo": 351,
      "revenue_mo_usd": 14036.49,
      "confidence": 0.25,
-     "url": "https://www.amazon.com/dp/B09D8Q8BXC"
+     "url": "https://www.amazon.com/dp/B09D8Q8BXC",
+     "referral_fee_usd": 6.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 9.71,
+     "net_sale_usd": 30.28,
+     "amazon_fees_mo_usd": 3408.21,
+     "net_sale_mo_usd": 10628.28,
+     "fee_pct": 24.3
     },
     {
      "rank": 65,
@@ -2906,7 +5630,14 @@
      "units_mo": 347,
      "revenue_mo_usd": 8671.53,
      "confidence": 0.23,
-     "url": "https://www.amazon.com/dp/B0CXJ3KCFX"
+     "url": "https://www.amazon.com/dp/B0CXJ3KCFX",
+     "referral_fee_usd": 3.75,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 7.46,
+     "net_sale_usd": 17.53,
+     "amazon_fees_mo_usd": 2588.62,
+     "net_sale_mo_usd": 6082.91,
+     "fee_pct": 29.9
     },
     {
      "rank": 66,
@@ -2928,7 +5659,14 @@
      "units_mo": 339,
      "revenue_mo_usd": 30171.0,
      "confidence": 0.21,
-     "url": "https://www.amazon.com/dp/B0DM745FKP"
+     "url": "https://www.amazon.com/dp/B0DM745FKP",
+     "referral_fee_usd": 13.35,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 17.06,
+     "net_sale_usd": 71.94,
+     "amazon_fees_mo_usd": 5783.34,
+     "net_sale_mo_usd": 24387.66,
+     "fee_pct": 19.2
     },
     {
      "rank": 68,
@@ -2939,7 +5677,14 @@
      "units_mo": 335,
      "revenue_mo_usd": 49915.0,
      "confidence": 0.2,
-     "url": "https://www.amazon.com/dp/B0DWKR74C3"
+     "url": "https://www.amazon.com/dp/B0DWKR74C3",
+     "referral_fee_usd": 18.92,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 22.63,
+     "net_sale_usd": 126.37,
+     "amazon_fees_mo_usd": 7581.05,
+     "net_sale_mo_usd": 42333.95,
+     "fee_pct": 15.2
     },
     {
      "rank": 69,
@@ -2950,7 +5695,14 @@
      "units_mo": 331,
      "revenue_mo_usd": 66196.69,
      "confidence": 0.19,
-     "url": "https://www.amazon.com/dp/B0FRQ681KJ"
+     "url": "https://www.amazon.com/dp/B0FRQ681KJ",
+     "referral_fee_usd": 23.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 26.71,
+     "net_sale_usd": 173.28,
+     "amazon_fees_mo_usd": 8841.01,
+     "net_sale_mo_usd": 57355.68,
+     "fee_pct": 13.4
     },
     {
      "rank": 70,
@@ -2961,7 +5713,14 @@
      "units_mo": 327,
      "revenue_mo_usd": 8498.73,
      "confidence": 0.18,
-     "url": "https://www.amazon.com/dp/B0GTT4ZF3N"
+     "url": "https://www.amazon.com/dp/B0GTT4ZF3N",
+     "referral_fee_usd": 3.9,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 7.61,
+     "net_sale_usd": 18.38,
+     "amazon_fees_mo_usd": 2488.47,
+     "net_sale_mo_usd": 6010.26,
+     "fee_pct": 29.3
     },
     {
      "rank": 71,
@@ -2972,7 +5731,14 @@
      "units_mo": 324,
      "revenue_mo_usd": 32383.8,
      "confidence": 0.17,
-     "url": "https://www.amazon.com/dp/B0BMP7G1P1"
+     "url": "https://www.amazon.com/dp/B0BMP7G1P1",
+     "referral_fee_usd": 14.99,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 18.7,
+     "net_sale_usd": 81.25,
+     "amazon_fees_mo_usd": 6058.8,
+     "net_sale_mo_usd": 26325.0,
+     "fee_pct": 18.7
     },
     {
      "rank": 72,
@@ -2994,7 +5760,14 @@
      "units_mo": 317,
      "revenue_mo_usd": 31696.83,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0D4GXRFFN"
+     "url": "https://www.amazon.com/dp/B0D4GXRFFN",
+     "referral_fee_usd": 15.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 18.71,
+     "net_sale_usd": 81.28,
+     "amazon_fees_mo_usd": 5931.07,
+     "net_sale_mo_usd": 25765.76,
+     "fee_pct": 18.7
     },
     {
      "rank": 74,
@@ -3005,7 +5778,14 @@
      "units_mo": 314,
      "revenue_mo_usd": 18836.86,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0D5H8WWMB"
+     "url": "https://www.amazon.com/dp/B0D5H8WWMB",
+     "referral_fee_usd": 9.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 12.71,
+     "net_sale_usd": 47.28,
+     "amazon_fees_mo_usd": 3990.94,
+     "net_sale_mo_usd": 14845.92,
+     "fee_pct": 21.2
     },
     {
      "rank": 75,
@@ -3016,7 +5796,14 @@
      "units_mo": 310,
      "revenue_mo_usd": 43396.9,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B09WWQNNJR"
+     "url": "https://www.amazon.com/dp/B09WWQNNJR",
+     "referral_fee_usd": 18.2,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 21.91,
+     "net_sale_usd": 118.08,
+     "amazon_fees_mo_usd": 6792.1,
+     "net_sale_mo_usd": 36604.8,
+     "fee_pct": 15.7
     },
     {
      "rank": 76,
@@ -3027,7 +5814,14 @@
      "units_mo": 307,
      "revenue_mo_usd": 56791.93,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0DZZDQLDC"
+     "url": "https://www.amazon.com/dp/B0DZZDQLDC",
+     "referral_fee_usd": 21.8,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 25.51,
+     "net_sale_usd": 159.48,
+     "amazon_fees_mo_usd": 7831.57,
+     "net_sale_mo_usd": 48960.36,
+     "fee_pct": 13.8
     },
     {
      "rank": 77,
@@ -3038,7 +5832,14 @@
      "units_mo": 304,
      "revenue_mo_usd": 9579.04,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B081S6D91Z"
+     "url": "https://www.amazon.com/dp/B081S6D91Z",
+     "referral_fee_usd": 4.73,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 8.44,
+     "net_sale_usd": 23.07,
+     "amazon_fees_mo_usd": 2565.76,
+     "net_sale_mo_usd": 7013.28,
+     "fee_pct": 26.8
     },
     {
      "rank": 78,
@@ -3049,7 +5850,14 @@
      "units_mo": 301,
      "revenue_mo_usd": 21066.99,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B06XH4RF7J"
+     "url": "https://www.amazon.com/dp/B06XH4RF7J",
+     "referral_fee_usd": 10.5,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 14.21,
+     "net_sale_usd": 55.78,
+     "amazon_fees_mo_usd": 4277.21,
+     "net_sale_mo_usd": 16789.78,
+     "fee_pct": 20.3
     },
     {
      "rank": 79,
@@ -3060,7 +5868,14 @@
      "units_mo": 298,
      "revenue_mo_usd": 11917.02,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B07SJ8Z9YL"
+     "url": "https://www.amazon.com/dp/B07SJ8Z9YL",
+     "referral_fee_usd": 6.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 9.71,
+     "net_sale_usd": 30.28,
+     "amazon_fees_mo_usd": 2893.58,
+     "net_sale_mo_usd": 9023.44,
+     "fee_pct": 24.3
     },
     {
      "rank": 80,
@@ -3082,7 +5897,14 @@
      "units_mo": 292,
      "revenue_mo_usd": 25988.0,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0DKQG1MN5"
+     "url": "https://www.amazon.com/dp/B0DKQG1MN5",
+     "referral_fee_usd": 13.35,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 17.06,
+     "net_sale_usd": 71.94,
+     "amazon_fees_mo_usd": 4981.52,
+     "net_sale_mo_usd": 21006.48,
+     "fee_pct": 19.2
     },
     {
      "rank": 82,
@@ -3093,7 +5915,14 @@
      "units_mo": 289,
      "revenue_mo_usd": 34665.55,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0D9NQ9R9K"
+     "url": "https://www.amazon.com/dp/B0D9NQ9R9K",
+     "referral_fee_usd": 16.6,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 20.31,
+     "net_sale_usd": 99.64,
+     "amazon_fees_mo_usd": 5869.59,
+     "net_sale_mo_usd": 28795.96,
+     "fee_pct": 16.9
     },
     {
      "rank": 83,
@@ -3104,7 +5933,14 @@
      "units_mo": 287,
      "revenue_mo_usd": 61957.56,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B08HDKHSSN"
+     "url": "https://www.amazon.com/dp/B08HDKHSSN",
+     "referral_fee_usd": 24.27,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 27.98,
+     "net_sale_usd": 187.9,
+     "amazon_fees_mo_usd": 8030.26,
+     "net_sale_mo_usd": 53927.3,
+     "fee_pct": 13.0
     },
     {
      "rank": 84,
@@ -3115,7 +5951,14 @@
      "units_mo": 284,
      "revenue_mo_usd": 43892.2,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0CFSLRMNY"
+     "url": "https://www.amazon.com/dp/B0CFSLRMNY",
+     "referral_fee_usd": 19.36,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 23.07,
+     "net_sale_usd": 131.48,
+     "amazon_fees_mo_usd": 6551.88,
+     "net_sale_mo_usd": 37340.32,
+     "fee_pct": 14.9
     },
     {
      "rank": 85,
@@ -3126,7 +5969,14 @@
      "units_mo": 281,
      "revenue_mo_usd": 84297.19,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0H4HMVDDW"
+     "url": "https://www.amazon.com/dp/B0H4HMVDDW",
+     "referral_fee_usd": 31.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 34.71,
+     "net_sale_usd": 265.28,
+     "amazon_fees_mo_usd": 9753.51,
+     "net_sale_mo_usd": 74543.68,
+     "fee_pct": 11.6
     },
     {
      "rank": 86,
@@ -3148,7 +5998,14 @@
      "units_mo": 276,
      "revenue_mo_usd": 16557.24,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0DPFYCY5L"
+     "url": "https://www.amazon.com/dp/B0DPFYCY5L",
+     "referral_fee_usd": 9.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 12.71,
+     "net_sale_usd": 47.28,
+     "amazon_fees_mo_usd": 3507.96,
+     "net_sale_mo_usd": 13049.28,
+     "fee_pct": 21.2
     },
     {
      "rank": 88,
@@ -3159,7 +6016,14 @@
      "units_mo": 274,
      "revenue_mo_usd": 2737.26,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0BRSH21YC"
+     "url": "https://www.amazon.com/dp/B0BRSH21YC",
+     "referral_fee_usd": 1.5,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 5.21,
+     "net_sale_usd": 4.78,
+     "amazon_fees_mo_usd": 1427.54,
+     "net_sale_mo_usd": 1309.72,
+     "fee_pct": 52.2
     },
     {
      "rank": 89,
@@ -3170,7 +6034,14 @@
      "units_mo": 271,
      "revenue_mo_usd": 13547.29,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B08BF6Y99G"
+     "url": "https://www.amazon.com/dp/B08BF6Y99G",
+     "referral_fee_usd": 7.5,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 11.21,
+     "net_sale_usd": 38.78,
+     "amazon_fees_mo_usd": 3037.91,
+     "net_sale_mo_usd": 10509.38,
+     "fee_pct": 22.4
     },
     {
      "rank": 90,
@@ -3181,7 +6052,14 @@
      "units_mo": 269,
      "revenue_mo_usd": 21517.31,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0GR9B9LJ5"
+     "url": "https://www.amazon.com/dp/B0GR9B9LJ5",
+     "referral_fee_usd": 12.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 15.71,
+     "net_sale_usd": 64.28,
+     "amazon_fees_mo_usd": 4225.99,
+     "net_sale_mo_usd": 17291.32,
+     "fee_pct": 19.6
     },
     {
      "rank": 91,
@@ -3192,7 +6070,14 @@
      "units_mo": 267,
      "revenue_mo_usd": 46722.33,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0DZZJTVQ8"
+     "url": "https://www.amazon.com/dp/B0DZZJTVQ8",
+     "referral_fee_usd": 21.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 24.71,
+     "net_sale_usd": 150.28,
+     "amazon_fees_mo_usd": 6597.57,
+     "net_sale_mo_usd": 40124.76,
+     "fee_pct": 14.1
     },
     {
      "rank": 92,
@@ -3203,7 +6088,14 @@
      "units_mo": 265,
      "revenue_mo_usd": 31786.75,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0FY67RCRX"
+     "url": "https://www.amazon.com/dp/B0FY67RCRX",
+     "referral_fee_usd": 16.6,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 20.31,
+     "net_sale_usd": 99.64,
+     "amazon_fees_mo_usd": 5382.15,
+     "net_sale_mo_usd": 26404.6,
+     "fee_pct": 16.9
     },
     {
      "rank": 93,
@@ -3214,7 +6106,14 @@
      "units_mo": 262,
      "revenue_mo_usd": 14407.38,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0GZ17VNHG"
+     "url": "https://www.amazon.com/dp/B0GZ17VNHG",
+     "referral_fee_usd": 8.25,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 11.96,
+     "net_sale_usd": 43.03,
+     "amazon_fees_mo_usd": 3133.52,
+     "net_sale_mo_usd": 11273.86,
+     "fee_pct": 21.7
     },
     {
      "rank": 94,
@@ -3225,7 +6124,14 @@
      "units_mo": 260,
      "revenue_mo_usd": 28561.0,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0DVLX97KF"
+     "url": "https://www.amazon.com/dp/B0DVLX97KF",
+     "referral_fee_usd": 15.79,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 19.5,
+     "net_sale_usd": 90.35,
+     "amazon_fees_mo_usd": 5070.0,
+     "net_sale_mo_usd": 23491.0,
+     "fee_pct": 17.8
     },
     {
      "rank": 95,
@@ -3258,7 +6164,14 @@
      "units_mo": 254,
      "revenue_mo_usd": 30477.46,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0DTJH626N"
+     "url": "https://www.amazon.com/dp/B0DTJH626N",
+     "referral_fee_usd": 16.6,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 20.31,
+     "net_sale_usd": 99.68,
+     "amazon_fees_mo_usd": 5158.74,
+     "net_sale_mo_usd": 25318.72,
+     "fee_pct": 16.9
     },
     {
      "rank": 98,
@@ -3269,7 +6182,14 @@
      "units_mo": 252,
      "revenue_mo_usd": 35277.48,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B079NMK1YQ"
+     "url": "https://www.amazon.com/dp/B079NMK1YQ",
+     "referral_fee_usd": 18.2,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 21.91,
+     "net_sale_usd": 118.08,
+     "amazon_fees_mo_usd": 5521.32,
+     "net_sale_mo_usd": 29756.16,
+     "fee_pct": 15.7
     },
     {
      "rank": 99,
@@ -3280,7 +6200,14 @@
      "units_mo": 250,
      "revenue_mo_usd": 28720.0,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0B33MZR28"
+     "url": "https://www.amazon.com/dp/B0B33MZR28",
+     "referral_fee_usd": 16.19,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 19.9,
+     "net_sale_usd": 94.98,
+     "amazon_fees_mo_usd": 4975.0,
+     "net_sale_mo_usd": 23745.0,
+     "fee_pct": 17.3
     },
     {
      "rank": 100,
@@ -3291,11 +6218,18 @@
      "units_mo": 248,
      "revenue_mo_usd": 19837.52,
      "confidence": 0.15,
-     "url": "https://www.amazon.com/dp/B0B2CDHZKM"
+     "url": "https://www.amazon.com/dp/B0B2CDHZKM",
+     "referral_fee_usd": 12.0,
+     "fba_fee_usd": 3.71,
+     "amazon_fees_usd": 15.71,
+     "net_sale_usd": 64.28,
+     "amazon_fees_mo_usd": 3896.08,
+     "net_sale_mo_usd": 15941.44,
+     "fee_pct": 19.6
     }
    ]
   }
  },
- "note": "units_mo is estimated from sales rank; revenue_mo_usd is sales, not profit",
- "generated": "2026-10-28T15:44:11Z"
+ "note": "units_mo is estimated from sales rank. revenue_mo_usd is gross sales. net_sale_mo_usd is revenue after Amazon referral + FBA fees only -- it does NOT subtract cost of goods, so it is not profit.",
+ "generated": "2026-10-28T15:48:55Z"
 }

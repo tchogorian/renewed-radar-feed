@@ -2,7 +2,7 @@
  "categories": {
   "laptops": {
    "label": "Laptops",
-   "updated": "2026-10-28T15:32:55.587574Z",
+   "updated": "2026-10-28T15:40:25.793362Z",
    "rows": 100,
    "items": [
     {
@@ -1067,8 +1067,8 @@
      "title": "Microsoft Surface Pro 6 12.3\" Touch i5-8250U 8GB RAM 256GB SSD (Renewed)",
      "price_usd": 207.97,
      "rating": 4.0,
-     "units_mo": 287,
-     "revenue_mo_usd": 59687.39,
+     "units_mo": 254,
+     "revenue_mo_usd": 52824.38,
      "confidence": 0.15,
      "url": "https://www.amazon.com/dp/B07TDPMRXD"
     },
@@ -1076,10 +1076,10 @@
      "rank": 98,
      "asin": "B07X4JXD24",
      "title": "Dell Latitude 5400 14 inches 8th Gen Core i7-8665U 16GB RAM 512GB PCIe SSD FHD 1080P, FPR, Backlit Keyboard (Renewed)",
-     "price_usd": 273.62,
+     "price_usd": 273.63,
      "rating": 4.0,
      "units_mo": 252,
-     "revenue_mo_usd": 68952.24,
+     "revenue_mo_usd": 68954.76,
      "confidence": 0.15,
      "url": "https://www.amazon.com/dp/B07X4JXD24"
     },
@@ -1987,8 +1987,8 @@
      "title": "Microsoft Surface Pro 6 12.3\" Touch i5-8250U 8GB RAM 256GB SSD (Renewed)",
      "price_usd": 207.97,
      "rating": 4.0,
-     "units_mo": 287,
-     "revenue_mo_usd": 59687.39,
+     "units_mo": 254,
+     "revenue_mo_usd": 52824.38,
      "confidence": 0.15,
      "url": "https://www.amazon.com/dp/B07TDPMRXD"
     },
@@ -4342,5 +4342,5 @@
   }
  },
  "note": "units_mo is estimated from sales rank; revenue_mo_usd is sales, not profit",
- "generated": "2026-10-28T15:40:01Z"
+ "generated": "2026-10-28T15:40:33Z"
 }

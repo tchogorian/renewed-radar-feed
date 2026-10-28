@@ -2,7 +2,7 @@
  "categories": {
   "laptops": {
    "label": "Laptops",
-   "updated": "2026-10-28T15:44:36.167924Z",
+   "updated": "2026-10-28T15:49:19.057827Z",
    "rows": 100,
    "fee_assumptions": {
     "amazon_category": "Consumer Electronics",
@@ -71,19 +71,19 @@
      "rank": 4,
      "asin": "B09WQ36NF1",
      "title": "Late 2020 Apple MacBook Air with Apple M1 Chip (13.3 inch, 8GB RAM, 128GB SSD) Space Gray (Renewed)",
-     "price_usd": 381.7,
+     "price_usd": 405.6,
      "rating": 4.1,
      "units_mo": 3052,
-     "revenue_mo_usd": 1164948.4,
+     "revenue_mo_usd": 1237891.2,
      "confidence": 0.91,
      "url": "https://www.amazon.com/dp/B09WQ36NF1",
-     "referral_fee_usd": 30.54,
+     "referral_fee_usd": 32.45,
      "fba_fee_usd": 8.99,
-     "amazon_fees_usd": 39.53,
-     "net_sale_usd": 342.17,
-     "amazon_fees_mo_usd": 120645.56,
-     "net_sale_mo_usd": 1044302.84,
-     "fee_pct": 10.4
+     "amazon_fees_usd": 41.44,
+     "net_sale_usd": 364.16,
+     "amazon_fees_mo_usd": 126474.88,
+     "net_sale_mo_usd": 1111416.32,
+     "fee_pct": 10.2
     },
     {
      "rank": 5,
@@ -982,19 +982,19 @@
      "rank": 55,
      "asin": "B09BWR8TMP",
      "title": "HP CHROMEBOOK 11 G8 - Education Edition - 11.6'' - CELERON N4020 - 4 GB RAM - 32 GB EMMC - US (Renewed), Black",
-     "price_usd": 70.0,
+     "price_usd": 95.01,
      "rating": 3.9,
      "units_mo": 395,
-     "revenue_mo_usd": 27650.0,
+     "revenue_mo_usd": 37528.95,
      "confidence": 0.34,
      "url": "https://www.amazon.com/dp/B09BWR8TMP",
-     "referral_fee_usd": 5.6,
+     "referral_fee_usd": 7.6,
      "fba_fee_usd": 8.99,
-     "amazon_fees_usd": 14.59,
-     "net_sale_usd": 55.41,
-     "amazon_fees_mo_usd": 5763.05,
-     "net_sale_mo_usd": 21886.95,
-     "fee_pct": 20.8
+     "amazon_fees_usd": 16.59,
+     "net_sale_usd": 78.42,
+     "amazon_fees_mo_usd": 6553.05,
+     "net_sale_mo_usd": 30975.9,
+     "fee_pct": 17.5
     },
     {
      "rank": 56,
@@ -6231,5 +6231,5 @@
   }
  },
  "note": "units_mo is estimated from sales rank. revenue_mo_usd is gross sales. net_sale_mo_usd is revenue after Amazon referral + FBA fees only -- it does NOT subtract cost of goods, so it is not profit.",
- "generated": "2026-10-28T15:49:05Z"
+ "generated": "2026-10-28T15:49:20Z"
 }

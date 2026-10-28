@@ -1,0 +1,121 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Renewed radar</title>
+<style>
+:root{--f:#111827;--m:#6b7280;--b:#e5e7eb;--c:#fff;--in:#f9fafb;--p:#3b82f6}
+@media(prefers-color-scheme:dark){:root{--f:#f9fafb;--m:#9ca3af;--b:#374151;--c:#1f2937;--in:#111827}}
+*{box-sizing:border-box}
+body{font:14px Inter,system-ui,sans-serif;color:var(--f);margin:0;padding:18px;max-width:1100px}
+h1{font-size:19px;font-weight:500;margin:0;letter-spacing:-.01em}
+.sub{font-size:11px;color:var(--m);margin-top:2px}
+.hd{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:14px}
+#tabs{display:flex;gap:1px;border-bottom:1px solid var(--b);margin-bottom:14px;overflow-x:auto}
+#tabs button{background:none;border:0;padding:8px 11px;font:inherit;font-size:12px;cursor:pointer;
+ color:var(--m);border-bottom:2px solid transparent;margin-bottom:-1px;white-space:nowrap}
+#tabs button.on{color:var(--f);border-bottom-color:var(--p)}
+.bar{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+.bar input,.bar select{background:var(--in);color:var(--f);border:1px solid var(--b);
+ border-radius:6px;padding:6px 9px;font:inherit;font-size:12px}
+.bar input{flex:1;min-width:130px}
+table{width:100%;border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums}
+th{text-align:right;font-weight:400;color:var(--m);padding:0 4px 7px;border-bottom:1px solid var(--b)}
+th:first-child,th:nth-child(2){text-align:left}
+td{text-align:right;padding:8px 4px;border-bottom:1px solid var(--b)}
+td:first-child,td:nth-child(2){text-align:left}
+td:first-child{width:46px;color:var(--m)}
+td:nth-child(2){max-width:320px}
+.nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:320px}
+.nm a{color:inherit;text-decoration:none}.nm a:hover{text-decoration:underline}
+.a{font-size:10px;color:var(--m);font-family:ui-monospace,monospace}
+.dot{display:inline-block;width:5px;height:5px;border-radius:50%;margin-left:4px;vertical-align:middle}
+.warn{background:var(--in);border:1px solid var(--b);border-left:2px solid #f59e0b;
+ border-radius:6px;padding:8px 10px;font-size:11px;color:var(--m);margin-bottom:12px;line-height:1.5}
+.empty{padding:24px;text-align:center;font-size:12px;color:var(--m)}
+.ft{font-size:11px;color:var(--m);margin-top:14px;padding-top:10px;border-top:1px solid var(--b);line-height:1.55}
+.ft code{background:var(--in);padding:1px 5px;border-radius:3px;font-size:10px}
+</style>
+
+<div class=hd>
+  <div><h1>Renewed radar</h1><div class=sub id=sync>loading…</div></div>
+</div>
+<div id=tabs></div>
+<div class=bar>
+  <input id=srch placeholder="Filter models…" oninput=draw()>
+  <select id=srt onchange=draw()>
+    <option value=rank>Rank 1-100</option>
+    <option value=revenue_mo_usd>Revenue/mo</option>
+    <option value=units_mo>Units/mo</option>
+    <option value=price_usd>Price</option>
+  </select>
+</div>
+<div id=w></div><div id=p></div>
+<div class=ft>
+Rank and price are scraped from Amazon's Renewed best sellers. Units/mo is estimated from
+within-category rank — the dot is confidence: green above rank 20, amber to 50, red below.
+Revenue/mo is price x estimated units; it is sales, not profit.
+Raw data: <code>feed.json</code> next to this page.
+</div>
+
+<script>
+const money = n => "$" + (n ?? 0).toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});
+const num = n => Math.round(n ?? 0).toLocaleString();
+let DATA = null, tab = null;
+
+async function boot(){
+  try {
+    const res = await fetch("feed.json?t=" + Date.now());
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    DATA = await res.json();
+  } catch (e) {
+    document.getElementById("sync").textContent = "could not load feed.json: " + e.message;
+    return;
+  }
+  const slugs = Object.keys(DATA.categories);
+  document.getElementById("tabs").innerHTML = slugs.map(s =>
+    `<button id="t_${s}" onclick="go('${s}')">${DATA.categories[s].label}</button>`).join("");
+  go(location.hash.slice(1) && slugs.includes(location.hash.slice(1)) ? location.hash.slice(1) : slugs[0]);
+}
+
+function go(s){
+  tab = s; location.hash = s;
+  [...document.getElementById("tabs").children]
+    .forEach(b => b.classList.toggle("on", b.id === "t_" + s));
+  draw();
+}
+
+function draw(){
+  if (!DATA || !tab) return;
+  const cat = DATA.categories[tab];
+  const age = cat.updated ? Math.round((Date.now() - new Date(cat.updated)) / 60000) : null;
+  document.getElementById("sync").textContent = age == null
+    ? `${cat.rows} rows`
+    : `${cat.rows} rows · updated ${age < 60 ? age + " min" : Math.round(age/60) + " h"} ago`;
+
+  document.getElementById("w").innerHTML = (cat.rows < 95 || (age != null && age > 240))
+    ? `<div class=warn>This category is ${cat.rows < 95 ? "incomplete (" + cat.rows + " of 100)" : "stale"}.
+       Numbers below may be partial.</div>` : "";
+
+  const f = (document.getElementById("srch").value || "").toLowerCase();
+  const key = document.getElementById("srt").value;
+  const dir = key === "rank" ? 1 : -1;
+  const rows = cat.items
+    .filter(d => !f || (d.title || "").toLowerCase().includes(f))
+    .sort((a,b) => ((a[key] ?? 0) > (b[key] ?? 0) ? 1 : -1) * dir);
+
+  document.getElementById("p").innerHTML = rows.length
+    ? `<table><thead><tr><th>Rank</th><th>Model</th><th>Price</th><th>Units/mo</th>
+       <th>Revenue/mo</th></tr></thead><tbody>` + rows.map(d => {
+        const dot = d.confidence > .7 ? "#22c55e" : d.confidence > .4 ? "#f59e0b" : "#ef4444";
+        return `<tr><td>#${d.rank}</td>
+          <td><div class=nm><a href="${d.url}" target="_blank" rel="noopener">${d.title ?? d.asin}</a></div>
+              <div class=a>${d.asin}</div></td>
+          <td>${d.price_usd == null ? "—" : money(d.price_usd)}</td>
+          <td>${num(d.units_mo)}<span class=dot style="background:${dot}"></span></td>
+          <td>${money(d.revenue_mo_usd)}</td></tr>`;
+      }).join("") + "</tbody></table>"
+    : "<div class=empty>No models match that filter.</div>";
+}
+
+boot();
+</script>

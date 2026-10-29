@@ -111,7 +111,7 @@ function draw(){
     ? `<div class=warn>${!cat.complete
         ? `Missing ${cat.missing_ranks.length} of ${cat.max_rank} ranks (${cat.missing_ranks.slice(0,8).join(", ")}${cat.missing_ranks.length>8?"…":""}).`
         : ""} ${stale ? "Data is " + Math.round(age/60) + " h old — it changes only when someone presses Refresh on the collector." : ""}
-       Numbers below may be partial.</div>` : "";
+       ${!cat.complete ? "Numbers below may be partial." : ""}</div>` : "";
 
   const f = (document.getElementById("srch").value || "").toLowerCase();
   const key = document.getElementById("srt").value;
@@ -184,7 +184,7 @@ function exportAll(){ if (DATA) download(`renewed-all-${stampName()}.csv`, toCsv
 (function addRefresh(){
   const a = document.createElement("a");
   a.className = "btn link act";
-  a.href = "http://127.0.0.1:8080/refresh";
+  a.href = "http://127.0.0.1:8099/refresh";
   a.target = "_blank"; a.rel = "noopener";
   a.textContent = "Refresh data";
   a.title = "Opens the collector. Only works on the machine that gathers this data.";

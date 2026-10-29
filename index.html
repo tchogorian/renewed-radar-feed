@@ -43,7 +43,7 @@ td:nth-child(2){max-width:320px}
 
 <div class=hd>
   <div><h1>Renewed radar</h1><div class=sub id=sync>loading…</div></div>
-  <div style="display:flex;gap:6px">
+  <div style="display:flex;gap:6px" id=acts>
     <button class=btn onclick=exportCsv()>Export CSV</button>
     <button class=btn onclick=exportAll()>Export all</button>
     <a class="btn link" href="feed.json" download>JSON</a>
@@ -67,7 +67,7 @@ Amazon fees and Net sale are PER UNIT: what one sale earns after Amazon's referr
 FBA fees. They are not multiplied by quantity. Net sale does not subtract what you paid
 for the device, so it is not profit. FBA is estimated from an assumed weight per category.
 Monthly totals are in feed.json and the CSV if you want them.
-Raw data: <code>feed.json</code> next to this page.
+Updates are manual: the numbers change only when the collector is told to refresh, never on a schedule. Raw data: <code>feed.json</code> next to this page.
 </div>
 
 <script>
@@ -109,7 +109,7 @@ function draw(){
   document.getElementById("w").innerHTML = (!cat.complete || stale)
     ? `<div class=warn>${!cat.complete
         ? `Missing ${cat.missing_ranks.length} of ${cat.max_rank} ranks (${cat.missing_ranks.slice(0,8).join(", ")}${cat.missing_ranks.length>8?"…":""}).`
-        : ""} ${stale ? "Data is " + Math.round(age/60) + " h old." : ""}
+        : ""} ${stale ? "Data is " + Math.round(age/60) + " h old — it changes only when someone presses Refresh on the collector." : ""}
        Numbers below may be partial.</div>` : "";
 
   const f = (document.getElementById("srch").value || "").toLowerCase();
@@ -169,6 +169,37 @@ function download(name, text){
 const stampName = () => (DATA.generated || "").slice(0, 10) || "latest";
 function exportCsv(){ if (DATA && tab) download(`renewed-${tab}-${stampName()}.csv`, toCsv([tab])); }
 function exportAll(){ if (DATA) download(`renewed-all-${stampName()}.csv`, toCsv(Object.keys(DATA.categories))); }
+
+// ---- Refresh (owner only)
+// This page is a static file, so it cannot scrape anything itself. The collector runs
+// on one machine, at home, because Amazon blocks datacentre addresses. So the button
+// is a plain link into that collector: it works on that machine and nowhere else,
+// which is why visitors never see it.
+const LOCAL = "http://127.0.0.1:8080";
+const OWNER = "rr_owner";
+
+// localStorage throws in a private window and in previews, so every touch is guarded.
+function remembered(){ try { return localStorage.getItem(OWNER) === "1"; } catch (e) { return false; } }
+function remember(){ try { localStorage.setItem(OWNER, "1"); } catch (e) {} }
+
+function showRefresh(){
+  if (document.getElementById("rf")) return;
+  const a = document.createElement("a");
+  a.id = "rf"; a.className = "btn link"; a.href = LOCAL + "/refresh";
+  a.target = "_blank"; a.rel = "noopener"; a.textContent = "Refresh data";
+  a.style.borderColor = "var(--p)"; a.style.color = "var(--p)";
+  document.getElementById("acts").prepend(a);
+}
+
+(function offerRefresh(){
+  // ?owner=1 is the manual override, remembered, for a browser that refuses to probe
+  // a local address from an https page.
+  if (new URLSearchParams(location.search).get("owner") === "1") remember();
+  if (remembered()) { showRefresh(); return; }
+  fetch(LOCAL + "/health", {mode: "cors"})
+    .then(r => { if (r.ok) { remember(); showRefresh(); } })
+    .catch(() => {});   // not the collector's machine: leave the page clean
+})();
 
 boot();
 </script>

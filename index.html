@@ -32,6 +32,7 @@ td:nth-child(2){max-width:320px}
 .btn{background:var(--c);color:var(--f);border:1px solid var(--b);border-radius:6px;
  padding:6px 11px;font:inherit;font-size:11px;cursor:pointer}
 .btn.link{text-decoration:none;display:inline-block;line-height:1.5}
+.btn.act{border-color:var(--p);color:var(--p)}
 .a{font-size:10px;color:var(--m);font-family:ui-monospace,monospace}
 .dot{display:inline-block;width:5px;height:5px;border-radius:50%;margin-left:4px;vertical-align:middle}
 .warn{background:var(--in);border:1px solid var(--b);border-left:2px solid #f59e0b;
@@ -67,7 +68,7 @@ Amazon fees and Net sale are PER UNIT: what one sale earns after Amazon's referr
 FBA fees. They are not multiplied by quantity. Net sale does not subtract what you paid
 for the device, so it is not profit. FBA is estimated from an assumed weight per category.
 Monthly totals are in feed.json and the CSV if you want them.
-Updates are manual: the numbers change only when the collector is told to refresh, never on a schedule. Raw data: <code>feed.json</code> next to this page.
+Updates are manual: the numbers change only when the collector is told to refresh, never on a schedule. <b>Refresh data</b> opens that collector, which runs on one machine — it does nothing from anywhere else. Raw data: <code>feed.json</code> next to this page.
 </div>
 
 <script>
@@ -170,35 +171,24 @@ const stampName = () => (DATA.generated || "").slice(0, 10) || "latest";
 function exportCsv(){ if (DATA && tab) download(`renewed-${tab}-${stampName()}.csv`, toCsv([tab])); }
 function exportAll(){ if (DATA) download(`renewed-all-${stampName()}.csv`, toCsv(Object.keys(DATA.categories))); }
 
-// ---- Refresh (owner only)
-// This page is a static file, so it cannot scrape anything itself. The collector runs
-// on one machine, at home, because Amazon blocks datacentre addresses. So the button
-// is a plain link into that collector: it works on that machine and nowhere else,
-// which is why visitors never see it.
-const LOCAL = "http://127.0.0.1:8080";
-const OWNER = "rr_owner";
-
-// localStorage throws in a private window and in previews, so every touch is guarded.
-function remembered(){ try { return localStorage.getItem(OWNER) === "1"; } catch (e) { return false; } }
-function remember(){ try { localStorage.setItem(OWNER, "1"); } catch (e) {} }
-
-function showRefresh(){
-  if (document.getElementById("rf")) return;
+// ---- Refresh
+// This page is a static file; it cannot scrape anything itself. The collector runs on
+// one machine at home, because Amazon blocks datacentre addresses. So the button is a
+// plain link into that collector, and it only does anything on that machine.
+//
+// It is shown unconditionally and on purpose. The first version probed
+// http://127.0.0.1:8080/health and revealed the button only on a hit, which looked
+// tidier but did not work: Chrome blocks an https page from touching a local address
+// (ERR_BLOCKED_BY_CLIENT), so the owner got no button on their own machine. A link the
+// owner can always see beats a clever one that hides itself.
+(function addRefresh(){
   const a = document.createElement("a");
-  a.id = "rf"; a.className = "btn link"; a.href = LOCAL + "/refresh";
-  a.target = "_blank"; a.rel = "noopener"; a.textContent = "Refresh data";
-  a.style.borderColor = "var(--p)"; a.style.color = "var(--p)";
+  a.className = "btn link act";
+  a.href = "http://127.0.0.1:8080/refresh";
+  a.target = "_blank"; a.rel = "noopener";
+  a.textContent = "Refresh data";
+  a.title = "Opens the collector. Only works on the machine that gathers this data.";
   document.getElementById("acts").prepend(a);
-}
-
-(function offerRefresh(){
-  // ?owner=1 is the manual override, remembered, for a browser that refuses to probe
-  // a local address from an https page.
-  if (new URLSearchParams(location.search).get("owner") === "1") remember();
-  if (remembered()) { showRefresh(); return; }
-  fetch(LOCAL + "/health", {mode: "cors"})
-    .then(r => { if (r.ok) { remember(); showRefresh(); } })
-    .catch(() => {});   // not the collector's machine: leave the page clean
 })();
 
 boot();

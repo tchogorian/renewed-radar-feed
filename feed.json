@@ -4,6 +4,9 @@
    "label": "Laptops",
    "updated": "2026-10-29T03:15:22.322946Z",
    "rows": 100,
+   "max_rank": 100,
+   "missing_ranks": [],
+   "complete": true,
    "fee_assumptions": {
     "amazon_category": "Consumer Electronics",
     "referral_rate": "8%",
@@ -1798,6 +1801,9 @@
    "label": "Tablets",
    "updated": "2026-10-29T03:16:27.229113Z",
    "rows": 100,
+   "max_rank": 100,
+   "missing_ranks": [],
+   "complete": true,
    "fee_assumptions": {
     "amazon_category": "Consumer Electronics",
     "referral_rate": "8%",
@@ -3599,6 +3605,9 @@
    "label": "Smartphones",
    "updated": "2026-10-29T03:17:31.587282Z",
    "rows": 100,
+   "max_rank": 100,
+   "missing_ranks": [],
+   "complete": true,
    "fee_assumptions": {
     "amazon_category": "Cell Phones",
     "referral_rate": "8%",
@@ -5414,6 +5423,9 @@
    "label": "Headphones",
    "updated": "2026-10-29T03:18:46.189271Z",
    "rows": 100,
+   "max_rank": 100,
+   "missing_ranks": [],
+   "complete": true,
    "fee_assumptions": {
     "amazon_category": "Electronics Accessories",
     "referral_rate": "15% first $100, then 8%",
@@ -7220,5 +7232,5 @@
   }
  },
  "note": "units_mo is estimated from sales rank. revenue_mo_usd is gross sales. net_sale_mo_usd is revenue after Amazon referral + FBA fees only -- it does NOT subtract cost of goods, so it is not profit.",
- "generated": "2026-10-29T04:20:00Z"
+ "generated": "2026-10-29T04:31:56Z"
 }
